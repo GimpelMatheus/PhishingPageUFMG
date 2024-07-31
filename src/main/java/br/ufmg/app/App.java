@@ -18,6 +18,8 @@ import br.ufmg.utils.*;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+//Deixar o java tratar os erros com as URLs, não há necessidade de pré filtragem
+
 public class App {
 
 	private Configuration config;

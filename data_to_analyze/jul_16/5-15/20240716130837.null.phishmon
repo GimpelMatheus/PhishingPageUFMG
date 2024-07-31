@@ -1,0 +1,29 @@
+1721135351821	geckodriver	INFO	Listening on 127.0.0.1:25521
+1721135351834	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXuHQJ8"
+*** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server11721135352282	Marionette	INFO	Marionette enabled11721135352368	Marionette	INFO	Listening on port 4116111721135352451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session11721135352464	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:36737","sslProxy":"127.0.1.1:36737"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dtconsole.error: ({})
+cconsole.error: ({})JavaScript warning: https://st1.zoom.us/static/6.3.23157/js/all.min.js, line 2: Script terminated by timeout at:
+set@https://st1.zoom.us/static/6.3.23157/js/all.min.js:2:43929
+S.fn.extend@https://st1.zoom.us/static/6.3.23157/js/all.min.js:2:2495
+simulate@https://st1.zoom.us/static/6.3.23157/js/all.min.js:2:71964
+i@https://st1.zoom.us/static/6.3.23157/js/all.min.js:2:72307
+
+1721135378825	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+cript error: https://www.roblox.com/, line 783: ReferenceError: angular is not defined
+JavaScript error: https://www.roblox.com/, line 793: ReferenceError: angular is not defined
+JavaScript error: https://www.roblox.com/, line 850: ReferenceError: $ is not defined
+JavaScrJavaScript error: https://mat1.gtimg.com/www/js/emonitor/custom_ed041a23.js, line 2: NetworkError: A network error occurred.
+ttps://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11841
+
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 15: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 16: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 17: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 19: ReferenceError: requireLazy is not defined
+console.error: ({})

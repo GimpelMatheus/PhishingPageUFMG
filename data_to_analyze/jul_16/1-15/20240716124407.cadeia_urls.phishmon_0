@@ -1,0 +1,125 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.28.228
+TueJul1612:44:12UTC2024  http://google.com/  http://www.google.com/  301TueJul1612:44:12UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1612:44:12UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1612:44:13UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,qads,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1612:44:13UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1612:44:13UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1612:44:13UTC2024  https://ogads-pa.googleapis.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData  -200
+TueJul1612:44:13UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1612:44:13UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+TueJul1612:44:13UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+*!-@x!x@-!*
+http://a-msedge.net  -  0
+TueJul1612:44:14UTC2024  http://a-msedge.net/  -0
+TueJul1612:44:14UTC2024  http://a-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://microsoft.com  TimeoutException  0
+*!-@x!x@-!*
+http://facebook.com  https://www.facebook.com/  31.13.85.36
+TueJul1612:44:30UTC2024  http://facebook.com/  https://facebook.com/  301TueJul1612:44:30UTC2024  https://facebook.com/  https://www.facebook.com/  301TueJul1612:44:31UTC2024  https://www.facebook.com/  -200
+TueJul1612:44:31UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yG/l/en_US/Y9JzrQjMyGi.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:44:31UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yj/l/0,cross/DxJo7925cRe.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:44:31UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/EWlLxaDHNB5.js?_nc_x=Ij3Wp8lg5Kz  -200
+*!-@x!x@-!*
+http://amazonaws.com  https://aws.amazon.com/  13.227.97.118
+TueJul1612:44:32UTC2024  http://amazonaws.com/  http://aws.amazon.com  301TueJul1612:44:32UTC2024  http://aws.amazon.com/  https://aws.amazon.com/  301TueJul1612:44:33UTC2024  https://aws.amazon.com/  -200
+TueJul1612:44:33UTC2024  https://a0.awsstatic.com/libra/1.0.582/libra-head.js  -200
+TueJul1612:44:33UTC2024  https://a0.awsstatic.com/libra/1.0.582/csp/csp-report.js  -200
+TueJul1612:44:33UTC2024  https://a0.awsstatic.com/libra-css/css/1.0.496/style-awsm-components.css  -200
+TueJul1612:44:34UTC2024  https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1721133874094%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Faws.amazon.com%2F%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D  -200
+TueJul1612:44:34UTC2024  https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js  -200
+TueJul1612:44:34UTC2024  https://loader.us-east-1.prod.mrc-sunrise.marketing.aws.dev/loader.js  -200
+TueJul1612:44:34UTC2024  https://d2c.aws.amazon.com/client/loader/v1/d2c-load.js  -200
+TueJul1612:44:34UTC2024  https://d2c.aws.amazon.com/client/lib/v1/d2c-client-lib.562fd068.js  -200
+TueJul1612:44:34UTC2024  https://d1.awsstatic.com/Arrow-Right-dark.7a5219a15b1126028507ef6f1a1ebc300ec68a63.svg  -200
+TueJul1612:44:34UTC2024  https://d1.awsstatic.com/Digital%20Marketing/House/Hero/Arrow-Right-light.1e72df6b7812c6d094e012f5b3a628681042f4db.svg  -200
+TueJul1612:44:34UTC2024  https://d1.awsstatic.com/Digital%20Marketing/House/Hero/Default_Start-Building.00e592e4495f5ead1aba337232d3a0e9d49f0c1c.png  -200
+TueJul1612:44:35UTC2024  https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_v2_:comp_PageError@v=1:u=c?dataset=LIVE%3APROD&instance=LIVE&service=awsm&marketplace=en_US&client=dsk&host=aws.amazon.com&method=NA&uid=0.08247388073119732&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567  -204
+TueJul1612:44:35UTC2024  https://fls-na.amazon.com/1/aws-mktg/1/OE/?cat=PageError&level=ERROR&msg=Error%3A%20Script%20error%20for%3A%20libra%2Fvendor%2Frequire-marketo-munchkin%0Ahttp%3A%2F%2Frequirejs.org%2Fdocs%2Ferrors.html%23scripterror%20at%2017%20with%20stack%20trace%3A%20B%40https%3A%2F%2Fa0.awsstatic.com%2Flibra%2F1.0.582%2Flibra-head.js%3A17%3A252%20onScriptError%40https%3A%2F%2Fa0.awsstatic.com%2Flibra%2F1.0.582%2Flibra-head.js%3A39%3A244%20&currentTime=1721133874124&method=NA&pageTime=295&pageRequestId=e3b5d14b-0585-4114-904d-01573008c5aa&page=https%3A%2F%2Faws.amazon.com%2F  -204
+TueJul1612:44:35UTC2024  https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_v2_:comp_PageError@v=1:u=c?dataset=LIVE%3APROD&instance=LIVE&service=awsm&marketplace=en_US&client=dsk&host=aws.amazon.com&method=NA&uid=0.42583098198543956&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567  -204
+TueJul1612:44:35UTC2024  https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js  -200
+*!-@x!x@-!*
+http://googleapis.com  http://googleapis.com/  142.250.218.196
+TueJul1612:44:35UTC2024  http://googleapis.com/  -404
+TueJul1612:44:35UTC2024  http://googleapis.com/favicon.ico  -0
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1612:44:35UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1612:44:36UTC2024  https://www.apple.com/  -200
+TueJul1612:44:36UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://youtube.com  https://www.youtube.com/  142.251.128.142
+TueJul1612:44:36UTC2024  http://youtube.com/  https://youtube.com/  301TueJul1612:44:37UTC2024  https://youtube.com/  https://www.youtube.com/  301TueJul1612:44:38UTC2024  https://www.youtube.com/  -200
+TueJul1612:44:38UTC2024  https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js  -200
+TueJul1612:44:38UTC2024  https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap  -200
+TueJul1612:44:38UTC2024  https://i.ytimg.com/generate_204  -204
+TueJul1612:44:38UTC2024  https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1612:44:39UTC2024  https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I75Zu-fG-nBzFBcl6SAIRQqFJejrMh8LHQQuffl93UG75RxT-gdAza8ZVzIqKczU156m1qOX_g  302TueJul1612:44:39UTC2024  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I75Zu-fG-nBzFBcl6SAIRQqFJejrMh8LHQQuffl93UG75RxT-gdAza8ZVzIqKczU156m1qOX_g  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&ifkv=AdF4I778wrEgfpvLnKf3uydaYkdJZXmBAsnKgTb84r0pUnT4qR6rYN0q4ARlRGHx7ZjU47ujhPR41A&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1912333665%3A1721133879513702&ddm=0  302TueJul1612:44:39UTC2024  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&ifkv=AdF4I778wrEgfpvLnKf3uydaYkdJZXmBAsnKgTb84r0pUnT4qR6rYN0q4ARlRGHx7ZjU47ujhPR41A&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1912333665%3A1721133879513702&ddm=0  -403
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1612:44:39UTC2024  http://root-servers.net/  -0
+TueJul1612:44:40UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1612:44:40UTC2024  http://akamai.net/  -0
+TueJul1612:44:40UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://akamaiedge.net  -  0
+TueJul1612:44:55UTC2024  http://akamaiedge.net/  -0
+TueJul1612:44:55UTC2024  http://akamaiedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133333839377d04fcbcb80986372c1891cb3bd0c229f9  104.244.42.193
+TueJul1612:44:55UTC2024  http://twitter.com/  https://twitter.com/  301TueJul1612:44:56UTC2024  https://twitter.com/  https://x.com/  302TueJul1612:44:57UTC2024  https://x.com/  -200
+*!-@x!x@-!*
+http://instagram.com  https://www.instagram.com/  31.13.85.174
+TueJul1612:44:58UTC2024  http://instagram.com/  https://instagram.com/  301TueJul1612:44:58UTC2024  https://instagram.com/  https://www.instagram.com/  301TueJul1612:44:59UTC2024  https://www.instagram.com/  -200
+TueJul1612:44:59UTC2024  https://static.cdninstagram.com/rsrc.php/v3/yl/r/XZ7kI5A86E9.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:44:59UTC2024  https://static.cdninstagram.com/rsrc.php/v3iUZK4/yE/l/en_US/L4-CZmnCR8_LgwUUBBm_DMyko_UrdfPE8c_t6aWhhJIp226uTiHLZ8w.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:44:59UTC2024  https://static.cdninstagram.com/rsrc.php/v3ibt04/yY/l/en_US/iwVJkbXCUXY.js?_nc_x=Ij3Wp8lg5Kz  -200
+*!-@x!x@-!*
+http://cloudflare.com  https://www.cloudflare.com/  104.16.123.96
+TueJul1612:45:00UTC2024  http://cloudflare.com/  https://www.cloudflare.com/  301TueJul1612:45:00UTC2024  https://www.cloudflare.com/  -200
+TueJul1612:45:00UTC2024  https://www.cloudflare.com/img/privacyoptions.svg  -200
+TueJul1612:45:00UTC2024  https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015  -200
+TueJul1612:45:00UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/5XA6P5ZUYwcjq9LZGBbAcj/1517e2b34ef3bf213fca28586ae33170/ease-of-use-toggle.svg  -200
+TueJul1612:45:00UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/74GDwwyKnKfYYz1QQEQh1P/c7232082d74a2cb16d2197596662f593/security-shield-protection-2.svg  -200
+TueJul1612:45:00UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/3hozCySUonJzxSF7TBtDeF/09c3642522b5a9036c157dcab3a59b8d/performance-acceleration-bolt.svg  -200
+*!-@x!x@-!*
+http://gstatic.com  http://www.gstatic.com/  142.251.129.35
+TueJul1612:45:01UTC2024  http://gstatic.com/  http://www.gstatic.com/  301*!-@x!x@-!*
+http://office.com  https://www.office.com/  13.107.6.156
+TueJul1612:45:01UTC2024  http://office.com/  https://www.office.com/  301TueJul1612:45:02UTC2024  https://www.office.com/  -200
+TueJul1612:45:02UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/1b-9d8ed9/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/43-5a5ab8/ca-ae3ce4?ver=2.0&_cf=02242021_3231  -200
+TueJul1612:45:02UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1  -200
+TueJul1612:45:03UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semilight.woff2  -200
+TueJul1612:45:03UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_light.woff2  -200
+TueJul1612:45:03UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semibold.woff2  -200
+TueJul1612:45:03UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1612:45:03UTC2024  https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31  -200
+TueJul1612:45:03UTC2024  https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1  -200
+TueJul1612:45:04UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2  -200
+TueJul1612:45:04UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2  -200
+TueJul1612:45:04UTC2024  https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js  -200
+*!-@x!x@-!*
+http://linkedin.com  https://www.linkedin.com/  13.107.42.14
+TueJul1612:45:04UTC2024  http://linkedin.com/  https://www.linkedin.com/  301TueJul1612:45:05UTC2024  https://www.linkedin.com/  -200
+TueJul1612:45:05UTC2024  https://static.licdn.com/aero-v1/sc/h/3jjjk5syc0u3662ddyxn20nye  -200
+TueJul1612:45:05UTC2024  https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti  -200
+TueJul1612:45:05UTC2024  https://static.licdn.com/aero-v1/sc/h/79955ykfbf3xiauy72skgk73c  -200
+TueJul1612:45:06UTC2024  https://www.linkedin.com/litms/api/metadata/user  -200
+*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.28.228
+TueJul1612:45:06UTC2024  http://googlevideo.com/  http://video.google.com/  301TueJul1612:45:06UTC2024  http://video.google.com/  http://www.google.com/videohp  301*!-@x!x@-!*
+http://tiktokcdn.com  -  0
+TueJul1612:45:06UTC2024  http://tiktokcdn.com/  -0
+TueJul1612:45:06UTC2024  http://tiktokcdn.com/favicon.ico  -0
+*!-@x!x@-!*
+http://live.com  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  23.37.9.217
+TueJul1612:45:06UTC2024  http://live.com/  https://outlook.live.com/owa/  301TueJul1612:45:07UTC2024  https://outlook.live.com/owa/  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  302*!-@x!x@-!*
+http://windowsupdate.com  -  0
+TueJul1612:45:07UTC2024  http://windowsupdate.com/  -0
+TueJul1612:45:07UTC2024  http://windowsupdate.com/favicon.ico  -0
+*!-@x!x@-!*
+http://fbcdn.net  https://www.facebook.com/  31.13.85.36
+TueJul1612:45:07UTC2024  http://fbcdn.net/  https://fbcdn.net/  301TueJul1612:45:07UTC2024  https://fbcdn.net/  https://www.facebook.com/  302TueJul1612:45:07UTC2024  https://www.facebook.com/  -200
+*!-@x!x@-!*

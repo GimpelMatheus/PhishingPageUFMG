@@ -1,0 +1,104 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.132
+TueJul1613:08:43UTC2024  http://google.com/  http://www.google.com/  301TueJul1613:08:43UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1613:08:43UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1613:08:44UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1613:08:44UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1613:08:44UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1613:08:45UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1613:08:45UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+TueJul1613:08:45UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1613:08:46UTC2024  http://akamai.net/  -0
+TueJul1613:08:46UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamaiedge.net  -  0
+TueJul1613:08:46UTC2024  http://akamaiedge.net/  -0
+TueJul1613:08:46UTC2024  http://akamaiedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133353332387d35661a002289bda9e75e9ff73797ff4c  104.244.42.65
+TueJul1613:08:46UTC2024  http://twitter.com/  https://twitter.com/  301TueJul1613:08:47UTC2024  https://twitter.com/  https://x.com/  302TueJul1613:08:48UTC2024  https://x.com/  -200
+*!-@x!x@-!*
+http://office.com  https://www.office.com/  13.107.6.156
+TueJul1613:08:48UTC2024  http://office.com/  https://www.office.com/  301TueJul1613:08:49UTC2024  https://www.office.com/  -200
+TueJul1613:08:49UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/1b-9d8ed9/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/43-5a5ab8/ca-ae3ce4?ver=2.0&_cf=02242021_3231  -200
+TueJul1613:08:50UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1  -200
+TueJul1613:08:50UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semibold.woff2  -200
+TueJul1613:08:50UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_semilight.woff2  -200
+TueJul1613:08:50UTC2024  https://res.cdn.office.net/officehub/bundles/unauth-3d1d0c2ee9.css  -200
+TueJul1613:08:50UTC2024  https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1  -200
+TueJul1613:08:51UTC2024  https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31  -200
+TueJul1613:08:51UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1613:08:51UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2  -200
+TueJul1613:08:51UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2  -200
+TueJul1613:08:51UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2  -200
+TueJul1613:08:51UTC2024  https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js  -200
+*!-@x!x@-!*
+http://amazon.com  https://www.amazon.com/  13.227.99.60
+TueJul1613:08:51UTC2024  http://amazon.com/  https://amazon.com/  301TueJul1613:08:52UTC2024  https://amazon.com/  https://www.amazon.com/  301TueJul1613:08:53UTC2024  https://www.amazon.com/  -200
+TueJul1613:08:54UTC2024  https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css  -200
+TueJul1613:08:54UTC2024  https://images-na.ssl-images-amazon.com/captcha/druexhzz/Captcha_kmaeqpybna.jpg  -200
+TueJul1613:08:55UTC2024  https://www.amazon.com/favicon.ico  -200
+TueJul1613:08:55UTC2024  https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=6RGEFAV2XSPVDGNG2FM1&js=1  -200
+*!-@x!x@-!*
+http://googleusercontent.com  http://googleusercontent.com/  172.217.30.33
+TueJul1613:08:55UTC2024  http://googleusercontent.com/  -404
+TueJul1613:08:56UTC2024  http://googleusercontent.com/favicon.ico  -0
+*!-@x!x@-!*
+http://icloud.com  https://www.icloud.com/  23.55.138.84
+TueJul1613:08:56UTC2024  http://icloud.com/  https://icloud.com/  301TueJul1613:08:57UTC2024  https://icloud.com/  https://www.icloud.com/  301TueJul1613:08:57UTC2024  https://www.icloud.com/  -200
+TueJul1613:08:57UTC2024  https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js  -200
+*!-@x!x@-!*
+http://github.com  https://github.com/  20.201.28.151
+TueJul1613:08:58UTC2024  http://github.com/  https://github.com/  301TueJul1613:08:59UTC2024  https://github.com/  -200
+TueJul1613:09:00UTC2024  https://github.githubassets.com/assets/github-c62b650ef489.css  -200
+TueJul1613:09:00UTC2024  https://github.githubassets.com/assets/global-4ff23c0615da.css  -200
+TueJul1613:09:00UTC2024  https://github.githubassets.com/assets/primer-fbdbeff9329d.css  -200
+*!-@x!x@-!*
+http://office.net  -  0
+TueJul1613:09:00UTC2024  http://office.net/  -0
+TueJul1613:09:00UTC2024  http://office.net/favicon.ico  -0
+*!-@x!x@-!*
+http://t-msedge.net  -  0
+TueJul1613:09:00UTC2024  http://t-msedge.net/  -0
+TueJul1613:09:00UTC2024  http://t-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://digicert.com  https://www.digicert.com/  45.60.127.229
+TueJul1613:09:00UTC2024  http://digicert.com/  https://digicert.com/  301TueJul1613:09:01UTC2024  https://digicert.com/  https://www.digicert.com/  301TueJul1613:09:01UTC2024  https://www.digicert.com/  -200
+TueJul1613:09:03UTC2024  https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js  -200
+TueJul1613:09:03UTC2024  https://seal.digicert.com/seals/cascade/seal.min.js  -200
+TueJul1613:09:03UTC2024  https://assets.adobedtm.com/extensions/EPef068a8d6dd34a43866d9a80cc98baab/AppMeasurement.min.js  -200
+TueJul1613:09:04UTC2024  https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=9A343704532966210A490D44%40AdobeOrg&d_nsid=0&ts=1721135343864  -200
+TueJul1613:09:04UTC2024  https://c.la3-c1-ia5.salesforceliveagent.com/content/g/js/51.0/deployment.js  -200
+TueJul1613:09:04UTC2024  https://digicert.demdex.net/dest5.html?d_nsid=0  -200
+TueJul1613:09:05UTC2024  https://seal.digicert.com/seals/cascade/?tag=QpVPir5r&referer=www.digicert.com&format=svg&lang=en&cbr=1721135345035  -200
+TueJul1613:09:05UTC2024  https://cm.everesttech.net/cm/dd?d_uuid=73936179631974166322736172941913339119  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZw8QAAAI4IsgNn  302TueJul1613:09:05UTC2024  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZw8QAAAI4IsgNn  -200
+TueJul1613:09:05UTC2024  https://d.la3-c1-ia5.salesforceliveagent.com/chat/rest/System/MultiNoun.jsonp?nouns=VisitorId,Settings&VisitorId.prefix=Visitor&Settings.prefix=Visitor&Settings.buttonIds=[5730z0000008OtS,5730z0000008Ouz,5730z0000008Orb]&Settings.updateBreadcrumb=1&Settings.urlPrefix=undefined&callback=liveagent._.handlePing&deployment_id=5720z0000008One&org_id=00D60000000KAGN&version=51  -200
+*!-@x!x@-!*
+http://aaplimg.com  -  0
+TueJul1613:09:06UTC2024  http://aaplimg.com/  -0
+TueJul1613:09:06UTC2024  http://aaplimg.com/favicon.ico  -0
+*!-@x!x@-!*
+http://adobe.com  https://www.adobe.com/  2.16.197.141
+TueJul1613:09:06UTC2024  http://adobe.com/  https://adobe.com/  301TueJul1613:09:06UTC2024  https://adobe.com/  https://www.adobe.com/  301TueJul1613:09:07UTC2024  https://www.adobe.com/  -200
+TueJul1613:09:07UTC2024  https://www.adobe.com/homepage/scripts/scripts.js  -200
+*!-@x!x@-!*
+http://cloudfront.net  -  0
+TueJul1613:09:07UTC2024  http://cloudfront.net/  -0
+TueJul1613:09:07UTC2024  http://cloudfront.net/favicon.ico  -0
+*!-@x!x@-!*
+http://nflxso.net  -  0
+TueJul1613:09:07UTC2024  http://nflxso.net/  -0
+TueJul1613:09:07UTC2024  http://nflxso.net/favicon.ico  -0
+*!-@x!x@-!*
+http://windows.net  http://www.microsoft.com/net  23.37.9.217
+TueJul1613:09:07UTC2024  http://windows.net/  http://www.microsoft.com/net  301*!-@x!x@-!*
+http://goo.gl  WebDriverException  0
+*!-@x!x@-!*
+http://gandi.net  https://www.gandi.net/en-US  151.101.249.103
+TueJul1613:09:15UTC2024  http://gandi.net/  http://www.gandi.net/  301TueJul1613:09:16UTC2024  http://www.gandi.net/  https://www.gandi.net/  301TueJul1613:09:17UTC2024  https://www.gandi.net/  /en-US  302*!-@x!x@-!*
+http://cdn77.org  -  0
+TueJul1613:09:17UTC2024  http://cdn77.org/  -0
+TueJul1613:09:17UTC2024  http://cdn77.org/favicon.ico  -0
+*!-@x!x@-!*
+http://zoom.us  TimeoutException  0
+*!-@x!x@-!*

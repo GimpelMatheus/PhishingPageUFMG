@@ -1,0 +1,74 @@
+1721135862884	geckodriver	INFO	Listening on 127.0.0.1:3181
+1721135862901	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileT2GArJ"
+*** You are running in headless mode.
+cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server11721135863372	Marionette	INFO	Marionette enabled11721135863486	Marionette	INFO	Listening on port 3331111721135863602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session11721135863668	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:41031","sslProxy":"127.0.1.1:41031"}[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+J1721135896727	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 15: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapJavaScript error: http://ntp.org/, line 36: TypeError: document.getElementById(...) is null
+atsapp.com/, line 17: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 19: ReferenceError: requireLazy is not defined
+console.error: ({})
+tatic.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Script terminated by timeout at:
+Gi/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:210331
+n@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:209827
+
+console.error: ({})
+console.error: ({})
+console.JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsN1721135893717	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+/assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+1721135893183	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js, line 6: Script terminated by timeout at:
+Ec/</h.setUnloading@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js:6:59513
+d@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js:6:60463
+
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+console.error: ({})
+JavaScript error: https://zoom.us/, line 275: TypeError: window.__MONITOR__ is undefined
+JavaScript error: https://zoom.us/, line 5675: ReferenceError: $ is not defined
+JavaScript error: https://st2.zoom.us/static/6.3.23157/js/app/top_nav.min.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://zoom.us/, line 5859: ReferenceError: $ is not defined
+console.error: ({})
+equireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 15: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 16: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 17: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 19: ReferenceError: requireLazy is not defined
+console.error: ({})
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+console.error: ({})
+console.error: ({})
+1721135893242	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})

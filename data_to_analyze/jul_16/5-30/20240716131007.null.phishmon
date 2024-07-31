@@ -1,0 +1,88 @@
+1721135415791	geckodriver	INFO	Listening on 127.0.0.1:29816
+1721135415810	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileolVJ1K"**** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server11721135416129	Marionette	INFO	Marionette enabled11721135416289	Marionette	INFO	Listening on port 4425911721135416374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721135416389	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:34477","sslProxy":"127.0.1.1:34477"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})J1721135449719	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+ebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/8m736dfzskmdn6bwwqz67iiki
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attemptinconsole.error: ({})
+console.error: ({})
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://www.youtube-nocookie.com/embed/ELW4Jdvujbc?si=sE2V6C7oFHugIquT, line 10: ReferenceError: writeEmbed is not defined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+1721135449167	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
+JavaScript error: http://ntp.org/, line 36: TypeError: document.getElementById(...) is null
+ij5ti:1:217315
+e/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214736
+ma/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214416
+ma@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214388
+ji/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:210201
+s@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:212889
+n@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:209827
+
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+1721135446140	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+JavaScript error: https://mail.ru/, line 317: TypeError: o is null
+JavaScript warning: https://mail.ru/, line 122: Script terminated by timeout at:
+yi@https://mail.ru/:122:41201
+send@https://mail.ru/:122:41330
+@https://mail.ru/:317:9271
+
+JavaScript warning: https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1, line 1: Script terminated by timeout at:
+f@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:5691
+u@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:6165
+T@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:6308
+
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://zoom.us/, line 275: TypeError: window.__MONITOR__ is undefined
+JavaScript error: https://zoom.us/, line 5675: ReferenceError: $ is not defined
+JavaScript error: https://st3.zoom.us/static/6.3.23157/js/app/jquery.validate.message.min.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://st2.zoom.us/static/6.3.23157/js/app/top_nav.min.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://zoom.us/, line 5859: ReferenceError: $ is not defined
+console.error: ({})

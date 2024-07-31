@@ -5,15 +5,27 @@ import json
 from datetime import datetime
 import time
 
+#Page Timeout - Quando ficar grande suficiente baixa boa parte das páginas
+#Limite superior de 95/98%
+#Limite inferior 25%
+
+#Variar 4,8,12 os browsers linearmente
+#Total de urls/tempo de execução
+#Conferir o WindowTimeout
+#Avaliar se há necessidade de variação do MaxRequest e WindowTimeout
+#Printar a URL na linha além do tempo somente
+#Avaliar a quantidade de tempo que está sendo metrificado
+#Pode estar sobrescrevendo os dados de tempo quando o timeout é superado
+
 def get_configuration(logs_dir_path, threads, page_timeout):
   return {
     'concurrentBrowsers': threads,
     'pageTimeout': page_timeout,
     'logsDirPath': str(logs_dir_path),
-    'windowTimeout': 1800,
-    'maxRequests': 60,
+    'windowTimeout': 60,
+    'maxRequests': 3,
     'repositoryPath': '../../example/repo',
-    'geckodriverBinPath': '/usr/bin/geckodriver',
+    'geckodriverBinPath': '/home/gimpel/geckodriver',
     'runtimeControllersPath': '../runtime_params'
   }
 
@@ -30,6 +42,7 @@ def clear_log_files(log_dir_path):
       middle_name = file_name.split('.')[1]
       if(middle_name in to_be_deleted):
         # print(log_dir_path.joinpath(file_name))
+        
         os.remove(log_dir_path.joinpath(file_name))
 
 
@@ -41,6 +54,7 @@ def run_framework_and_collect_data(current_workdir, config_file_path, logs_dir_p
   web_phishing_framework = psutil.Popen(['java', '-jar', '../target/WebPhishingFramework.jar', str(config_file_path)],
                                       cwd=str(current_workdir), stdout=benchmarks_log_file, stderr=benchmarks_log_file, text=True)
 
+  print(web_phishing_framework)
   cpu_percent = []
   memory_percent = []
 
@@ -69,7 +83,7 @@ def run_framework_and_collect_data(current_workdir, config_file_path, logs_dir_p
   benchmarks_log_file.close()
 
   # clear files
-  clear_log_files(logs_dir_path)
+  #clear_log_files(logs_dir_path)
 
   with open(logs_dir_path.joinpath('cpu_percent.json'), 'w') as cpu_percent_file:
     json.dump(cpu_percent, cpu_percent_file)
@@ -84,7 +98,7 @@ def main():
   runtime_params_dir =  current_filepath.joinpath("runtime_params")
   os.mkdir(runtime_params_dir)
 
-  for concurrent_browsers_number in range(1, 9): # threads number starts from 1 and goes to 8.
+  for concurrent_browsers_number in range(1, 8): # threads number starts from 1 and goes to 8.
     for page_timeout in range(15, 61, 15): # starts from 15 seconds to 60 seconds by incrementing 15 seconds on each iteration.
 
       # create runtime environment

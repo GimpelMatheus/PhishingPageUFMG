@@ -1,0 +1,61 @@
+http://microsoft.com  TimeoutException  0
+*!-@x!x@-!*
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224
+TueJul1613:02:58UTC2024  http://wikipedia.org/  https://wikipedia.org/  301TueJul1613:02:58UTC2024  https://wikipedia.org/  https://www.wikipedia.org/  301TueJul1613:02:59UTC2024  https://www.wikipedia.org/  -200
+TueJul1613:02:59UTC2024  https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png  -200
+*!-@x!x@-!*
+http://gtld-servers.net  -  0
+TueJul1613:02:59UTC2024  http://gtld-servers.net/  -0
+TueJul1613:02:59UTC2024  http://gtld-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://microsoftonline.com  -  0
+TueJul1613:02:59UTC2024  http://microsoftonline.com/  -0
+TueJul1613:02:59UTC2024  http://microsoftonline.com/favicon.ico  -0
+*!-@x!x@-!*
+http://trafficmanager.net  -  0
+TueJul1613:02:59UTC2024  http://trafficmanager.net/  -0
+TueJul1613:03:00UTC2024  http://trafficmanager.net/favicon.ico  -0
+*!-@x!x@-!*
+http://netflix.com  https://www.netflix.com/br-en/  54.237.226.164
+TueJul1613:03:00UTC2024  http://netflix.com/  https://netflix.com/  301TueJul1613:03:01UTC2024  https://netflix.com/  https://www.netflix.com/  301TueJul1613:03:02UTC2024  https://www.netflix.com/  https://www.netflix.com/br-en/  302TueJul1613:03:02UTC2024  https://www.netflix.com/br-en/  -200
+TueJul1613:03:02UTC2024  https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/core/dist/ui/js/signup/nmhp/nmhpFrameworkClient.14f66b8d295d0506f22f.js  -200
+TueJul1613:03:02UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp-reskin.6a003302aa4c93b29722.css  -200
+TueJul1613:03:02UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp.a1bcda71010575046231.css  -200
+TueJul1613:03:03UTC2024  https://cdn.cookielaw.org/scripttemplates/otSDKStub.js  -200
+TueJul1613:03:03UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteScreen&winw=1366&winh=768&screenw=1366&screenh=683&ratio=1  -200
+TueJul1613:03:03UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteDetect&modalView=nmLanding  -200
+TueJul1613:03:03UTC2024  https://cdn.cookielaw.org/consent/87b6a5c0-0104-4e96-a291-092c11350111/87b6a5c0-0104-4e96-a291-092c11350111.json  -200
+TueJul1613:03:03UTC2024  https://occ-0-7270-1740.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55  -200
+*!-@x!x@-!*
+http://youtu.be  TimeoutException  0
+*!-@x!x@-!*
+http://cloudfront.net  -  0
+TueJul1613:03:19UTC2024  http://cloudfront.net/  -0
+TueJul1613:03:19UTC2024  http://cloudfront.net/favicon.ico  -0
+*!-@x!x@-!*
+http://nflxso.net  -  0
+TueJul1613:03:20UTC2024  http://nflxso.net/  -0
+TueJul1613:03:20UTC2024  http://nflxso.net/favicon.ico  -0
+*!-@x!x@-!*
+http://goo.gl  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  172.217.28.1
+TueJul1613:03:20UTC2024  http://goo.gl/  https://goo.gl/  301TueJul1613:03:22UTC2024  https://goo.gl/  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  301TueJul1613:03:23UTC2024  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  -404
+TueJul1613:03:24UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/css/dgc_blog.css  -200
+TueJul1613:03:24UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/js/analytics.js  -200
+TueJul1613:03:24UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/js/dgc_blog.js  -200
+TueJul1613:03:24UTC2024  https://developers.googleblog.com/glue-icon/  -200
+*!-@x!x@-!*
+http://s-msedge.net  -  0
+TueJul1613:03:25UTC2024  http://s-msedge.net/  -0
+TueJul1613:03:25UTC2024  http://s-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+TueJul1613:03:25UTC2024  http://msn.com/  https://msn.com/  301TueJul1613:03:25UTC2024  https://msn.com/  https://www.msn.com/  301TueJul1613:03:27UTC2024  https://www.msn.com/  /pt-br  302TueJul1613:03:28UTC2024  https://www.msn.com/pt-br  -200
+TueJul1613:03:28UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.417168f641aeca8ceb3d.js  -200
+TueJul1613:03:28UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/microsoft.2297996b5f95ba2d3be1.js  -200
+TueJul1613:03:28UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.91c1da7df83e920af2b1.js  -200
+TueJul1613:03:28UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/common.e89adad635a7eeeee5c7.js  -200
+*!-@x!x@-!*
+http://cdn77.org  -  0
+TueJul1613:03:28UTC2024  http://cdn77.org/  -0
+TueJul1613:03:28UTC2024  http://cdn77.org/favicon.ico  -0
+*!-@x!x@-!*

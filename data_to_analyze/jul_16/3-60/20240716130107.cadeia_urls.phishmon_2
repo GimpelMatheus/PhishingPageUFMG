@@ -1,0 +1,20 @@
+http://microsoft.com  WebDriverException  0
+*!-@x!x@-!*
+http://googleapis.com  http://googleapis.com/  172.217.29.196
+TueJul1613:01:19UTC2024  http://googleapis.com/  -404
+TueJul1613:01:20UTC2024  http://googleapis.com/favicon.ico  -0
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1613:01:20UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1613:01:20UTC2024  https://www.apple.com/  -200
+TueJul1613:01:20UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1613:01:21UTC2024  http://root-servers.net/  -0
+TueJul1613:01:21UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1613:01:21UTC2024  http://akamai.net/  -0
+TueJul1613:01:21UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*

@@ -1,0 +1,1 @@
+{"concurrentBrowsers": 6, "pageTimeout": 15, "logsDirPath": "/home/gimpel/PhishingPageProject/web-phishing-framework/benchmarks/6-15", "windowTimeout": 60, "maxRequests": 3, "repositoryPath": "../../example/repo", "geckodriverBinPath": "/home/gimpel/geckodriver", "runtimeControllersPath": "../runtime_params"}

@@ -1,0 +1,14 @@
+1721160588562	geckodriver	INFO	Listening on 127.0.0.1:6345
+1721160588578	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYckhv9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721160589122	Marionette	INFO	Marionette enabled11721160589438	Marionette	INFO	Listening on port 4579711721160589644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721160589681	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:34295","sslProxy":"127.0.1.1:34295"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})EExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.Exiting due to channel error.
+Exiting due to channel error.
+
+1721160594613	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)

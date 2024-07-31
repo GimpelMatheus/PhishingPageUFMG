@@ -1,0 +1,53 @@
+1721135596826	geckodriver	INFO	Listening on 127.0.0.1:21065
+1721135596832	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilemgS2s7"
+*** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721135597252	Marionette	INFO	Marionette enabled
+1721135597374	Marionette	INFO	Listening on port 35497
+1721135597461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721135597485	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:42929","sslProxy":"127.0.1.1:42929"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dtcconsole.error: ({})J1721135630645	addons.xpi	ERROR	System ad1721135630919	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy1721135656561	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+m/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 19: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 20: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 21: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 22: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 22: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 23: ReferenceError: requireLazy is not defined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js, line 11: Script terminated by timeout at:
+Wn@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:120821
+n@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:122346
+n@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:122346
+Zn@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:121157
+extractEvents@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:133950
+dt@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:108888
+j@https://www.icloud.com/system/icloud.com/JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217console.error: ({})
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://mail.ru/, line 317: TypeError: o is null
+JavaScript warning: https://mail.ru/, line 291: Script terminated by timeout at:
+a@core-keeper.min.js:291:10053
+$e/</c<@core-keeper.min.js:291:10160
+ue/coreKeeper@core-keeper.min.js:291:5460
+t@core-keeper.min.js:291:5330
+
+1721135627175	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+JavaScript error: https://zoom.us/, line 5675: ReferenceError: $ is not defined
+JavaScript error: https://zoom.us/, line 5859: ReferenceError: $ is not defined
+onsole.error: (cons1721135627142	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js, line 6: Script terminated by timeout at:
+Ec/</h.setUnloading@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js:6:59513
+d@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js:6:60463
+
+console.error: ({})
+console.error: ({})
+console.error: ({})

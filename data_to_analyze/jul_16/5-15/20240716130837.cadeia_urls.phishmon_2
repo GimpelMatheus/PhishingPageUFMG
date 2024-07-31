@@ -1,0 +1,60 @@
+http://googleapis.com  http://googleapis.com/  172.217.29.196
+TueJul1613:08:44UTC2024  http://googleapis.com/  -404
+TueJul1613:08:44UTC2024  http://googleapis.com/favicon.ico  -0
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1613:08:44UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1613:08:45UTC2024  https://www.apple.com/  -200
+TueJul1613:08:45UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1613:08:45UTC2024  http://root-servers.net/  -0
+TueJul1613:08:46UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://tiktokv.com  https://tiktokv.com/  2.20.13.163
+TueJul1613:09:01UTC2024  http://tiktokv.com/  https://tiktokv.com/  301TueJul1613:09:03UTC2024  https://tiktokv.com/  -404
+*!-@x!x@-!*
+http://whatsapp.net  https://www.whatsapp.com/  31.13.85.51
+TueJul1613:09:03UTC2024  http://whatsapp.net/  https://whatsapp.net/  301TueJul1613:09:04UTC2024  https://whatsapp.net/  https://www.whatsapp.com/  302TueJul1613:09:04UTC2024  https://www.whatsapp.com/  -200
+TueJul1613:09:05UTC2024  https://static.whatsapp.net/rsrc.php/v3/yL/r/EWlLxaDHNB5.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:09:05UTC2024  https://static.whatsapp.net/rsrc.php/v3/yk/l/0,cross/GUBdiyYD6ul.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:09:05UTC2024  https://static.whatsapp.net/rsrc.php/v3/y1/l/0,cross/pvvt0xlGlj-.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:09:05UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/318716844_644367477472796_6799212725643495984_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=5VPLPdZhnnsQ7kNvgG8BaLK&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIIQhXLuJLNI0qQm9du_GKojlnuT-SAO26P-uT-kHAyR1&oe=669C56A5  -200
+TueJul1613:09:05UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/311201427_619010693228007_5878944071555156995_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=L_-3Xcq2wkcQ7kNvgErQE3J&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIH8xyNW5Yd0TWFk7NM1VhixY2HHWCgKmhX9lQTXJOBFF&oe=669C3776  -200
+TueJul1613:09:05UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/329699257_2856843487782508_7800545505417662242_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=9OsujHuC7MUQ7kNvgFMv1FE&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIBsD8zn1W5sgr7XTISj54L1L7JXVVqR4ZY8_A-nviVw6&oe=669C565B  -200
+*!-@x!x@-!*
+http://sharepoint.com  WebDriverException  0
+*!-@x!x@-!*
+http://s-msedge.net  -  0
+TueJul1613:09:14UTC2024  http://s-msedge.net/  -0
+TueJul1613:09:15UTC2024  http://s-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+TueJul1613:09:15UTC2024  http://msn.com/  https://msn.com/  301TueJul1613:09:15UTC2024  https://msn.com/  https://www.msn.com/  301TueJul1613:09:15UTC2024  https://www.msn.com/  /pt-br  302TueJul1613:09:15UTC2024  https://www.msn.com/pt-br  -200
+TueJul1613:09:16UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.417168f641aeca8ceb3d.js  -200
+TueJul1613:09:16UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/experience.e36e98ec762a9fb1dfcf.js  -200
+TueJul1613:09:16UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.91c1da7df83e920af2b1.js  -200
+TueJul1613:09:16UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/common.e89adad635a7eeeee5c7.js  -200
+*!-@x!x@-!*
+http://google-analytics.com  TimeoutException  0
+*!-@x!x@-!*
+http://roblox.com  https://www.roblox.com/  128.116.45.4
+TueJul1613:09:32UTC2024  http://roblox.com/  https://roblox.com/  307TueJul1613:09:33UTC2024  https://roblox.com/  -308
+TueJul1613:09:33UTC2024  https://www.roblox.com/  -200
+TueJul1613:09:34UTC2024  https://css.rbxcdn.com/92923991250cac76f283070faa9b68f7c68c5af421310335b5fdf74d24c857b4.css  -200
+TueJul1613:09:34UTC2024  https://css.rbxcdn.com/af980e9df515246ae1fbda3352734a7051ee75516c7b8c7fd45afc8e970e7c52.css  -200
+TueJul1613:09:34UTC2024  https://css.rbxcdn.com/da45920fef8b22d35ee6cce0702d290241252fbfd99695e2abc0934d20de0974.css  -200
+TueJul1613:09:34UTC2024  https://js.rbxcdn.com/c379cf5d3d1d768411d61450b75635695058f905a96e00173122282620a96da3.js  -200
+TueJul1613:09:34UTC2024  https://js.rbxcdn.com/2ad6b2753f8558f55fc35440842b58f6a8f74b40879dd503fa8394beac7d3370.js  -200
+TueJul1613:09:34UTC2024  https://js.rbxcdn.com/4bae454bf5dab3028073fea1e91b6f19.js  -200
+TueJul1613:09:34UTC2024  https://static.rbxcdn.com/css/page___c9e032a4e921419962d7000da9e16b0b_m.css/fetch  -200
+TueJul1613:09:34UTC2024  https://roblox-api.arkoselabs.com/fc/api/?onload=reportFunCaptchaLoaded  -200
+TueJul1613:09:35UTC2024  https://ecsv2.roblox.com/pe?t=diagnostic&evt=webBundleError&url=https%3A%2F%2Fwww.roblox.com%2F&ctx=css_Computer&fileSourceUrl=https%3A%2F%2Fcss.rbxcdn.com%2F6c8c97729176f2611573530f1dc16c130db6f597ee28930956cc34e1d235bafa.css&cdnName=CDNBundleError_unknown&statusCode=unknown&loadDuration=521  -202
+TueJul1613:09:35UTC2024  https://ecsv2.roblox.com/pe?t=diagnostic&evt=webBundleError&url=https%3A%2F%2Fwww.roblox.com%2F&ctx=css_Computer&fileSourceUrl=https%3A%2F%2Fcss.rbxcdn.com%2F6c8c97729176f2611573530f1dc16c130db6f597ee28930956cc34e1d235bafa.css&cdnName=unknown&statusCode=unknown&loadDuration=521  -202
+TueJul1613:09:35UTC2024  https://ecsv2.roblox.com/pe?t=diagnostic&evt=webBundleError&url=https%3A%2F%2Fwww.roblox.com%2F&ctx=css_Computer&fileSourceUrl=https%3A%2F%2Fcss.rbxcdn.com%2F9bfc48ea40a698035ea8cbe3d3e94bd06d3aac48969bedceb6d8ba5ff17ff84d.css&cdnName=CDNBundleError_unknown&statusCode=unknown&loadDuration=530  -202
+TueJul1613:09:35UTC2024  https://roblox-api.arkoselabs.com/cdn/fc/js/c6544c66c46b670694af9c762d53aaf89b8e87ce/standard/funcaptcha_api.js  -200
+TueJul1613:09:35UTC2024  https://metrics.roblox.com/v1/bundle-metrics/report  -200
+TueJul1613:09:35UTC2024  https://metrics.roblox.com/v1/bundle-metrics/report  -200
+TueJul1613:09:35UTC2024  https://metrics.roblox.com/v1/bundle-metrics/report  -200
+*!-@x!x@-!*

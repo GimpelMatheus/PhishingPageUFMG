@@ -1,0 +1,16 @@
+1721750506019	geckodriver	INFO	Listening on 127.0.0.1:1632711721750506137	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/hom ... s" "http://127.0.0.1:32750/,http://localhost:32750/,http://[::1]:32750/" "-no-remote" "-profile" "/tmp/rust_mozprofile0MGAat"*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1721750506902	Marionette	INFO	Marionette enabled
+1721750507100	Marionette	INFO	Listening on port 39441
+Read port: 39441
+WebDriver BiDi listening on ws://127.0.0.1:21538
+11721750507630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721750507658	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:44555","sslProxy":"127.0.1.1:44555"}Exiting due to channel error.
+Exiting due to channel error.
+ffer, no dt
+
+console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.

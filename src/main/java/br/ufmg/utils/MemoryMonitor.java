@@ -25,6 +25,7 @@ public class MemoryMonitor implements Runnable {
 
 			java.lang.Process p;
 			try {
+				//rodar dentro de uma vm vamos ter a memória reservada
 				p = Runtime.getRuntime().exec("free -t -m");
 			} catch (IOException e) {
 				e.printStackTrace();

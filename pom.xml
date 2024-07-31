@@ -10,69 +10,106 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <exec.mainClass>br.ufmg.app.Main</exec.mainClass>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <selenium.version>3.141.59</selenium.version>
+    <browsermob.version>2.1.5</browsermob.version>
+    <netty.version>4.0.51.Final</netty.version>
+    <junit.jupiter.version>5.5.2</junit.jupiter.version>
+    <guava.version>25.0-jre</guava.version>
+    <jsoup.version>1.16.1</jsoup.version>
+    <commons-codec.version>1.15</commons-codec.version>
+    <json.version>20240303</json.version>
+    <jna.version>5.13.0</jna.version>
+    <slf4j.version>1.7.25</slf4j.version>
+    <maven.resources.plugin.version>3.3.0</maven.resources.plugin.version>
+    <maven.surefire.plugin.version>3.1.2</maven.surefire.plugin.version>
+    <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
+    <maven.dependency.plugin.version>3.5.0</maven.dependency.plugin.version>
+    <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
+    <maven.enforcer.plugin.version>3.0.0</maven.enforcer.plugin.version>
   </properties>
 
   <dependencies>
+    <!-- Selenium Dependencies -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>ru.stqa.selenium</groupId>
+      <artifactId>webdriver-factory</artifactId>
+      <version>4.4</version>
+    </dependency>
+
+    <!-- BrowserMob Proxy -->
+    <dependency>
+      <groupId>net.lightbody.bmp</groupId>
+      <artifactId>browsermob-core</artifactId>
+      <version>${browsermob.version}</version>
+    </dependency>
+
+    <!-- Netty -->
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>${netty.version}</version>
+    </dependency>
+
+    <!-- Other Dependencies -->
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20220924</version>
+      <version>${json.version}</version>
     </dependency>
-      <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+
     <dependency>
-        <groupId>commons-codec</groupId>
-        <artifactId>commons-codec</artifactId>
-        <version>1.10</version>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>${commons-codec.version}</version>
     </dependency>
+
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>24.0-jre</version>
+      
     </dependency>
-      <dependency>
-        <!-- jsoup HTML parser library @ https://jsoup.org/ -->
-        <groupId>org.jsoup</groupId>
-        <artifactId>jsoup</artifactId>
-        <version>1.13.1</version>
-    </dependency>
+
     <dependency>
-        <groupId>net.java.dev.jna</groupId>
-        <artifactId>jna</artifactId>
-        <version>5.6.0</version>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>${jsoup.version}</version>
     </dependency>
-      <dependency>
-          <groupId>net.lightbody.bmp</groupId>
-          <artifactId>browsermob-core</artifactId>
-          <version>2.1.5</version>
-          <scope>compile</scope>
+
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>${jna.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+    <!-- Testing -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>5.5.2</version>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.5.2</version>
-    </dependency>
-    <dependency>
-      <groupId>ru.stqa.selenium</groupId>
-      <artifactId>webdriver-factory</artifactId>
-      <version>4.3</version>
-    </dependency>
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
-      <version>3.141.59</version>
-      <exclusions>
-        <exclusion>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-        </exclusion>
-      </exclusions>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
+
   <build>
     <finalName>WebPhishingFramework</finalName>
     <resources>
@@ -91,14 +128,14 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>${maven.resources.plugin.version}</version>
         <configuration>
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.2</version>
+        <version>${maven.surefire.plugin.version}</version>
         <configuration>
           <includes>
             <include>**/*Test.java</include>
@@ -110,18 +147,15 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <source>11</source>
-          <target>11</target>
-        </configuration>
+        <version>${maven.compiler.plugin.version}</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
+        <version>${maven.dependency.plugin.version}</version>
         <configuration>
           <outputDirectory>${project.build.directory}/lib</outputDirectory>
-          <excludeTransitive>false</excludeTransitive> 
+          <excludeTransitive>false</excludeTransitive>
           <stripVersion>false</stripVersion>
         </configuration>
         <executions>
@@ -134,11 +168,10 @@
           </execution>
         </executions>
       </plugin>
-      <!-- Add LIB folder to classPath -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>${maven.jar.plugin.version}</version>
         <configuration>
           <archive>
             <manifest>
@@ -149,11 +182,28 @@
           </archive>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>${maven.enforcer.plugin.version}</version>
+        <executions>
+          <execution>
+            <id>enforce</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <dependencyConvergence/>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
-  <!-- profiles -->
+
   <profiles>
-    <!-- browsers -->
     <profile>
       <id>firefox</id>
       <properties>
@@ -187,7 +237,6 @@
         <capabilities>/opera.capabilities</capabilities>
       </properties>
     </profile>
-    <!-- environments -->
     <profile>
       <id>localhost</id>
       <properties>
@@ -215,7 +264,6 @@
         <site.url>http://prodhost.com/</site.url>
       </properties>
     </profile>
-    <!-- grid -->
     <profile>
       <id>nogrid</id>
       <properties>
@@ -228,8 +276,27 @@
     <profile>
       <id>grid</id>
       <properties>
-        <grid.url>http://localhost:4444/wd/hub/</grid.url>
+        <grid.url>http://localhost:4444/wd/hub</grid.url>
       </properties>
     </profile>
   </profiles>
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+
+
+
+  <dependencyManagement>
+  
+
+    <dependencies>
+  
+
+    </dependencies>
+
+  </dependencyManagement>
 </project>
+

@@ -1,0 +1,44 @@
+1721134876792	geckodriver	INFO	Listening on 127.0.0.1:2049
+1721134876798	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofiletnm2sj"
+*** You are running in headless mode.
+cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[GFX1-]: glxtest: Unable to open a connection to the X server
+1721134877088	Marionette	INFO	Marionette enabled
+11721134877181	Marionette	INFO	Listening on port 4509111721134877288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session11721134877325	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:34027","sslProxy":"127.0.1.1:34027"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dtcconsole.error: ({})JJavaScript error: https://www.youtube.coJavaScript warning: https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f5791721134885288	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+JavaScript error: https://www.office.com/, line 2361: ReferenceError: $ is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c71721134907623	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 9: ReferenceError: jQuery is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 5: uncaught exception: factoryInput should has either component or c to tell the factory what component to create.Eg.ComponentFactory.create([{ c: Carousel] or ComponentFactory.create([component: Carousel]))
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://www.youtube-nocookie.com/embed/ELW4Jdvujbc?si=sE2V6C7oFHugIquT, line 10: ReferenceError: writeEmbed is not defined
+console.error: ({})
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c, line 350: Script terminated by timeout at:
+um@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:350:425
+ca.xm@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:638:309
+c@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:654:784
+tn@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:361:1
+sn.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:363:278
+sn.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:361:395
+ln@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:358:764
+rH/<@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:655:178
+ca.Hk/<@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:598:126
+ca.Hk/c/<@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:597:420
+
+1721134907131	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js, line 11: Script terminated by timeout at:
+flush@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:2568571
+flush@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:2571758
+flush@https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js:11:2483014
+flushStats@https://www.icloud.com/system/icloud.com/1721134910145	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

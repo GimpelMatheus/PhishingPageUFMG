@@ -1,0 +1,17 @@
+http://apple.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2508614, moz:profile: /tmp/rust_mozprofileqRBKRV, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 2d4a2222-f7eb-4d98-8742-8c240c267f65http://office.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2516300, moz:profile: /tmp/rust_mozprofileD01hss, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 12d51f16-008f-483d-a284-e9c8290c6405http://windowsupdate.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:10982
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://googletagmanager.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:31580
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriver

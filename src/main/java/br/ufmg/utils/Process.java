@@ -1,5 +1,6 @@
 package br.ufmg.utils;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -8,20 +9,25 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.nio.file.Path;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.HashSet;
-import java.util.Set;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.littleshoot.proxy.HttpFilters;
 import org.littleshoot.proxy.HttpFiltersAdapter;
 import org.littleshoot.proxy.HttpFiltersSourceAdapter;
 import org.openqa.selenium.Proxy;
+import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.google.common.net.HttpHeaders;
@@ -36,11 +42,6 @@ import net.lightbody.bmp.BrowserMobProxy;
 import net.lightbody.bmp.BrowserMobProxyServer;
 import net.lightbody.bmp.client.ClientUtil;
 import net.lightbody.bmp.core.har.HarEntry;
-
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.apache.commons.codec.digest.DigestUtils;
 
 public class Process implements Runnable {
 
@@ -154,21 +155,32 @@ public class Process implements Runnable {
 		}
 	}
 
-	public void getFirefoxDriver(DesiredCapabilities capabilities) {
+	// public void getFirefoxDriver(DesiredCapabilities capabilities) {
+	// 	FirefoxOptions options = new FirefoxOptions();
+	// 	options.setProxy(seleniumProxy);
+	// 	options.setHeadless(true);
+	// 	options.merge(capabilities);
+
+	// 	Path nullFileLog = this.logsWriter.getLogDirPath().resolve(this.logsWriter.getStandardFileNameFromSuffix("null"));
+	// 	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, nullFileLog.toString());
+	// 	driver = new FirefoxDriver(options);
+	// }
+
+	public void getFirefoxDriver(DesiredCapabilities capabilities){
 		FirefoxOptions options = new FirefoxOptions();
+		options.setBinary(new FirefoxBinary(new File("/home/gimpel/firefox/firefox"))); 
 		options.setProxy(seleniumProxy);
 		options.setHeadless(true);
 		options.merge(capabilities);
 
 		Path nullFileLog = this.logsWriter.getLogDirPath().resolve(this.logsWriter.getStandardFileNameFromSuffix("null"));
-		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, nullFileLog.toString());
-		driver = new FirefoxDriver(options);
+		FirefoxDriver driver = new FirefoxDriver(options);
 	}
 
 	public Response accessURL(String composedURL) {
 		String[] temp = composedURL.split("  ");
 		String url = temp[0];
-		// System.out.println(url);
+		System.out.println(url);
 
 		String dom = "";
 		if (url.contains("http") == true) {

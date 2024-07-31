@@ -1,0 +1,24 @@
+http://office.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2363477, moz:profile: /tmp/rust_mozprofilepGCM9x, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 5381e2a1-2946-4961-855b-11ff0adbf74dhttp://netflix.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2365742, moz:profile: /tmp/rust_mozprofileDXvfH8, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 7be4d0a4-0510-4195-a080-4f556140122ahttp://youtu.beorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2367813, moz:profile: /tmp/rust_mozprofilevHrP1r, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 8f7edf06-c1d4-4439-96cc-8791220fa020http://goo.glorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6777
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://s-msedge.netorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2376001, moz:profile: /tmp/rust_mozprofileIwBkSB, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 4162e500-fd4b-405a-b925-c3fa3b07a4c9

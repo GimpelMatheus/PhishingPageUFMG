@@ -1,0 +1,84 @@
+1721135052818	geckodriver	INFO	Listening on 127.0.0.1:7932
+11721135052845	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileH6AMh4"**** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721135053244	Marionette	INFO	Marionette enabled
+1721135053396	Marionette	INFO	Listening on port 40979
+1721135053511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721135053545	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:45249","sslProxy":"127.0.1.1:45249"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})c1721135086589	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://mail.ru/, line 317: TypeError: o is null
+JavaScript warning: https://top-fwz1.mail.ru/js/code.js, line 12: Script terminated by timeout at:
+Da@https://top-fwz1.mail.ru/js/code.js:12:429
+F@https://top-fwz1.mail.ru/js/code.js:64:288
+p@https://top-fwz1.mail.ru/js/code.js:61:241
+n@https://top-fwz1.mail.ru/js/code.js:60:453
+m@https://top-fwz1.mail.ru/js/code.js:59:380
+g@https://top-fwz1.mail.ru/js/code.js:59:117
+k@https://top-fwz1.mail.ru/js/code.js:58:446
+c@https://top-fwz1.mail.ru/js/code.js:57:159
+
+JavaScript warning: https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1, line 1: Script terminated by timeout at:
+f@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:5691
+u@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:6165
+T@https://yandex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:6308
+
+JavaScript error: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js, line 6: Script terminated by timeout at:
+na/r<@https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js:6:21214
+
+1721135108973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+GL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+r: https://www.facebook.com/, line 23: ReferenceError: requireLazy is not defined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+1721135083183	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://www.youtube-nocookie.com/embed/ELW4Jdvujbc?si=sE2V6C7oFHugIquT, line 10: ReferenceError: writeEmbed is not defined
+console.error: ({})
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c, line 599: Script terminated by timeout at:
+ca.qh@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:599:30
+get@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:597:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:597:87
+ca.Hk/c/<@https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c:597:412
+
+eh08muqvrde4h3hc6koyij5ti:1:212889
+n@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:209827
+
+1721135086415	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined

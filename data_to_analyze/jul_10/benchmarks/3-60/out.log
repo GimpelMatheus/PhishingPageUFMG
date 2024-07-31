@@ -1,0 +1,114 @@
+[INFO] Starting thread 0
+[INFO] Starting thread 1
+[INFO] Starting thread 2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 09, 2024 5:41:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:41:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:41:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 1...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 5:42:30 AM io.netty.util.ResourceLeakDetector reportUntracedLeak
+SEVERE: LEAK: ByteBuf.release() was not called before it's garbage-collected. Enable advanced leak reporting to find out where the leak occurred. To enable advanced leak reporting, specify the JVM option '-Dio.netty.leakDetection.level=advanced' or call ResourceLeakDetector.setLevel() See http://netty.io/wiki/reference-counted-objects.html for more information.
+Jul 09, 2024 5:42:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:42:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:42:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 2...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 5:53:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:53:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:53:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 3...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 5:54:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:54:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 5:54:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 4...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:00:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:00:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:00:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 5...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:02:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:02:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:02:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 6...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:07:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:07:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:07:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 7...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:08:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:08:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:08:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 8...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:11:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:11:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:11:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO] Restarting process 9...
+[INFO] Waiting...
+[INFO] Restarting thread 0
+[INFO] Restarting thread 1
+[INFO] Restarting thread 2
+Jul 09, 2024 6:13:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:13:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 09, 2024 6:13:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+========= ERROR ABOVE ========

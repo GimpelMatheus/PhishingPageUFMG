@@ -1,0 +1,6 @@
+1721161664940	geckodriver	INFO	Listening on 127.0.0.1:25381
+1721161664948	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileB6OzoJ"
+*** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server11721161665650	Marionette	INFO	Marionette enabled11721161665754	Marionette	INFO	Listening on port 4152311721161666010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session11721161666081	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:36593","sslProxy":"127.0.1.1:36593"}[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+11721161698845	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

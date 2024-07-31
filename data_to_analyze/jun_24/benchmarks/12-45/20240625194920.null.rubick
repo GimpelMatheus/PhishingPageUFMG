@@ -1,0 +1,26 @@
+1719356114848	geckodriver	INFO	Listening on 127.0.0.1:7112
+
+bDriver implementation for Firefox
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+FLAGS:
+        --connect-existing    Connect to an existing Firefox instance
+    -h, --help                Prints this message
+        --jsdebugger          Attach browser toolbox debugger for Firefox
+    -v                        Log level verbosity (/-hvo mfeo/rm gdiembpuegl /agnedc k-ovdvr ifvoerr :t rearcreo rl:e vAedld)r
+e s s   i-nV ,u s-e- v(eorss ieornr o r   9 8 ) 
+      Prints version and copying information
+
+OPTIONS:
+        --android-storage <ANDROID_STORAGE>    Selects storage location to be used for test data (deprecated). [possible
+                                               values: auto, app, internal, sdcard]
+    -b, --binary <BINARY>                      Path to the Firefox binary
+        --log <LEVEL>                          Set Gecko log level [possible values: fatal, error, warn, info, config,
+                                               debug, trace]
+        --marionette-host <HOST>               Host to use to connect to Gecko [default: 127.0.0.1]
+        --marionette-port <PORT>               Port to use to connect to Gecko [default: system-allocated port]
+        --host <HOST>                          Host IP to use for WebDriver server [default: 127.0.0.1]
+    -p, --port <PORT>                          Port to use for WebDriver server [default: 4444]
+        --websocket-port <PORT>                Port to use to connect to WebDriver BiDi [default: 9222]

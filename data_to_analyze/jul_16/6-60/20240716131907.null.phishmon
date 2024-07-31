@@ -1,0 +1,65 @@
+1721135953966	geckodriver	INFO	Listening on 127.0.0.1:21654
+1721135954003	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilecUvkjf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1721135954450	Marionette	INFO	Marionette enabled
+1721135954766	Marionette	INFO	Listening on port 43945
+1721135954945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721135954979	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:44309","sslProxy":"127.0.1.1:44309"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1721135987418	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1721136019089	Marionconsole.error: ({})
+vent 'pageshow' because document has an invalid readyState of 'uninitialized'.
+cript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?verJavaScript error: https://www.facebook.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 19: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 20: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 21: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 22:JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js, line 6: Script terminated by timeout at:
+Ac/</h.setUnloading@https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js:6:77416
+y@https://js.monitor.azure.com/scripts/c/ms.sharedconsole.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+console.error: ({})
+console.error: ({})
+1721135984586	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+1721135984477	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://mail.ru/, line 317: TypeError: o is null
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://vimeo.com/, line 4: Script terminated by timeout at:
+p@https://vimeo.com/:4:7588
+k/<@https://vimeo.com/:4:26072
+
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})

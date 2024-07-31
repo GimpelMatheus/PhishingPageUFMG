@@ -1,0 +1,16 @@
+1721750650699	geckodriver	INFO	Listening on 127.0.0.1:20043
+1721750650767	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/hom ... s" "http://127.0.0.1:15833/,http://localhost:15833/,http://[::1]:15833/" "-no-remote" "-profile" "/tmp/rust_mozprofileTux9Ad"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721750651685	Marionette	INFO	Marionette enabled
+1721750651980	Marionette	INFO	Listening on port 44805
+WebDriver BiDi listening on ws://127.0.0.1:14602
+Read port: 44805
+1721750652406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721750652478	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:44299","sslProxy":"127.0.1.1:44299"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})DDevTools listening on ws://127.0.0.1:14602/devtools/browser/29b2bb60-b87d-4410-9317-8f5a9a5fe4e171721750684689	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URLExExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

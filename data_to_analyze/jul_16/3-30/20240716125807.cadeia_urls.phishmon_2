@@ -1,0 +1,44 @@
+http://microsoft.com  WebDriverException  0
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1612:58:18UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1612:58:18UTC2024  https://www.apple.com/  -200
+TueJul1612:58:18UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://github.com  https://github.com/  20.201.28.151
+TueJul1612:58:49UTC2024  http://github.com/  https://github.com/  301TueJul1612:58:50UTC2024  https://github.com/  -200
+TueJul1612:58:51UTC2024  https://github.githubassets.com/assets/light-efd2f2257c96.css  -200
+TueJul1612:58:51UTC2024  https://github.githubassets.com/assets/primer-fbdbeff9329d.css  -200
+TueJul1612:58:51UTC2024  https://github.githubassets.com/assets/global-4ff23c0615da.css  -200
+*!-@x!x@-!*
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+TueJul1612:58:51UTC2024  http://yahoo.com/  https://yahoo.com/  301TueJul1612:58:53UTC2024  https://yahoo.com/  https://www.yahoo.com/  301TueJul1612:58:53UTC2024  https://www.yahoo.com/  https://br.yahoo.com/?p=us  302TueJul1612:58:55UTC2024  https://br.yahoo.com/?p=us  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  301TueJul1612:58:56UTC2024  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  -200
+TueJul1612:58:56UTC2024  https://s.yimg.com/pv/static/ms/plugin-SrpRapidRefresh.srp.d3b117c39700731c4d9a9c15293be810.min.js  -200
+TueJul1612:58:56UTC2024  https://s.yimg.com/zz/combo?pv/static/lib/syc-startpage_1d54bbd5a52d42716affbfc71441761c.css  -200
+TueJul1612:58:56UTC2024  https://s.yimg.com/pv/static/ms/trendingNow.srp-atomic.72aeaebecdf2086ec5e3e97262670f36.min.css  -200
+TueJul1612:58:57UTC2024  https://br.search.yahoo.com/favicon.ico  -200
+TueJul1612:58:58UTC2024  https://search.yahoo.com/static/font/search/Roboto-Bold-202103020707.woff2  -200
+TueJul1612:58:58UTC2024  https://search.yahoo.com/static/font/search/Roboto-Regular-202103020707.woff2  -200
+*!-@x!x@-!*
+http://digicert.com  https://www.digicert.com/  45.60.127.229
+TueJul1612:58:58UTC2024  http://digicert.com/  https://digicert.com/  301TueJul1612:58:59UTC2024  https://digicert.com/  https://www.digicert.com/  301TueJul1612:59:00UTC2024  https://www.digicert.com/  -200
+TueJul1612:59:01UTC2024  https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js  -200
+TueJul1612:59:01UTC2024  https://assets.adobedtm.com/extensions/EPef068a8d6dd34a43866d9a80cc98baab/AppMeasurement.min.js  -200
+TueJul1612:59:01UTC2024  https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=9A343704532966210A490D44%40AdobeOrg&d_nsid=0&ts=1721134741170  -200
+TueJul1612:59:01UTC2024  https://digicert.demdex.net/dest5.html?d_nsid=0  -200
+TueJul1612:59:02UTC2024  https://seal.digicert.com/seals/cascade/seal.min.js  -200
+TueJul1612:59:02UTC2024  https://c.la3-c1-ia5.salesforceliveagent.com/content/g/js/51.0/deployment.js  -200
+TueJul1612:59:02UTC2024  https://cm.everesttech.net/cm/dd?d_uuid=60955315014772520120234212582460007663  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZulgAAAGHx9wNx  302TueJul1612:59:02UTC2024  https://seal.digicert.com/seals/cascade/?tag=QpVPir5r&referer=www.digicert.com&format=svg&lang=en&cbr=1721134742784  -200
+TueJul1612:59:02UTC2024  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZulgAAAGHx9wNx  -200
+TueJul1612:59:03UTC2024  https://d.la3-c1-ia5.salesforceliveagent.com/chat/rest/System/MultiNoun.jsonp?nouns=VisitorId,Settings&VisitorId.prefix=Visitor&Settings.prefix=Visitor&Settings.buttonIds=[5730z0000008OtS,5730z0000008Ouz,5730z0000008Orb]&Settings.updateBreadcrumb=1&Settings.urlPrefix=undefined&callback=liveagent._.handlePing&deployment_id=5720z0000008One&org_id=00D60000000KAGN&version=51  -200
+*!-@x!x@-!*
+http://comcast.net  https://www.xfinity.com/national/  23.61.141.31
+TueJul1612:59:03UTC2024  http://comcast.net/  http://www.comcast.net  301TueJul1612:59:03UTC2024  http://www.comcast.net/  https://www.xfinity.com/  301TueJul1612:59:04UTC2024  https://www.xfinity.com/  https://www.xfinity.com/national/  302TueJul1612:59:05UTC2024  https://www.xfinity.com/national/  -200
+TueJul1612:59:05UTC2024  https://www.xfinity.com/national/xfinity-learn-ui/runtime.6e96b5bdd544af2aa644.js  -200
+TueJul1612:59:06UTC2024  https://static.cimcontent.net/data-layer/?appID=resi_shop_2  -200
+TueJul1612:59:07UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-6547_large-prices-on-homepage/carousel-image-3-dt.png  -200
+TueJul1612:59:07UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-6547_large-prices-on-homepage/carousel-image-2-dt.png  -200
+TueJul1612:59:07UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-6547_large-prices-on-homepage/2-LOB-Entertainment-Hover-Tile-DT.png  -200
+TueJul1612:59:07UTC2024  https://dl.cws.xfinity.com/event/  -0
+*!-@x!x@-!*

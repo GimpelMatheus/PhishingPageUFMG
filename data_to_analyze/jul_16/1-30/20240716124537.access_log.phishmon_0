@@ -1,0 +1,12 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.28.228
+http://a-msedge.net  -  0
+http://microsoft.com  TimeoutException  0
+http://facebook.com  https://www.facebook.com/  157.240.226.35
+http://amazonaws.com  https://aws.amazon.com/  13.227.97.41
+http://googleapis.com  http://googleapis.com/  142.250.218.196
+http://apple.com  https://www.apple.com/  23.37.8.244
+http://youtube.com  https://www.youtube.com/  142.251.129.238
+http://root-servers.net  -  0
+http://akamai.net  -  0
+http://azure.com  TimeoutException  0
+http://akamaiedge.net  -  0

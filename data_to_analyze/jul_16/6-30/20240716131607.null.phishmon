@@ -1,0 +1,74 @@
+1721135772870	geckodriver	INFO	Listening on 127.0.0.1:15962
+1721135772890	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilesFieIn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721135773315	Marionette	INFO	Marionette enabled11721135773470	Marionette	INFO	Listening on port 3818711721135773593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session11721135773610	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:37593","sslProxy":"127.0.1.1:37593"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dtcconsole.error: ({})1721135806322	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+s not a valid URL.
+avaScript error: https://www.facebook.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, 1721135803777	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://zoom.us/, line 275: TypeError: window.__MONITOR__ is undefined
+console.error: ({})
+JavaScript error: https://st3.zoom.us/static/6.3.23157/js/app/home_v2.min.js, line 1: ReferenceError: Swiper is not defined
+22: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 22: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.facebook.com/, line 23: ReferenceError: requireLazy is not defined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWconsole.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://privacy-cs.mail.ru/static/sync-loader.js, line 5: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeG1721135804725	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 15: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 16: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 17: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 19: ReferenceError: requireLazy is not defined
+console.error: ({})
+ex.ru/portal/searchframe/desktop?theme=system&button=&mstatid=100000000&dark_theme=0&image_search=1:1:6308
+
+JavaScript error: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: http://ntp.org/, line 36: TypeError: document.getElementById(...) is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+e@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:1784
+168/B/t<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:4607
+B@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:4899
+168/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:2797
+
+console.error: ({})
+JavaScript warning: https://staticfile.qq.com/qimei/qimeisdk-web/0.6.3/lite.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://staticfile.qq.com/qimei/qimeisdk-web/0.6.3/lite.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1721135828774	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.

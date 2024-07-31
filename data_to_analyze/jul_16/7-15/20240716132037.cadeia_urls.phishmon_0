@@ -1,0 +1,51 @@
+http://a-msedge.net  -  0
+TueJul1613:20:49UTC2024  http://a-msedge.net/  -0
+TueJul1613:20:50UTC2024  http://a-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://googleapis.com  http://googleapis.com/  142.251.129.228
+TueJul1613:20:50UTC2024  http://googleapis.com/  -404
+TueJul1613:20:50UTC2024  http://www.google.com/images/errors/robot.png  -200
+TueJul1613:20:51UTC2024  http://googleapis.com/favicon.ico  -0
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1613:20:51UTC2024  http://root-servers.net/  -0
+TueJul1613:20:51UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://aaplimg.com  -  0
+TueJul1613:21:06UTC2024  http://aaplimg.com/  -0
+TueJul1613:21:06UTC2024  http://aaplimg.com/favicon.ico  -0
+*!-@x!x@-!*
+http://adobe.com  https://www.adobe.com/  2.16.197.140
+TueJul1613:21:06UTC2024  http://adobe.com/  https://adobe.com/  301TueJul1613:21:07UTC2024  https://adobe.com/  https://www.adobe.com/  301TueJul1613:21:07UTC2024  https://www.adobe.com/  -200
+TueJul1613:21:07UTC2024  https://www.adobe.com/homepage/scripts/scripts.js  -200
+TueJul1613:21:07UTC2024  https://www.adobe.com  -0
+*!-@x!x@-!*
+http://skype.com  https://www.skype.com/en/  52.113.194.133
+TueJul1613:21:07UTC2024  http://skype.com/  https://www.skype.com/  301TueJul1613:21:08UTC2024  https://www.skype.com/  /en/  301TueJul1613:21:08UTC2024  https://www.skype.com/en/  -200
+TueJul1613:21:09UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1613:21:09UTC2024  https://secure.skypeassets.com/apollo/0.0.0/lib/jquery-3.4.1.min.js  -200
+TueJul1613:21:09UTC2024  https://secure.skypeassets.com/apollo/2.1.1806/css/main-v4.css  -200
+TueJul1613:21:09UTC2024  https://secure.skypeassets.com/apollo/2.1.1806/js/non-requirejs/bundle.js  -200
+TueJul1613:21:09UTC2024  https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js  -200
+TueJul1613:21:09UTC2024  https://a.lw.skype.com/login/silent?client_id=815617&response_type=postmessage&redirect_uri=https://www.skype.com&timestamp=1721136069680  https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=155&checkda=1&ct=1721136070.26879&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fa.lw.skype.com%2Flogin%2Fsilent%2FMSACallback%3Fsite_name%3Dlw.skype.com%26client_id%3D815617%26response_type%3Dpostmessage%26redirect_uri%3Dhttps%253a%252f%252fwww.skype.com%26session_id%3D080gsBzJHENr1RNWfivC&lc=1033&id=293290  302TueJul1613:21:10UTC2024  https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=155&checkda=1&ct=1721136070.26879&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fa.lw.skype.com%2Flogin%2Fsilent%2FMSACallback%3Fsite_name%3Dlw.skype.com%26client_id%3D815617%26response_type%3Dpostmessage%26redirect_uri%3Dhttps%253a%252f%252fwww.skype.com%26session_id%3D080gsBzJHENr1RNWfivC&lc=1033&id=293290  https://a.lw.skype.com/login/silent/MSACallback?site_name=lw.skype.com&client_id=815617&response_type=postmessage&redirect_uri=https%3a%2f%2fwww.skype.com&session_id=080gsBzJHENr1RNWfivC  302TueJul1613:21:10UTC2024  https://a.lw.skype.com/login/silent/MSACallback?site_name=lw.skype.com&client_id=815617&response_type=postmessage&redirect_uri=https%3a%2f%2fwww.skype.com&session_id=080gsBzJHENr1RNWfivC  -200
+*!-@x!x@-!*
+http://yandex.net  https://ya.ru/showcaptcha?cc=1&mt=B2D6940EFD6519552240253216121DF0C71A34C487127F920E409068765B720EA3025A13C4D6DA7012513DB0F94793B5BE616E58C76CF158DE1E908661779B64CBEE324A5E7468B27D2E5791FC6A92F65B613023DAFB772AC8CBE754486999FCC505E2B1CF2F67491D91EF87334016B1586ABBDCD85F1730BAE53DFCC508288641B0FF71919A35FD5F14BCEAA5C6225EBF074B9E95821F40D9A5BA459117ACC1CF84A0F28280477E64F0281A3A17189A43C891F800C0AFE9E104C2E63030780A199895518F9BA6151AC42A63A82F352D9A685C0C18AFDF7D10277A084E3E56&retpath=aHR0cHM6Ly95YS5ydS8_bnI9MSZyZWRpcmVjdF90cz0xNzIxMTM2MDcyLjAwMDAw_23f6f8594b9ae4cfcb8c87f9aef8733d&t=2/1721136072/58452f0f9a07fb6d9c2f5a206f958c7f&u=3859cedf-ef1092cf-7d17cfd1-1c9886f&s=4b846d40dcb81997f37dee9547206463  77.88.44.242
+TueJul1613:21:11UTC2024  http://yandex.net/  https://ya.ru/  302TueJul1613:21:12UTC2024  https://ya.ru/  https://ya.ru/?nr=1&redirect_ts=1721136072.00000  302TueJul1613:21:12UTC2024  https://ya.ru/?nr=1&redirect_ts=1721136072.00000  https://ya.ru/showcaptcha?cc=1&mt=B2D6940EFD6519552240253216121DF0C71A34C487127F920E409068765B720EA3025A13C4D6DA7012513DB0F94793B5BE616E58C76CF158DE1E908661779B64CBEE324A5E7468B27D2E5791FC6A92F65B613023DAFB772AC8CBE754486999FCC505E2B1CF2F67491D91EF87334016B1586ABBDCD85F1730BAE53DFCC508288641B0FF71919A35FD5F14BCEAA5C6225EBF074B9E95821F40D9A5BA459117ACC1CF84A0F28280477E64F0281A3A17189A43C891F800C0AFE9E104C2E63030780A199895518F9BA6151AC42A63A82F352D9A685C0C18AFDF7D10277A084E3E56&retpath=aHR0cHM6Ly95YS5ydS8_bnI9MSZyZWRpcmVjdF90cz0xNzIxMTM2MDcyLjAwMDAw_23f6f8594b9ae4cfcb8c87f9aef8733d&t=2/1721136072/58452f0f9a07fb6d9c2f5a206f958c7f&u=3859cedf-ef1092cf-7d17cfd1-1c9886f&s=4b846d40dcb81997f37dee9547206463  302TueJul1613:21:13UTC2024  https://ya.ru/showcaptcha?cc=1&mt=B2D6940EFD6519552240253216121DF0C71A34C487127F920E409068765B720EA3025A13C4D6DA7012513DB0F94793B5BE616E58C76CF158DE1E908661779B64CBEE324A5E7468B27D2E5791FC6A92F65B613023DAFB772AC8CBE754486999FCC505E2B1CF2F67491D91EF87334016B1586ABBDCD85F1730BAE53DFCC508288641B0FF71919A35FD5F14BCEAA5C6225EBF074B9E95821F40D9A5BA459117ACC1CF84A0F28280477E64F0281A3A17189A43C891F800C0AFE9E104C2E63030780A199895518F9BA6151AC42A63A82F352D9A685C0C18AFDF7D10277A084E3E56&retpath=aHR0cHM6Ly95YS5ydS8_bnI9MSZyZWRpcmVjdF90cz0xNzIxMTM2MDcyLjAwMDAw_23f6f8594b9ae4cfcb8c87f9aef8733d&t=2/1721136072/58452f0f9a07fb6d9c2f5a206f958c7f&u=3859cedf-ef1092cf-7d17cfd1-1c9886f&s=4b846d40dcb81997f37dee9547206463  -200
+TueJul1613:21:15UTC2024  https://adfstat.yandex.ru/captcha?req_id=1721136073227260-8687818448034554800-balancer-l7leveler-kubr-yp-klg-212-BAL&unique_key=3859cedf-ef1092cf-7d17cfd1-1c9886f  -200
+TueJul1613:21:15UTC2024  https://captcha-backgrounds.s3.yandex.net/static/default-background.jpg  -200
+*!-@x!x@-!*
+http://whatsapp.com  https://www.whatsapp.com/  31.13.85.51
+TueJul1613:21:16UTC2024  http://whatsapp.com/  https://whatsapp.com/  301TueJul1613:21:17UTC2024  https://whatsapp.com/  https://www.whatsapp.com/  302TueJul1613:21:18UTC2024  https://www.whatsapp.com/  -200
+*!-@x!x@-!*
+http://ytimg.com  -  0
+TueJul1613:21:19UTC2024  http://ytimg.com/  -0
+TueJul1613:21:19UTC2024  http://ytimg.com/favicon.ico  -0
+*!-@x!x@-!*
+http://blogspot.com  TimeoutException  0
+*!-@x!x@-!*
+http://app-measurement.com  http://app-measurement.com/  142.251.129.14
+TueJul1613:21:34UTC2024  http://app-measurement.com/  -404
+TueJul1613:21:35UTC2024  http://app-measurement.com/favicon.ico  -0
+*!-@x!x@-!*

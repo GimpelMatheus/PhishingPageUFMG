@@ -1,0 +1,166 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.36
+TueJul1612:58:12UTC2024  http://google.com/  http://www.google.com/  301TueJul1612:58:12UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1612:58:12UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1612:58:13UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1612:58:13UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1612:58:13UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1612:58:13UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1612:58:14UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1612:58:14UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+*!-@x!x@-!*
+http://amazonaws.com  WebDriverException  0
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1612:58:19UTC2024  http://root-servers.net/  -0
+TueJul1612:58:19UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1612:58:19UTC2024  http://akamai.net/  -0
+TueJul1612:58:19UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamaiedge.net  -  0
+TueJul1612:58:19UTC2024  http://akamaiedge.net/  -0
+TueJul1612:58:19UTC2024  http://akamaiedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133343730317df7289ab7cc39c70aa37f76edb9107a9c  104.244.42.193
+TueJul1612:58:19UTC2024  http://twitter.com/  https://twitter.com/  301TueJul1612:58:20UTC2024  https://twitter.com/  https://x.com/  302TueJul1612:58:21UTC2024  https://x.com/  -200
+*!-@x!x@-!*
+http://cloudflare.com  https://www.cloudflare.com/  104.16.123.96
+TueJul1612:58:22UTC2024  http://cloudflare.com/  https://www.cloudflare.com/  301TueJul1612:58:22UTC2024  https://www.cloudflare.com/  -200
+TueJul1612:58:22UTC2024  https://www.cloudflare.com/img/privacyoptions.svg  -200
+TueJul1612:58:23UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/3hozCySUonJzxSF7TBtDeF/09c3642522b5a9036c157dcab3a59b8d/performance-acceleration-bolt.svg  -200
+TueJul1612:58:23UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/1uRN3TielOR3e6aKNQKRaA/9782c19544fa2aa7677785e7dfd10018/Flare_Exploration-4.19.24.svg  -200
+TueJul1612:58:23UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/74GDwwyKnKfYYz1QQEQh1P/c7232082d74a2cb16d2197596662f593/security-shield-protection-2.svg  -200
+TueJul1612:58:23UTC2024  https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015  -200
+*!-@x!x@-!*
+http://office.com  https://www.office.com/  13.107.6.156
+TueJul1612:58:23UTC2024  http://office.com/  https://www.office.com/  301TueJul1612:58:23UTC2024  https://www.office.com/  -200
+TueJul1612:58:24UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_light.woff2  -200
+TueJul1612:58:24UTC2024  https://res.cdn.office.net/officehub/bundles/sharedfontstyles-f7f2466ff5.css  -200
+TueJul1612:58:24UTC2024  https://res.cdn.office.net/officehub/versionless/webfonts/segoeui_regular.woff2  -200
+TueJul1612:58:24UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1  -200
+TueJul1612:58:24UTC2024  https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/1b-9d8ed9/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/43-5a5ab8/ca-ae3ce4?ver=2.0&_cf=02242021_3231  -200
+TueJul1612:58:24UTC2024  https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1  -200
+TueJul1612:58:24UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1612:58:25UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Semibold/latest.woff2  -200
+TueJul1612:58:25UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2  -200
+TueJul1612:58:25UTC2024  https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js  -200
+TueJul1612:58:25UTC2024  https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31  -200
+*!-@x!x@-!*
+http://tiktokcdn.com  -  0
+TueJul1612:58:25UTC2024  http://tiktokcdn.com/  -0
+TueJul1612:58:25UTC2024  http://tiktokcdn.com/favicon.ico  -0
+*!-@x!x@-!*
+http://windowsupdate.com  -  0
+TueJul1612:58:25UTC2024  http://windowsupdate.com/  -0
+TueJul1612:58:25UTC2024  http://windowsupdate.com/favicon.ico  -0
+*!-@x!x@-!*
+http://fbcdn.net  https://www.facebook.com/  31.13.85.36
+TueJul1612:58:25UTC2024  http://fbcdn.net/  https://fbcdn.net/  301TueJul1612:58:26UTC2024  https://fbcdn.net/  https://www.facebook.com/  302TueJul1612:58:26UTC2024  https://www.facebook.com/  -200
+*!-@x!x@-!*
+http://googletagmanager.com  http://googletagmanager.com/  172.217.30.72
+TueJul1612:58:27UTC2024  http://googletagmanager.com/  -400
+TueJul1612:58:27UTC2024  http://googletagmanager.com/favicon.ico  -0
+*!-@x!x@-!*
+http://akadns.net  -  0
+TueJul1612:58:27UTC2024  http://akadns.net/  -0
+TueJul1612:58:27UTC2024  http://akadns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://doubleclick.net  https://marketingplatform.google.com/about/enterprise/  142.251.129.110
+TueJul1612:58:27UTC2024  http://doubleclick.net/  https://marketingplatform.google.com/about/enterprise/  301TueJul1612:58:27UTC2024  https://marketingplatform.google.com/about/enterprise/  -200
+TueJul1612:58:28UTC2024  https://marketingplatform.google.com/about/static/css/index.min.css  -200
+TueJul1612:58:28UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js  -200
+TueJul1612:58:28UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js  -200
+TueJul1612:58:28UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js  -200
+TueJul1612:58:28UTC2024  https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en  -200
+TueJul1612:58:28UTC2024  https://lh3.googleusercontent.com/eBgXEvVz_cqaqw5ZZRjWndAKwLuWlFXuf9CW0NHHMgK3BY5TCrI2AE1tsq20ZeXM55Ay4lGC3k39gfjxW2hsgdWsDteysR3NdiHaVAA=s768  -200
+TueJul1612:58:28UTC2024  https://lh3.googleusercontent.com/wrHKPwn_RKCusdpmICnKeZoYVzfup5x3e6UFj58iVzEymAnru1XWjhrl2mFu5eLJ8XMp_6uNuffhhCr0HiIGUtQkhh4WKXH-COzmOA=s1500  -200
+TueJul1612:58:28UTC2024  https://lh3.googleusercontent.com/BfyS-j_OOTMqkt4eomWru4C8MOdli_YtSaXpmkI-qdjd6cAF1Po5s5CxF6i_iFSYfhjPlb7VpAPMAySNN-tz-bzp1lvhg9N0BGwG=s1500  -200
+*!-@x!x@-!*
+http://amazon.com  https://www.amazon.com/  13.227.99.60
+TueJul1612:58:28UTC2024  http://amazon.com/  https://amazon.com/  301TueJul1612:58:29UTC2024  https://amazon.com/  https://www.amazon.com/  301TueJul1612:58:30UTC2024  https://www.amazon.com/  -200
+TueJul1612:58:30UTC2024  https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css  -200
+TueJul1612:58:30UTC2024  https://images-na.ssl-images-amazon.com/captcha/usvmgloq/Captcha_rzzstrybci.jpg  -200
+TueJul1612:58:30UTC2024  https://www.amazon.com/favicon.ico  -200
+TueJul1612:58:31UTC2024  https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=DSX1YKQ6FW88B2W9KWYN&js=1  -200
+*!-@x!x@-!*
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224
+TueJul1612:58:31UTC2024  http://wikipedia.org/  https://wikipedia.org/  301TueJul1612:58:31UTC2024  https://wikipedia.org/  https://www.wikipedia.org/  301TueJul1612:58:31UTC2024  https://www.wikipedia.org/  -200
+TueJul1612:58:31UTC2024  https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png  -200
+*!-@x!x@-!*
+http://bing.com  http://www.bing.com/  2.16.197.82
+TueJul1612:58:32UTC2024  http://bing.com/  http://www.bing.com/  301TueJul1612:58:32UTC2024  http://www.bing.com/  -200
+TueJul1612:58:32UTC2024  http://www.bing.com/th?id=OHR.AncientOrkney_PT-BR0835986378_1920x1080.webp&qlt=50  -200
+TueJul1612:58:32UTC2024  http://www.bing.com/sa/simg/bhp_scope_cplt16.png  -200
+TueJul1612:58:32UTC2024  https://r.bing.com/rp/ICf9X-WMafiZOnS_3M9RpM8994E.gz.js  -200
+TueJul1612:58:32UTC2024  https://r.bing.com/rp/5WG_kDsbFabhsuv_6NwDoh2LdnI.gz.js  -200
+TueJul1612:58:32UTC2024  https://r.bing.com/rp/TSj0Olu98pyCJmMY_0MY_Uva-qk.gz.js  -200
+*!-@x!x@-!*
+http://gtld-servers.net  -  0
+TueJul1612:58:33UTC2024  http://gtld-servers.net/  -0
+TueJul1612:58:33UTC2024  http://gtld-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://microsoftonline.com  -  0
+TueJul1612:58:33UTC2024  http://microsoftonline.com/  -0
+TueJul1612:58:33UTC2024  http://microsoftonline.com/favicon.ico  -0
+*!-@x!x@-!*
+http://trafficmanager.net  -  0
+TueJul1612:58:33UTC2024  http://trafficmanager.net/  -0
+TueJul1612:58:33UTC2024  http://trafficmanager.net/favicon.ico  -0
+*!-@x!x@-!*
+http://netflix.com  https://www.netflix.com/br-en/  3.211.157.115
+TueJul1612:58:33UTC2024  http://netflix.com/  https://netflix.com/  301TueJul1612:58:34UTC2024  https://netflix.com/  https://www.netflix.com/  301TueJul1612:58:35UTC2024  https://www.netflix.com/  https://www.netflix.com/br-en/  302TueJul1612:58:35UTC2024  https://www.netflix.com/br-en/  -200
+TueJul1612:58:36UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp-reskin.6a003302aa4c93b29722.css  -200
+TueJul1612:58:36UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp.a1bcda71010575046231.css  -200
+TueJul1612:58:36UTC2024  https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/core/dist/ui/js/signup/nmhp/nmhpFrameworkClient.14f66b8d295d0506f22f.js  -200
+TueJul1612:58:36UTC2024  https://cdn.cookielaw.org/scripttemplates/otSDKStub.js  -200
+TueJul1612:58:36UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteScreen&winw=1366&winh=768&screenw=1366&screenh=683&ratio=1  -200
+TueJul1612:58:36UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteDetect&modalView=nmLanding  -200
+TueJul1612:58:36UTC2024  https://cdn.cookielaw.org/consent/87b6a5c0-0104-4e96-a291-092c11350111/87b6a5c0-0104-4e96-a291-092c11350111.json  -200
+TueJul1612:58:36UTC2024  https://occ-0-7270-185.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55  -200
+*!-@x!x@-!*
+http://apple-dns.net  -  0
+TueJul1612:58:36UTC2024  http://apple-dns.net/  -0
+TueJul1612:58:36UTC2024  http://apple-dns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://l-msedge.net  -  0
+TueJul1612:58:36UTC2024  http://l-msedge.net/  -0
+TueJul1612:58:37UTC2024  http://l-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://fastly.net  https://www.fastly.com/  151.101.193.57
+TueJul1612:58:37UTC2024  http://fastly.net/  https://www.fastly.com/  301TueJul1612:58:37UTC2024  https://www.fastly.com/  -200
+TueJul1612:58:37UTC2024  https://www.fastly.com/static/inter-latin-wght-normal-e62404dc3261fb537f3a211edf6a2682.woff2  -200
+TueJul1612:58:37UTC2024  https://munchkin.marketo.net/munchkin.js  -200
+TueJul1612:58:37UTC2024  https://www.googletagmanager.com/gtm.js?id=GTM-W9FKFHD  -200
+TueJul1612:58:37UTC2024  https://munchkin.marketo.net/163/munchkin.js  -200
+TueJul1612:58:37UTC2024  https://js.driftt.com/include/1721134800000/x2ugb2nh7dxy.js  -200
+TueJul1612:58:37UTC2024  https://images.ctfassets.net/ocb1q9kflo7k/6J2vdDxD3O3jVLsTqyQfEd/46ee8d6709c82de53a31b852324ab71f/ai-carousel-image-centered.svg  -200
+TueJul1612:58:38UTC2024  https://rc-widget-frame.js.driftt.com/core?d=1&embedId=x2ugb2nh7dxy&eId=x2ugb2nh7dxy&region=US&forceShow=false&skipCampaigns=false&sessionId=0ff7b19c-6193-4935-9ea6-a029bbf21933&sessionStarted=1721134718.097&campaignRefreshToken=eaa787a9-50ba-48e8-bf66-d4ce8fbe6814&pageLoadStartTime=1721134717507&mode=CHAT&driftEnableLog=false&secureIframe=false&u=https%3A%2F%2Fwww.fastly.com%2F  -0
+*!-@x!x@-!*
+http://googleusercontent.com  http://googleusercontent.com/  142.251.132.33
+TueJul1612:58:38UTC2024  http://googleusercontent.com/  -404
+TueJul1612:58:38UTC2024  http://googleusercontent.com/favicon.ico  -0
+*!-@x!x@-!*
+http://domaincontrol.com  http://domaincontrol.com/  127.0.0.1
+TueJul1612:58:38UTC2024  http://domaincontrol.com/  -0
+TueJul1612:58:38UTC2024  http://domaincontrol.com/favicon.ico  -0
+*!-@x!x@-!*
+http://wordpress.org  https://wordpress.org/  198.143.164.252
+TueJul1612:58:38UTC2024  http://wordpress.org/  https://wordpress.org/  301TueJul1612:58:39UTC2024  https://wordpress.org/  -200
+TueJul1612:58:39UTC2024  https://www.googletagmanager.com/gtm.js?id=GTM-P24PF4B  -200
+TueJul1612:58:40UTC2024  https://i0.wp.com/wordpress.org/files/2024/04/feature-publish.png?w=720&ssl=1  -200
+TueJul1612:58:40UTC2024  https://i0.wp.com/wordpress.org/files/2023/12/rolling-stone.png?w=521&ssl=1  -200
+TueJul1612:58:40UTC2024  https://i0.wp.com/wordpress.org/files/2023/10/Harvard.png?w=319&ssl=1  -200
+TueJul1612:58:40UTC2024  https://www.youtube-nocookie.com/embed/ELW4Jdvujbc?si=sE2V6C7oFHugIquT  -200
+TueJul1612:58:40UTC2024  https://s.w.org/style/images/code-is-poetry-for-dark-bg.svg  -200
+TueJul1612:58:40UTC2024  https://stats.wp.com/e-202429.js  -200
+TueJul1612:58:40UTC2024  https://www.googletagmanager.com/gtag/js?id=G-CG6GJ50G8J&l=dataLayer&cx=c  -200
+TueJul1612:58:40UTC2024  https://pixel.wp.com/g.gif?v=ext&blog=26861511&post=457&tz=0&srv=wordpress.org&j=1%3A13.5&host=wordpress.org&ref=&fcp=1331&rand=0.43882371415894805  -200
+TueJul1612:58:40UTC2024  https://www.youtube-nocookie.com/s/player/820bff3b/www-player.css  -200
+TueJul1612:58:40UTC2024  https://s.w.org/images/wmark.png  -200
+*!-@x!x@-!*
+http://icloud.com  https://www.icloud.com/  23.55.138.84
+TueJul1612:58:41UTC2024  http://icloud.com/  https://icloud.com/  301TueJul1612:58:41UTC2024  https://icloud.com/  https://www.icloud.com/  301TueJul1612:58:41UTC2024  https://www.icloud.com/  -200
+TueJul1612:58:41UTC2024  https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js  -200
+*!-@x!x@-!*
+http://googlesyndication.com  http://www.google.com/  172.217.29.36
+TueJul1612:58:42UTC2024  http://googlesyndication.com/  http://www.google.com/  302*!-@x!x@-!*

@@ -1,0 +1,35 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.36
+TueJul1612:59:43UTC2024  http://google.com/  http://www.google.com/  301TueJul1612:59:43UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1612:59:43UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1612:59:44UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1612:59:44UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1612:59:44UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1612:59:44UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1612:59:45UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1612:59:45UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+*!-@x!x@-!*
+http://amazonaws.com  https://aws.amazon.com/  13.33.123.38
+TueJul1612:59:45UTC2024  http://amazonaws.com/  http://aws.amazon.com  301TueJul1612:59:45UTC2024  http://aws.amazon.com/  https://aws.amazon.com/  301TueJul1612:59:45UTC2024  https://aws.amazon.com/  -200
+TueJul1612:59:46UTC2024  https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js  -200
+TueJul1612:59:46UTC2024  https://a0.awsstatic.com/libra-css/css/1.0.496/style-awsm-components.css  -200
+TueJul1612:59:46UTC2024  https://a0.awsstatic.com/s_code/js/3.0/awshome_s_code.js  -200
+TueJul1612:59:46UTC2024  https://a0.awsstatic.com/libra-css/css/1.0.496/style-awsm-base.css  -200
+TueJul1612:59:46UTC2024  https://d2c.aws.amazon.com/client/loader/v1/d2c-load.js  -200
+TueJul1612:59:47UTC2024  https://d2c.aws.amazon.com/client/lib/v1/d2c-client-lib.562fd068.js  -200
+TueJul1612:59:47UTC2024  https://loader.us-east-1.prod.mrc-sunrise.marketing.aws.dev/loader.js  -200
+TueJul1612:59:47UTC2024  https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1721134786935%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Faws.amazon.com%2F%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D  -200
+TueJul1612:59:47UTC2024  https://d1.awsstatic.com/Digital%20Marketing/House/Hero/Default_Start-Building.00e592e4495f5ead1aba337232d3a0e9d49f0c1c.png  -200
+TueJul1612:59:47UTC2024  https://d1.awsstatic.com/Digital%20Marketing/House/Hero/Arrow-Right-light.1e72df6b7812c6d094e012f5b3a628681042f4db.svg  -200
+TueJul1612:59:47UTC2024  https://d1.awsstatic.com/HOME_Next_Analyst-Reports2.914c4fb9b0d9aeb471bed80eff05a647d2442a9f.png  -200
+TueJul1612:59:47UTC2024  https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js  -200
+TueJul1612:59:47UTC2024  https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=7742037254C95E840A4C98A6%40AdobeOrg&d_nsid=0&ts=1721134786942  -200
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1612:59:47UTC2024  http://root-servers.net/  -0
+TueJul1612:59:47UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1612:59:47UTC2024  http://akamai.net/  -0
+TueJul1612:59:48UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*

@@ -1,0 +1,23 @@
+http://googleapis.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:13620
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://azure.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:1476
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://cloudflare.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2512497, moz:profile: /tmp/rust_mozprofilewJpEfA, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: a859ec32-1bc6-42eb-bac1-fde5e20654bbhttp://googlevideo.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:24627
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://live.comorg.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:5407
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: driver.version: RemoteWebDriverhttp://fbcdn.netorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'phishmon', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.30.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 2525751, moz:profile: /tmp/rust_mozprofileaqU2Q9, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(manual, http=127.0.1...., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: a343f6e6-9a1f-4eb8-ba4c-e44f373d94e7

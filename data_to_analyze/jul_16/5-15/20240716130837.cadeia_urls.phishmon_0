@@ -1,0 +1,48 @@
+http://a-msedge.net  -  0
+TueJul1613:08:43UTC2024  http://a-msedge.net/  -0
+TueJul1613:08:43UTC2024  http://a-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://microsoft.com  TimeoutException  0
+*!-@x!x@-!*
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+TueJul1613:08:59UTC2024  http://yahoo.com/  https://yahoo.com/  301TueJul1613:09:00UTC2024  https://yahoo.com/  https://www.yahoo.com/  301TueJul1613:09:01UTC2024  https://www.yahoo.com/  https://br.yahoo.com/?p=us  302TueJul1613:09:01UTC2024  https://br.yahoo.com/?p=us  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  301TueJul1613:09:02UTC2024  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  -200
+TueJul1613:09:03UTC2024  https://s.yimg.com/pv/static/ms/plugin-SrpRapidRefresh.srp.d3b117c39700731c4d9a9c15293be810.min.js  -200
+TueJul1613:09:03UTC2024  https://s.yimg.com/oa/consent.js  -200
+TueJul1613:09:03UTC2024  https://s.yimg.com/zz/combo?pv/static/lib/wafer-core_4c566289ac4b6c81eb4427263a4926ed_4a8d2.js&pv/static/lib/wafer-template_ec8346c80cb6669d371888a3f668057f_848d.js&pv/static/lib/wafer-image_3437c6c91cd12d4c2daa5906b0630b44_77c1.js&pv/static/lib/wafer-fetch_b90b160c74c819a865d323b7f4c5bfbb_1261e.js&pv/static/lib/wafer-toggle_20ffc17aa6b48b92d16237fb814e6183_daa3.js&pv/static/lib/wafer-tabs_39e9843c62f4402af1e94f39526e68f1_f5dd.js  -200
+TueJul1613:09:03UTC2024  https://br.search.yahoo.com/favicon.ico  -0
+*!-@x!x@-!*
+http://mail.ru  WebDriverException  0
+*!-@x!x@-!*
+http://yandex.net  https://ya.ru/?nr=1&redirect_ts=1721135357.00000  77.88.55.242
+TueJul1613:09:15UTC2024  http://yandex.net/  https://ya.ru/  302TueJul1613:09:17UTC2024  https://ya.ru/  https://ya.ru/?nr=1&redirect_ts=1721135357.00000  302TueJul1613:09:18UTC2024  https://ya.ru/?nr=1&redirect_ts=1721135357.00000  -200
+*!-@x!x@-!*
+http://ntp.org  http://ntp.org/  64.142.54.22
+TueJul1613:09:19UTC2024  http://ntp.org/  -200
+TueJul1613:09:20UTC2024  https://www.clarity.ms/tag/c33igkoodm  -200
+TueJul1613:09:20UTC2024  https://cse.google.com/cse.js?cx=bb3c9b3e375d856be  -200
+TueJul1613:09:21UTC2024  https://www.clarity.ms/s/0.7.32/clarity.js  -200
+TueJul1613:09:21UTC2024  https://www.ntp.org/scss/nwtime.min.88a7f853c9f0350ac0942eda114d25cc.css  -200
+TueJul1613:09:22UTC2024  https://nwtime.org/images/thermometer.png  -200
+*!-@x!x@-!*
+http://wac-msedge.net  -  0
+TueJul1613:09:22UTC2024  http://wac-msedge.net/  -0
+TueJul1613:09:23UTC2024  http://wac-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://qq.com  https://www.qq.com/  101.33.25.222
+TueJul1613:09:23UTC2024  http://qq.com/  https://www.qq.com/  302TueJul1613:09:25UTC2024  https://www.qq.com/  -200
+TueJul1613:09:28UTC2024  https://staticfile.qq.com/datong/universalReportH5/v3.5.9/universal-report.min.js  -200
+TueJul1613:09:28UTC2024  https://staticfile.qq.com/qimei/qimeisdk-web/0.6.3/lite.js  -200
+TueJul1613:09:29UTC2024  https://mat1.gtimg.com/www/js/emonitor/custom_ed041a23.js  -200
+TueJul1613:09:29UTC2024  https://mat1.gtimg.com/qqcdn/qqindex2021/pc-home/index-2024716173918.css  -200
+TueJul1613:09:29UTC2024  https://mat1.gtimg.com/qqcdn/qqindex2021/advertisement/qqhome/crystal.202405081920.min.js  -200
+TueJul1613:09:30UTC2024  http://inews.gtimg.com/newsapp_bt/0/15821906988/0  -200
+TueJul1613:09:30UTC2024  http://inews.gtimg.com/newsapp_bt/0/15822141896/0  -200
+TueJul1613:09:30UTC2024  http://inews.gtimg.com/newsapp_bt/0/15822141895/0  -200
+TueJul1613:09:30UTC2024  https://i.news.qq.com/web_backend/getWebPacUid  -200
+TueJul1613:09:33UTC2024  https://video.qq.com/cookie/sync_qqnews.html  -200
+TueJul1613:09:34UTC2024  https://snowflake.qq.com/ola/v2  -204
+TueJul1613:09:34UTC2024  https://h.trace.qq.com/kv?attaid=05000014957&token=2765844177&err_msg=script%20is%20load%20error&err_stack=resource%20is%20not%20found&err_type=script&err_desc=%7B%22tagName%22%3A%22script%22%2C%22type%22%3A%22error%22%2C%22fileName%22%3A%22https%3A%2F%2Fmat1.gtimg.com%2Fqqcdn%2Fqqindex2021%2Fpc-home%2Findex-2024716173918.js%22%2C%22category%22%3A%22resource%22%7D&timestamps=1721135370851&_dc=0.7440916567438611&dtime=1721135370851&hh_ua=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A125.0)%20Gecko%2F20100101%20Firefox%2F125.0&hh_uav=undefined&hh_ref=&hc_pgv_pvid=ek172113536968161865&s_url=https%3A%2F%2Fwww.qq.com%2F&s_host=www.qq.com&s_path=%2F&s_protocol=https&s_browser=undefined&s_os=linux&s_qq=&s_openid=&s_app=newqqhome&s_ptag=&content=%7B%22log%22%3A%5B%7B%22logname%22%3A%22cmjn_emonitor_newqqhome_error%22%2C%22content%22%3A%5B%7B%22dimensions%22%3A%5B%22script%22%2C%22%22%2C%22https%3A%2F%2Fwww.qq.com%2F%22%2C%22www.qq.com%22%2C%22%2F%22%2C%22https%22%2Cnull%2C%22linux%22%2C%22newqqhome%22%2C%22%22%5D%2C%22values%22%3A%5B%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%5D%2C%22time%22%3A1721135372852%7D%5D%7D%5D%7D  -200
+TueJul1613:09:34UTC2024  https://h.trace.qq.com/kv?attaid=05000014957&token=2765844177&err_msg=script%20is%20load%20error&err_stack=resource%20is%20not%20found&err_type=script&err_desc=%7B%22tagName%22%3A%22script%22%2C%22type%22%3A%22error%22%2C%22fileName%22%3A%22https%3A%2F%2Fmat1.gtimg.com%2Fqqcdn%2Fqqindex2021%2Flibs%2Fbarrier%2Faria.js%3Fappid%3D9327b8b06379d9d1728bbfbe2025ef9c%22%2C%22category%22%3A%22resource%22%7D&timestamps=1721135369739&_dc=0.5667177063146301&dtime=1721135369739&hh_ua=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A125.0)%20Gecko%2F20100101%20Firefox%2F125.0&hh_uav=undefined&hh_ref=&hc_pgv_pvid=ek172113536968161865&s_url=https%3A%2F%2Fwww.qq.com%2F&s_host=www.qq.com&s_path=%2F&s_protocol=https&s_browser=undefined&s_os=linux&s_qq=&s_openid=&s_app=newqqhome&s_ptag=&content=%7B%22log%22%3A%5B%7B%22logname%22%3A%22cmjn_emonitor_newqqhome_error%22%2C%22content%22%3A%5B%7B%22dimensions%22%3A%5B%22script%22%2C%22%22%2C%22https%3A%2F%2Fwww.qq.com%2F%22%2C%22www.qq.com%22%2C%22%2F%22%2C%22https%22%2Cnull%2C%22linux%22%2C%22newqqhome%22%2C%22%22%5D%2C%22values%22%3A%5B%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%5D%2C%22time%22%3A1721135371913%7D%5D%7D%5D%7D  -200
+TueJul1613:09:34UTC2024  https://ra.gtimg.com/web/default_fodders/defaultFodder.js  -200
+TueJul1613:09:34UTC2024  https://h.trace.qq.com/kv?attaid=05000014957&token=2765844177&err_msg=img%20is%20load%20error&err_stack=resource%20is%20not%20found&err_type=img&err_desc=%7B%22tagName%22%3A%22img%22%2C%22type%22%3A%22error%22%2C%22fileName%22%3A%22https%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F15822872259%2F0%22%2C%22category%22%3A%22resource%22%7D&timestamps=1721135370996&_dc=0.6821461957211744&dtime=1721135370996&hh_ua=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64%3B%20rv%3A125.0)%20Gecko%2F20100101%20Firefox%2F125.0&hh_uav=undefined&hh_ref=&hc_pgv_pvid=ek172113536968161865&s_url=https%3A%2F%2Fwww.qq.com%2F&s_host=www.qq.com&s_path=%2F&s_protocol=https&s_browser=undefined&s_os=linux&s_qq=&s_openid=&s_app=newqqhome&s_ptag=&content=%7B%22log%22%3A%5B%7B%22logname%22%3A%22cmjn_emonitor_newqqhome_error%22%2C%22content%22%3A%5B%7B%22dimensions%22%3A%5B%22img%22%2C%22%22%2C%22https%3A%2F%2Fwww.qq.com%2F%22%2C%22www.qq.com%22%2C%22%2F%22%2C%22https%22%2Cnull%2C%22linux%22%2C%22newqqhome%22%2C%22%22%5D%2C%22values%22%3A%5B%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A1%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%2C%7B%22value%22%3A0%2C%22count%22%3A1%2C%22policy%22%3A%22SUM%22%7D%5D%2C%22time%22%3A1721135373001%7D%5D%7D%5D%7D  -200
+*!-@x!x@-!*

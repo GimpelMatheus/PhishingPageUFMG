@@ -1,0 +1,13 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  142.251.128.228
+TueJul1613:19:18UTC2024  http://google.com/  http://www.google.com/  301TueJul1613:19:18UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1613:19:19UTC2024  http://root-servers.net/  -0
+TueJul1613:19:19UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1613:19:19UTC2024  http://akamai.net/  -0
+TueJul1613:19:19UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  http://azure.com/  20.112.250.133
+TueJul1613:19:19UTC2024  http://azure.com/  -0
+*!-@x!x@-!*

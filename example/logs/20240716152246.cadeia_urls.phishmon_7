@@ -1,0 +1,30 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.162.196
+TueJul1615:22:52UTC2024  http://google.com/  http://www.google.com/  301TueJul1615:22:53UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1615:22:54UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1615:22:55UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1615:22:55UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1615:22:55UTC2024  https://www.gstatic.com/inputtools/images/tia.png  -200
+TueJul1615:22:56UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1615:22:56UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1615:22:56UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1615:22:56UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+*!-@x!x@-!*
+http://live.com  WebDriverException  0
+*!-@x!x@-!*
+http://fastly.net  WebDriverException  0
+*!-@x!x@-!*
+http://office.net  -  0
+TueJul1615:23:26UTC2024  http://office.net/  -0
+TueJul1615:23:26UTC2024  http://office.net/favicon.ico  -0
+*!-@x!x@-!*
+http://t-msedge.net  -  0
+TueJul1615:23:26UTC2024  http://t-msedge.net/  -0
+TueJul1615:23:26UTC2024  http://t-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://pinterest.com  WebDriverException  0
+*!-@x!x@-!*
+http://nflxso.net  -  0
+TueJul1615:23:42UTC2024  http://nflxso.net/  -0
+TueJul1615:23:42UTC2024  http://nflxso.net/favicon.ico  -0
+*!-@x!x@-!*
+http://google-analytics.com  WebDriverException  0
+*!-@x!x@-!*

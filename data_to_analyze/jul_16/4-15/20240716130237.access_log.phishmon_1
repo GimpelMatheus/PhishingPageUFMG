@@ -1,0 +1,14 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  142.251.129.4
+http://apple.com  https://www.apple.com/  23.37.8.244
+http://root-servers.net  -  0
+http://akamai.net  -  0
+http://azure.com  TimeoutException  0
+http://icloud.com  https://www.icloud.com/  23.201.113.139
+http://googlesyndication.com  http://www.google.com/  142.251.129.4
+http://github.com  https://github.com/  20.201.28.151
+http://office.net  -  0
+http://t-msedge.net  -  0
+http://pinterest.com  https://www.pinterest.com/  151.101.248.84
+http://digicert.com  https://www.digicert.com/  45.60.127.229
+http://sharepoint.com  TimeoutException  0
+http://gvt1.com  -  0

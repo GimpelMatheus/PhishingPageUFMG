@@ -1,0 +1,80 @@
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1613:23:49UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1613:23:49UTC2024  https://www.apple.com/  -200
+TueJul1613:23:49UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://akamaiedge.net  -  0
+TueJul1613:23:50UTC2024  http://akamaiedge.net/  -0
+TueJul1613:23:50UTC2024  http://akamaiedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133363233337d246bf432ce8f140c3f3ad3cda7fc4468  104.244.42.65
+TueJul1613:23:51UTC2024  http://twitter.com/  https://twitter.com/  301TueJul1613:23:52UTC2024  https://twitter.com/  https://x.com/  302TueJul1613:23:53UTC2024  https://x.com/  -200
+*!-@x!x@-!*
+http://gstatic.com  http://www.gstatic.com/  142.251.129.131
+TueJul1613:23:53UTC2024  http://gstatic.com/  http://www.gstatic.com/  301*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.29.196
+TueJul1613:23:53UTC2024  http://googlevideo.com/  http://video.google.com/  301TueJul1613:23:53UTC2024  http://video.google.com/  http://www.google.com/videohp  301*!-@x!x@-!*
+http://live.com  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  23.37.9.217
+TueJul1613:23:54UTC2024  http://live.com/  https://outlook.live.com/owa/  301TueJul1613:23:54UTC2024  https://outlook.live.com/owa/  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  302TueJul1613:23:55UTC2024  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  -200
+TueJul1613:23:56UTC2024  https://www.microsoft.com/etc.clientlibs/onecloud/clientlibs/clientlib-mwf-new/main-light.min.ACSHASH561c834597fb9bc5aac4021e21e006be.css  -200
+TueJul1613:23:56UTC2024  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog-1?scl=1  -200
+TueJul1613:23:56UTC2024  https://mem.gfx.ms/meversion?partner=OfficeProducts&market=en-us&uhf=1  -200
+TueJul1613:23:57UTC2024  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/LinkedIn-29?scl=1  -200
+TueJul1613:23:57UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1613:23:57UTC2024  https://play.vidyard.com/embed/v4.js  -200
+TueJul1613:23:57UTC2024  https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31  -200
+TueJul1613:23:58UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2  -200
+TueJul1613:23:58UTC2024  https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2  -200
+TueJul1613:23:58UTC2024  https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js  -200
+*!-@x!x@-!*
+http://domaincontrol.com  http://domaincontrol.com/  127.0.0.1
+TueJul1613:23:59UTC2024  http://domaincontrol.com/  -0
+TueJul1613:23:59UTC2024  http://domaincontrol.com/favicon.ico  -0
+*!-@x!x@-!*
+http://icloud.com  https://www.icloud.com/  23.201.113.139
+TueJul1613:23:59UTC2024  http://icloud.com/  https://icloud.com/  301TueJul1613:23:59UTC2024  https://icloud.com/  https://www.icloud.com/  301TueJul1613:24:00UTC2024  https://www.icloud.com/  -200
+TueJul1613:24:00UTC2024  https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js  -200
+*!-@x!x@-!*
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+TueJul1613:24:01UTC2024  http://yahoo.com/  https://yahoo.com/  301TueJul1613:24:02UTC2024  https://yahoo.com/  https://www.yahoo.com/  301TueJul1613:24:03UTC2024  https://www.yahoo.com/  https://br.yahoo.com/?p=us  302TueJul1613:24:04UTC2024  https://br.yahoo.com/?p=us  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  301TueJul1613:24:05UTC2024  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  -200
+TueJul1613:24:06UTC2024  https://s.yimg.com/zz/combo?pv/static/lib/syc-startpage_1d54bbd5a52d42716affbfc71441761c.css  -200
+TueJul1613:24:06UTC2024  https://s.yimg.com/pv/static/ms/trendingNow.srp-atomic.72aeaebecdf2086ec5e3e97262670f36.min.css  -200
+TueJul1613:24:06UTC2024  https://s.yimg.com/pv/static/ms/plugin-SrpRapidRefresh.srp.d3b117c39700731c4d9a9c15293be810.min.js  -200
+TueJul1613:24:07UTC2024  https://br.search.yahoo.com/favicon.ico  -200
+TueJul1613:24:08UTC2024  https://search.yahoo.com/static/font/search/Roboto-Bold-202103020707.woff2  -200
+TueJul1613:24:08UTC2024  https://search.yahoo.com/static/font/search/Roboto-Regular-202103020707.woff2  -200
+*!-@x!x@-!*
+http://aaplimg.com  -  0
+TueJul1613:24:08UTC2024  http://aaplimg.com/  -0
+TueJul1613:24:08UTC2024  http://aaplimg.com/favicon.ico  -0
+*!-@x!x@-!*
+http://adobe.com  https://www.adobe.com/  2.16.197.140
+TueJul1613:24:08UTC2024  http://adobe.com/  https://adobe.com/  301TueJul1613:24:09UTC2024  https://adobe.com/  https://www.adobe.com/  301TueJul1613:24:09UTC2024  https://www.adobe.com/  -200
+TueJul1613:24:09UTC2024  https://www.adobe.com/homepage/scripts/scripts.js  -200
+*!-@x!x@-!*
+http://gvt2.com  -  0
+TueJul1613:24:10UTC2024  http://gvt2.com/  -0
+TueJul1613:24:10UTC2024  http://gvt2.com/favicon.ico  -0
+*!-@x!x@-!*
+http://spotify.com  https://open.spotify.com/  151.101.251.42
+TueJul1613:24:10UTC2024  http://spotify.com/  https://www.spotify.com/  301TueJul1613:24:10UTC2024  https://www.spotify.com/  https://open.spotify.com/  301TueJul1613:24:11UTC2024  https://open.spotify.com/  -200
+TueJul1613:24:11UTC2024  https://open.spotifycdn.com/cdn/js/retargeting-pixels.5ab9cdc0.js  -200
+TueJul1613:24:11UTC2024  https://open.spotifycdn.com/cdn/build/web-player/web-player.2dd1c31a.css  -200
+TueJul1613:24:11UTC2024  https://open.spotifycdn.com/cdn/js/gtm.ea4c34bc.js  -200
+TueJul1613:24:11UTC2024  https://www.googleoptimize.com/optimize.js?id=GTM-W53X654  -200
+TueJul1613:24:13UTC2024  https://encore.scdn.co/fonts/CircularSpTitle-Bold-b2586b06a2e1522e9d879d84c2792a58.woff2  -200
+TueJul1613:24:13UTC2024  https://encore.scdn.co/fonts/CircularSpTitle-Black-4588c99025b967475c31695b0743dd1a.woff2  -200
+TueJul1613:24:13UTC2024  https://encore.scdn.co/fonts/CircularSp-Bold-602e7aefc706aa36c6ec1324b9bbc461.woff2  -200
+*!-@x!x@-!*
+http://s-msedge.net  -  0
+TueJul1613:24:13UTC2024  http://s-msedge.net/  -0
+TueJul1613:24:13UTC2024  http://s-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+TueJul1613:24:13UTC2024  http://msn.com/  https://msn.com/  301TueJul1613:24:13UTC2024  https://msn.com/  https://www.msn.com/  301TueJul1613:24:14UTC2024  https://www.msn.com/  /pt-br  302TueJul1613:24:14UTC2024  https://www.msn.com/pt-br  -200
+TueJul1613:24:14UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.417168f641aeca8ceb3d.js  -200
+TueJul1613:24:14UTC2024  https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js  -200
+TueJul1613:24:14UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/experience.e36e98ec762a9fb1dfcf.js  -200
+TueJul1613:24:14UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.91c1da7df83e920af2b1.js  -200
+*!-@x!x@-!*
+http://gandi.net  https://www.gandi.net/en-US  151.101.129.103
+TueJul1613:24:15UTC2024  http://gandi.net/  http://www.gandi.net/  301TueJul1613:24:16UTC2024  http://www.gandi.net/  https://www.gandi.net/  301TueJul1613:24:17UTC2024  https://www.gandi.net/  /en-US  302*!-@x!x@-!*

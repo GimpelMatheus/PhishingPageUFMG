@@ -1,0 +1,32 @@
+http://googleapis.com  http://googleapis.com/  172.217.29.196  172.217.29.196
+*!-@x!x@-!*
+http://apple.com  WebDriverException  0
+*!-@x!x@-!*
+http://cloudflare.com  https://www.cloudflare.com/  104.16.123.96  104.16.123.96,104.16.133.229,104.16.80.73
+*!-@x!x@-!*
+http://gstatic.com  http://www.gstatic.com/  142.250.219.35  172.217.30.163
+*!-@x!x@-!*
+http://office.com  https://www.office.com/  13.107.6.156  13.107.6.156,2.16.197.78,95.101.25.149,23.37.9.217,13.107.246.33
+*!-@x!x@-!*
+http://googletagmanager.com  http://googletagmanager.com/  172.217.30.72  172.217.30.72
+*!-@x!x@-!*
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224  195.200.68.224
+*!-@x!x@-!*
+http://bing.com  http://www.bing.com/  2.16.197.75  2.16.197.75,13.107.21.200
+*!-@x!x@-!*
+http://apple-dns.net  -  0  null
+*!-@x!x@-!*
+http://l-msedge.net  -  0  null
+*!-@x!x@-!*
+http://fastly.net  https://www.fastly.com/  146.75.5.57  18.67.145.3,23.61.140.67,151.101.193.6,108.139.182.96,146.75.5.57,172.217.29.40
+*!-@x!x@-!*
+http://youtu.be  TimeoutException  0
+*!-@x!x@-!*
+http://bit.ly  https://bitly.com/  67.199.248.15  2.19.10.58,13.227.127.195,67.199.248.15,67.199.248.10,2.20.20.150
+*!-@x!x@-!*
+http://wordpress.com  https://wordpress.com/  192.0.78.17  192.0.72.29,192.0.78.22,192.0.77.32,192.0.76.3,192.0.78.17
+*!-@x!x@-!*
+http://ntp.org  http://ntp.org/  64.142.54.22  204.93.207.22,13.107.246.33,142.250.219.142,64.142.54.22
+*!-@x!x@-!*
+http://edgekey.net  -  0  null
+*!-@x!x@-!*

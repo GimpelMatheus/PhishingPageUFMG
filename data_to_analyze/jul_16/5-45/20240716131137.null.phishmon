@@ -1,0 +1,48 @@
+1721135505832	geckodriver	INFO	Listening on 127.0.0.1:30177
+1721135505847	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileIzMnqT"*** You are running in headless mode.
+cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721135506229	Marionette	INFO	Marionette enabled11721135506333	Marionette	INFO	Listening on port 385811721135506472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721135506501	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:35183","sslProxy":"127.0.1.1:35183"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+11721135536933	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+ppID=re1721135539811	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+ned
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.skype.com/en/, line 1: ReferenceError: oneDS is not defined
+JavaScript error: https://www.skype.com/en/, line 1: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+1721135536225	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://us01ccistatic.zoom.us/us01cci/web-sdk/web-campaign.js?env=us01&apikey=AM_FKF55QOG_vdWum455Vg&lazyLoadCampaignUrl=_blank
+ricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://mail.ru/, line 317: TypeError: o is null
+JavaScript warning: https://mail.ru/, line 291: Script terminated by timeout at:
+a@core-keeper.min.js:291:10053
+$e/</c<@core-keeper.min.js:291:10160
+ue/coreKeeper@core-keeper.min.js:291:5460
+t@core-keeper.min.js:291:5330
+
+console.error: ({})
+console.error: ({})
+1721135536354	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+console.error: ({})
+se restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js, line 11: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+console.error: ({})
+1721135536967	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

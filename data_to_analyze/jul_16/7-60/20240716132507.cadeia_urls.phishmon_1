@@ -1,0 +1,85 @@
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1613:25:18UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1613:25:19UTC2024  https://www.apple.com/  -200
+TueJul1613:25:19UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://cloudflare.com  https://www.cloudflare.com/  104.16.124.96
+TueJul1613:25:21UTC2024  http://cloudflare.com/  https://www.cloudflare.com/  301TueJul1613:25:21UTC2024  https://www.cloudflare.com/  -200
+TueJul1613:25:21UTC2024  https://www.cloudflare.com/img/privacyoptions.svg  -200
+TueJul1613:25:21UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/1uRN3TielOR3e6aKNQKRaA/9782c19544fa2aa7677785e7dfd10018/Flare_Exploration-4.19.24.svg  -200
+TueJul1613:25:21UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/76x52jIsr93tqZq0h3HCFW/33a7575a9dc880e0a45c0f69fcbcfc8f/cc-diagram-orange-2024.png  -200
+TueJul1613:25:21UTC2024  https://cf-assets.www.cloudflare.com/slt3lc6tev37/3hozCySUonJzxSF7TBtDeF/09c3642522b5a9036c157dcab3a59b8d/performance-acceleration-bolt.svg  -200
+TueJul1613:25:22UTC2024  https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015  -200
+*!-@x!x@-!*
+http://gstatic.com  http://www.gstatic.com/  142.251.129.35
+TueJul1613:25:22UTC2024  http://gstatic.com/  http://www.gstatic.com/  301*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.29.196
+TueJul1613:25:22UTC2024  http://googlevideo.com/  http://video.google.com/  301TueJul1613:25:22UTC2024  http://video.google.com/  http://www.google.com/videohp  301*!-@x!x@-!*
+http://tiktokcdn.com  -  0
+TueJul1613:25:22UTC2024  http://tiktokcdn.com/  -0
+TueJul1613:25:23UTC2024  http://tiktokcdn.com/favicon.ico  -0
+*!-@x!x@-!*
+http://live.com  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  23.36.165.138
+TueJul1613:25:23UTC2024  http://live.com/  https://outlook.live.com/owa/  301TueJul1613:25:23UTC2024  https://outlook.live.com/owa/  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  302TueJul1613:25:24UTC2024  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  -200
+TueJul1613:25:26UTC2024  https://mem.gfx.ms/meversion?partner=OfficeProducts&market=en-us&uhf=1  -200
+TueJul1613:25:26UTC2024  https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js  -200
+TueJul1613:25:27UTC2024  https://play.vidyard.com/embed/v4.js  -200
+TueJul1613:25:28UTC2024  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/LinkedIn-29?scl=1  -200
+TueJul1613:25:28UTC2024  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blog-1?scl=1  -200
+TueJul1613:25:28UTC2024  https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter-34?scl=1  -200
+TueJul1613:25:28UTC2024  https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31  -200
+TueJul1613:25:28UTC2024  https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js  -200
+*!-@x!x@-!*
+http://icloud.com  https://www.icloud.com/  23.201.113.139
+TueJul1613:25:29UTC2024  http://icloud.com/  https://icloud.com/  301TueJul1613:25:29UTC2024  https://icloud.com/  https://www.icloud.com/  301TueJul1613:25:30UTC2024  https://www.icloud.com/  -200
+TueJul1613:25:30UTC2024  https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js  -200
+*!-@x!x@-!*
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+TueJul1613:25:31UTC2024  http://yahoo.com/  https://yahoo.com/  301TueJul1613:25:32UTC2024  https://yahoo.com/  https://www.yahoo.com/  301TueJul1613:25:33UTC2024  https://www.yahoo.com/  https://br.yahoo.com/?p=us  302TueJul1613:25:34UTC2024  https://br.yahoo.com/?p=us  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  301TueJul1613:25:35UTC2024  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  -200
+TueJul1613:25:36UTC2024  https://s.yimg.com/oa/consent.js  -200
+TueJul1613:25:36UTC2024  https://s.yimg.com/pv/static/lib/assetManager_85593b53b1f4d56903724fa32149d549_51b5.js  -200
+TueJul1613:25:36UTC2024  https://s.yimg.com/pv/static/ms/trendingNow.srp-atomic.72aeaebecdf2086ec5e3e97262670f36.min.css  -200
+TueJul1613:25:37UTC2024  https://br.search.yahoo.com/favicon.ico  -0
+*!-@x!x@-!*
+http://aaplimg.com  -  0
+TueJul1613:25:37UTC2024  http://aaplimg.com/  -0
+TueJul1613:25:37UTC2024  http://aaplimg.com/favicon.ico  -0
+*!-@x!x@-!*
+http://adobe.com  https://www.adobe.com/  2.16.197.140
+TueJul1613:25:37UTC2024  http://adobe.com/  https://adobe.com/  301TueJul1613:25:37UTC2024  https://adobe.com/  https://www.adobe.com/  301TueJul1613:25:38UTC2024  https://www.adobe.com/  -200
+TueJul1613:25:38UTC2024  https://www.adobe.com/homepage/scripts/scripts.js  -200
+*!-@x!x@-!*
+http://cloudfront.net  -  0
+TueJul1613:25:38UTC2024  http://cloudfront.net/  -0
+TueJul1613:25:38UTC2024  http://cloudfront.net/favicon.ico  -0
+*!-@x!x@-!*
+http://nflxso.net  -  0
+TueJul1613:25:38UTC2024  http://nflxso.net/  -0
+TueJul1613:25:38UTC2024  http://nflxso.net/favicon.ico  -0
+*!-@x!x@-!*
+http://windows.net  http://www.microsoft.com/net  23.36.165.138
+TueJul1613:25:38UTC2024  http://windows.net/  http://www.microsoft.com/net  301*!-@x!x@-!*
+http://goo.gl  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  172.217.30.1
+TueJul1613:25:38UTC2024  http://goo.gl/  https://goo.gl/  301TueJul1613:25:39UTC2024  https://goo.gl/  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  301TueJul1613:25:39UTC2024  https://developers.googleblog.com/2018/03/transitioning-google-url-shortener.html  -404
+TueJul1613:25:40UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/css/dgc_blog.css  -200
+TueJul1613:25:40UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/js/dgc_blog.js  -200
+TueJul1613:25:40UTC2024  https://storage.googleapis.com/gweb-developer-goog-blog-cms-assets/f1cb6ccb-70bb-476a-a64e-34d279d50312/js/analytics.js  -200
+TueJul1613:25:40UTC2024  https://developers.googleblog.com/glue-icon/  -200
+*!-@x!x@-!*
+http://skype.com  https://www.skype.com/en/  52.113.194.133
+TueJul1613:25:40UTC2024  http://skype.com/  https://www.skype.com/  301TueJul1613:25:41UTC2024  https://www.skype.com/  /en/  301TueJul1613:25:41UTC2024  https://www.skype.com/en/  -200
+TueJul1613:25:41UTC2024  https://secure.skypeassets.com/apollo/2.1.1806/css/main-v4.css  -200
+TueJul1613:25:41UTC2024  https://secure.skypeassets.com/apollo/0.0.0/lib/jquery-3.4.1.min.js  -200
+TueJul1613:25:41UTC2024  https://secure.skypeassets.com/apollo/2.1.1806/fonts/icon3/SkypeAssets-Light_web.woff  -200
+TueJul1613:25:42UTC2024  https://a.lw.skype.com/login/silent?client_id=815617&response_type=postmessage&redirect_uri=https://www.skype.com&timestamp=1721136341800  https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=155&checkda=1&ct=1721136342.4882329&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fa.lw.skype.com%2Flogin%2Fsilent%2FMSACallback%3Fsite_name%3Dlw.skype.com%26client_id%3D815617%26response_type%3Dpostmessage%26redirect_uri%3Dhttps%253a%252f%252fwww.skype.com%26session_id%3DgwIf6BBhRrGu1fXrT2tY&lc=1033&id=293290  302TueJul1613:25:43UTC2024  https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=155&checkda=1&ct=1721136342.4882329&rver=7.5.2156.0&wp=MBI_SSL&wreply=https%3A%2F%2Fa.lw.skype.com%2Flogin%2Fsilent%2FMSACallback%3Fsite_name%3Dlw.skype.com%26client_id%3D815617%26response_type%3Dpostmessage%26redirect_uri%3Dhttps%253a%252f%252fwww.skype.com%26session_id%3DgwIf6BBhRrGu1fXrT2tY&lc=1033&id=293290  https://a.lw.skype.com/login/silent/MSACallback?site_name=lw.skype.com&client_id=815617&response_type=postmessage&redirect_uri=https%3a%2f%2fwww.skype.com&session_id=gwIf6BBhRrGu1fXrT2tY  302TueJul1613:25:43UTC2024  https://a.lw.skype.com/login/silent/MSACallback?site_name=lw.skype.com&client_id=815617&response_type=postmessage&redirect_uri=https%3a%2f%2fwww.skype.com&session_id=gwIf6BBhRrGu1fXrT2tY  -200
+*!-@x!x@-!*
+http://s-msedge.net  -  0
+TueJul1613:25:44UTC2024  http://s-msedge.net/  -0
+TueJul1613:25:44UTC2024  http://s-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+TueJul1613:25:44UTC2024  http://msn.com/  https://msn.com/  301TueJul1613:25:44UTC2024  https://msn.com/  https://www.msn.com/  301TueJul1613:25:45UTC2024  https://www.msn.com/  /pt-br  302TueJul1613:25:45UTC2024  https://www.msn.com/pt-br  -200
+TueJul1613:25:46UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.417168f641aeca8ceb3d.js  -200
+TueJul1613:25:46UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.91c1da7df83e920af2b1.js  -200
+TueJul1613:25:46UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/common.e89adad635a7eeeee5c7.js  -200
+TueJul1613:25:46UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/experience.e36e98ec762a9fb1dfcf.js  -200
+*!-@x!x@-!*

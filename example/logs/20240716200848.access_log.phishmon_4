@@ -1,0 +1,7 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.28.228
+http://instagram.com  WebDriverException  0
+http://fbcdn.net  WebDriverException  0
+http://apple-dns.net  -  0
+http://l-msedge.net  -  0
+http://fastly.net  WebDriverException  0
+http://youtu.be  WebDriverException  0

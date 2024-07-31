@@ -1,0 +1,16 @@
+http://googleapis.com  http://googleapis.com/  172.217.29.196
+http://apple.com  WebDriverException  0
+http://cloudflare.com  https://www.cloudflare.com/  104.16.123.96
+http://gstatic.com  http://www.gstatic.com/  142.250.219.35
+http://office.com  https://www.office.com/  13.107.6.156
+http://googletagmanager.com  http://googletagmanager.com/  172.217.30.72
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224
+http://bing.com  http://www.bing.com/  2.16.197.75
+http://apple-dns.net  -  0
+http://l-msedge.net  -  0
+http://fastly.net  https://www.fastly.com/  146.75.5.57
+http://youtu.be  TimeoutException  0
+http://bit.ly  https://bitly.com/  67.199.248.15
+http://wordpress.com  https://wordpress.com/  192.0.78.17
+http://ntp.org  http://ntp.org/  64.142.54.22
+http://edgekey.net  -  0

@@ -1,0 +1,3 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.132
+http://a-msedge.net  -  0
+http://microsoft.com  TimeoutException  0

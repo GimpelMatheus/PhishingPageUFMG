@@ -1,0 +1,90 @@
+http://microsoft.com  WebDriverException  0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1613:10:19UTC2024  http://akamai.net/  -0
+TueJul1613:10:19UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133353432327df6e5fd278d8b402487851bddf6b4f3aa  104.244.42.65
+TueJul1613:10:19UTC2024  http://twitter.com/  https://twitter.com/  301TueJul1613:10:21UTC2024  https://twitter.com/  https://x.com/  302TueJul1613:10:22UTC2024  https://x.com/  -200
+*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.29.132
+TueJul1613:10:22UTC2024  http://googlevideo.com/  http://video.google.com/  301TueJul1613:10:22UTC2024  http://video.google.com/  http://www.google.com/videohp  301*!-@x!x@-!*
+http://windowsupdate.com  -  0
+TueJul1613:10:22UTC2024  http://windowsupdate.com/  -0
+TueJul1613:10:23UTC2024  http://windowsupdate.com/favicon.ico  -0
+*!-@x!x@-!*
+http://fbcdn.net  https://www.facebook.com/  31.13.85.36
+TueJul1613:10:23UTC2024  http://fbcdn.net/  https://fbcdn.net/  301TueJul1613:10:23UTC2024  https://fbcdn.net/  https://www.facebook.com/  302TueJul1613:10:23UTC2024  https://www.facebook.com/  -200
+TueJul1613:10:24UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yW/l/0,cross/JRYdTw5LwSq.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:10:24UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yN/l/0,cross/Y5xf1t0C_it.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:10:24UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/Fseoo_-_yXN.js?_nc_x=Ij3Wp8lg5Kz  -200
+*!-@x!x@-!*
+http://akadns.net  -  0
+TueJul1613:10:24UTC2024  http://akadns.net/  -0
+TueJul1613:10:24UTC2024  http://akadns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://amazon.com  https://www.amazon.com/  13.227.99.60
+TueJul1613:10:24UTC2024  http://amazon.com/  https://amazon.com/  301TueJul1613:10:25UTC2024  https://amazon.com/  https://www.amazon.com/  301TueJul1613:10:26UTC2024  https://www.amazon.com/  -200
+TueJul1613:10:27UTC2024  https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css  -200
+TueJul1613:10:27UTC2024  https://images-na.ssl-images-amazon.com/captcha/perumqgc/Captcha_kyedzvdgmj.jpg  -200
+TueJul1613:10:27UTC2024  https://www.amazon.com/favicon.ico  -200
+TueJul1613:10:28UTC2024  https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=03YVKXBH227GNC8TFAEN&js=1  -200
+*!-@x!x@-!*
+http://googleusercontent.com  http://googleusercontent.com/  172.217.30.33
+TueJul1613:10:28UTC2024  http://googleusercontent.com/  -404
+TueJul1613:10:28UTC2024  http://googleusercontent.com/favicon.ico  -0
+*!-@x!x@-!*
+http://domaincontrol.com  http://domaincontrol.com/  127.0.0.1
+TueJul1613:10:28UTC2024  http://domaincontrol.com/  -0
+TueJul1613:10:28UTC2024  http://domaincontrol.com/favicon.ico  -0
+*!-@x!x@-!*
+http://wordpress.org  https://wordpress.org/  198.143.164.252
+TueJul1613:10:28UTC2024  http://wordpress.org/  https://wordpress.org/  301TueJul1613:10:29UTC2024  https://wordpress.org/  -200
+TueJul1613:10:30UTC2024  https://stats.wp.com/e-202429.js  -200
+TueJul1613:10:30UTC2024  https://i0.wp.com/wordpress.org/files/2023/12/rolling-stone.png?w=521&ssl=1  -200
+TueJul1613:10:30UTC2024  https://i0.wp.com/wordpress.org/files/2023/10/showcase-top-row-full.png?resize=1536%2C279&ssl=1  -200
+TueJul1613:10:30UTC2024  https://i0.wp.com/wordpress.org/files/2024/04/feature-style.png?w=720&ssl=1  -200
+TueJul1613:10:30UTC2024  https://www.youtube-nocookie.com/embed/ELW4Jdvujbc?si=sE2V6C7oFHugIquT  -200
+TueJul1613:10:30UTC2024  https://www.googletagmanager.com/gtm.js?id=GTM-P24PF4B  -200
+TueJul1613:10:30UTC2024  https://s.w.org/style/images/code-is-poetry-for-dark-bg.svg  -200
+TueJul1613:10:30UTC2024  https://pixel.wp.com/g.gif?v=ext&blog=26861511&post=457&tz=0&srv=wordpress.org&j=1%3A13.5&host=wordpress.org&ref=&fcp=0&rand=0.5217809624075898  -200
+TueJul1613:10:30UTC2024  https://s.w.org/images/wmark.png  -200
+TueJul1613:10:30UTC2024  https://www.youtube-nocookie.com/s/player/820bff3b/www-player.css  -200
+*!-@x!x@-!*
+http://googlesyndication.com  http://www.google.com/  172.217.29.132
+TueJul1613:10:31UTC2024  http://googlesyndication.com/  http://www.google.com/  302*!-@x!x@-!*
+http://github.com  https://github.com/  20.201.28.151
+TueJul1613:10:31UTC2024  http://github.com/  https://github.com/  301TueJul1613:10:31UTC2024  https://github.com/  -200
+TueJul1613:10:31UTC2024  https://github.githubassets.com/assets/light-efd2f2257c96.css  -200
+TueJul1613:10:31UTC2024  https://github.githubassets.com/assets/primer-fbdbeff9329d.css  -200
+TueJul1613:10:31UTC2024  https://github.githubassets.com/assets/global-4ff23c0615da.css  -200
+*!-@x!x@-!*
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+TueJul1613:10:32UTC2024  http://yahoo.com/  https://yahoo.com/  301TueJul1613:10:32UTC2024  https://yahoo.com/  https://www.yahoo.com/  301TueJul1613:10:33UTC2024  https://www.yahoo.com/  https://br.yahoo.com/?p=us  302TueJul1613:10:35UTC2024  https://br.yahoo.com/?p=us  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  301TueJul1613:10:35UTC2024  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  -200
+TueJul1613:10:36UTC2024  https://s.yimg.com/pv/static/lib/assetManager_85593b53b1f4d56903724fa32149d549_51b5.js  -200
+TueJul1613:10:36UTC2024  https://s.yimg.com/pv/static/ms/plugin-SrpRapidRefresh.srp.d3b117c39700731c4d9a9c15293be810.min.js  -200
+TueJul1613:10:36UTC2024  https://s.yimg.com/oa/consent.js  -200
+TueJul1613:10:36UTC2024  https://br.search.yahoo.com/favicon.ico  -0
+*!-@x!x@-!*
+http://tiktokv.com  https://tiktokv.com/  104.110.243.26
+TueJul1613:10:36UTC2024  http://tiktokv.com/  https://tiktokv.com/  301TueJul1613:10:37UTC2024  https://tiktokv.com/  -404
+*!-@x!x@-!*
+http://whatsapp.net  https://www.whatsapp.com/  31.13.85.51
+TueJul1613:10:38UTC2024  http://whatsapp.net/  https://whatsapp.net/  301TueJul1613:10:38UTC2024  https://whatsapp.net/  https://www.whatsapp.com/  302TueJul1613:10:39UTC2024  https://www.whatsapp.com/  -200
+TueJul1613:10:39UTC2024  https://static.whatsapp.net/rsrc.php/v3/yL/r/EWlLxaDHNB5.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:10:39UTC2024  https://static.whatsapp.net/rsrc.php/v3/yA/l/0,cross/7WEImcB-wqM.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:10:39UTC2024  https://static.whatsapp.net/rsrc.php/v3/yk/l/0,cross/GUBdiyYD6ul.css?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1613:10:40UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/409964903_7655947307754468_3960711266215354357_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=ICc9GxfwLzcQ7kNvgF4dbKr&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIOnO27OA-MFiW4sqY7lWLfU5qL_QiwyheHbvVEhRhUi0&oe=669C4200  -200
+TueJul1613:10:40UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/311201427_619010693228007_5878944071555156995_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=L_-3Xcq2wkcQ7kNvgErQE3J&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIH8xyNW5Yd0TWFk7NM1VhixY2HHWCgKmhX9lQTXJOBFF&oe=669C3776  -200
+TueJul1613:10:40UTC2024  https://scontent.whatsapp.net/v/t39.8562-34/311869879_1082331725759559_5382136804801289925_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=pgpHt3K8uH8Q7kNvgFGJ6to&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIK9cPJXKUyqpmD5vTG2RwptbZhVwaPddxfjpi9X-Kg9P&oe=669C2C2F  -200
+*!-@x!x@-!*
+http://comcast.net  https://www.xfinity.com/national/  23.61.141.31
+TueJul1613:10:40UTC2024  http://comcast.net/  http://www.comcast.net  301TueJul1613:10:40UTC2024  http://www.comcast.net/  https://www.xfinity.com/  301TueJul1613:10:41UTC2024  https://www.xfinity.com/  https://www.xfinity.com/national/  302TueJul1613:10:41UTC2024  https://www.xfinity.com/national/  -200
+TueJul1613:10:42UTC2024  https://www.xfinity.com/national/xfinity-learn-ui/runtime.6e96b5bdd544af2aa644.js  -200
+TueJul1613:10:42UTC2024  https://static.cimcontent.net/data-layer/?appID=resi_shop_2  -200
+TueJul1613:10:43UTC2024  https://dl.cws.xfinity.com/event/  -200
+TueJul1613:10:43UTC2024  https://dl.cws.xfinity.com/event/  -0
+TueJul1613:10:43UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-7144_samsung-q6b6_up-to-800-tips-offer_pre-order/2-up%20-%20Image%2002%20-%20Desktop.png  -200
+TueJul1613:10:43UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-6885_streaming_apps_offer_q2_launch_learn/SAO_2Up_NSS-1_Desktop.png  -200
+TueJul1613:10:43UTC2024  https://assets.xfinity.com/assets/dotcom/projects_2/cix-6547_large-prices-on-homepage/mobile-card-image-dt.png  -200
+*!-@x!x@-!*

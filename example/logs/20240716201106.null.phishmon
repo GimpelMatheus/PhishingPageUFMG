@@ -1,0 +1,15 @@
+1721160734991	geckodriver	INFO	Listening on 127.0.0.1:31179
+1721160735044	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileIcfqDC"
+*** You are running in headless mode.cconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment[[GFX1-]: glxtest: Unable to open a connection to the X server
+1721160736017	Marionette	INFO	Marionette enabled
+1721160736410	Marionette	INFO	Listening on port 40235
+1721160736946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721160736991	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:36795","sslProxy":"127.0.1.1:36795"}[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})EExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.Exiting due to channel error.
+r.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

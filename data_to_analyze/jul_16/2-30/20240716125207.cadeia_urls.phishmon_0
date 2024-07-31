@@ -1,0 +1,123 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.36
+TueJul1612:52:11UTC2024  http://google.com/  http://www.google.com/  301TueJul1612:52:11UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302TueJul1612:52:12UTC2024  https://www.google.com/?gws_rd=ssl  -200
+TueJul1612:52:12UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.aMElOnTcuaU.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTvvlaWzOlJDR2pIiio69qYKft1C9w  -200
+TueJul1612:52:12UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.hYsvGMblRtE.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtTSQ_F1fFA043-VJ0kUaOQJ3WUvA  -200
+TueJul1612:52:13UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.iZZZ0XsR8bM.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AAAQ/rs=AHpOoo_0-97nH_2IxP0suYF105-PdJv4zg/cb=gapi.loaded_0  -200
+TueJul1612:52:13UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+TueJul1612:52:13UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1612:52:13UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+*!-@x!x@-!*
+http://facebook.com  https://www.facebook.com/  31.13.85.36
+TueJul1612:52:13UTC2024  http://facebook.com/  https://facebook.com/  301TueJul1612:52:13UTC2024  https://facebook.com/  https://www.facebook.com/  301TueJul1612:52:14UTC2024  https://www.facebook.com/  -200
+TueJul1612:52:14UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yG/l/en_US/Y9JzrQjMyGi.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:52:14UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/Fseoo_-_yXN.js?_nc_x=Ij3Wp8lg5Kz  -200
+TueJul1612:52:14UTC2024  https://static.xx.fbcdn.net/rsrc.php/v3/yj/l/0,cross/DxJo7925cRe.css?_nc_x=Ij3Wp8lg5Kz  -200
+*!-@x!x@-!*
+http://amazonaws.com  https://aws.amazon.com/  13.227.97.41
+TueJul1612:52:15UTC2024  http://amazonaws.com/  http://aws.amazon.com  301TueJul1612:52:15UTC2024  http://aws.amazon.com/  https://aws.amazon.com/  301TueJul1612:52:15UTC2024  https://aws.amazon.com/  -200
+TueJul1612:52:16UTC2024  https://a0.awsstatic.com/libra-css/css/1.0.496/style-awsm-components.css  -200
+TueJul1612:52:16UTC2024  https://a0.awsstatic.com/libra/1.0.582/libra-head.js  -200
+TueJul1612:52:16UTC2024  https://a0.awsstatic.com/libra-css/css/1.0.496/style-awsm-base.css  -200
+TueJul1612:52:16UTC2024  https://d2c.aws.amazon.com/client/loader/v1/d2c-load.js  -200
+TueJul1612:52:16UTC2024  https://d2c.aws.amazon.com/client/lib/v1/d2c-client-lib.562fd068.js  -200
+TueJul1612:52:16UTC2024  https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js  -200
+TueJul1612:52:17UTC2024  https://d1.awsstatic.com/Arrow-Right-dark.7a5219a15b1126028507ef6f1a1ebc300ec68a63.svg  -200
+TueJul1612:52:17UTC2024  https://d1.awsstatic.com/Digital%20Marketing/House/Hero/Arrow-Right-light.1e72df6b7812c6d094e012f5b3a628681042f4db.svg  -200
+TueJul1612:52:17UTC2024  https://loader.us-east-1.prod.mrc-sunrise.marketing.aws.dev/loader.js  -200
+TueJul1612:52:17UTC2024  https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js  -200
+TueJul1612:52:17UTC2024  https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1721134336966%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Faws.amazon.com%2F%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D  -200
+TueJul1612:52:17UTC2024  https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_v2_:perf_responseStart@v=56:u=ms/awsm_v2_:perf_responseEnd@v=886:u=ms?dataset=LIVE%3APROD&instance=LIVE&service=awsm&marketplace=en_US&client=dsk&host=aws.amazon.com&method=NA&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567  -204
+TueJul1612:52:17UTC2024  https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_v2_:perf_documentReady@v=725:u=ms/awsm_v2_:perf_speedIndex@v=1889:u=ms/awsm_v2_:perf_domContentLoadedEventEnd@v=662:u=ms?dataset=LIVE%3APROD&instance=LIVE&service=awsm&marketplace=en_US&client=dsk&host=aws.amazon.com&method=NA&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567  -204
+TueJul1612:52:17UTC2024  https://fls-na.amazon.com/1/action-impressions/1/OE/aws-mktg/action/awsm_v2_:comp_PageError@v=1:u=c?dataset=LIVE%3APROD&instance=LIVE&service=awsm&marketplace=en_US&client=dsk&host=aws.amazon.com&method=NA&uid=0.11327127101637136&marketplaceId=A12QK8IU0H0XW5&requestId=ABCDEFGHIJKLMNOPQRST&session=123-1234567-1234567  -204
+TueJul1612:52:18UTC2024  https://us-west-1.prod.pr.analytics.console.aws.a2z.com/panoramaroute  -0
+*!-@x!x@-!*
+http://googleapis.com  http://googleapis.com/  172.217.29.196
+TueJul1612:52:18UTC2024  http://googleapis.com/  -404
+TueJul1612:52:18UTC2024  http://googleapis.com/favicon.ico  -0
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244
+TueJul1612:52:18UTC2024  http://apple.com/  https://www.apple.com/  301TueJul1612:52:18UTC2024  https://www.apple.com/  -200
+TueJul1612:52:18UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
+http://youtube.com  https://www.youtube.com/  142.251.128.238
+TueJul1612:52:19UTC2024  http://youtube.com/  https://youtube.com/  301TueJul1612:52:19UTC2024  https://youtube.com/  https://www.youtube.com/  301TueJul1612:52:20UTC2024  https://www.youtube.com/  -200
+TueJul1612:52:20UTC2024  https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js  -200
+TueJul1612:52:20UTC2024  https://i.ytimg.com/generate_204  -204
+TueJul1612:52:20UTC2024  https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap  -200
+TueJul1612:52:20UTC2024  https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1612:52:21UTC2024  https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I774WwAQ9Hefu0lJXO0o8G25uHS6xnkv7FaLNir9UYp6WjWk8kNoHcU-ymmSCySqTs4RQIku  302TueJul1612:52:21UTC2024  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I774WwAQ9Hefu0lJXO0o8G25uHS6xnkv7FaLNir9UYp6WjWk8kNoHcU-ymmSCySqTs4RQIku  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&ifkv=AdF4I75m9sI306NeEg8DSNYlPhoYSarZFI4x7jVsPZrpJ1tZRHSIlFWDaXlrxKfTx0lzX460zPXp&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1527135696%3A1721134341238822&ddm=0  302*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1612:52:21UTC2024  http://root-servers.net/  -0
+TueJul1612:52:21UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://akamai.net  -  0
+TueJul1612:52:21UTC2024  http://akamai.net/  -0
+TueJul1612:52:22UTC2024  http://akamai.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://windowsupdate.com  -  0
+TueJul1612:52:52UTC2024  http://windowsupdate.com/  -0
+TueJul1612:52:52UTC2024  http://windowsupdate.com/favicon.ico  -0
+*!-@x!x@-!*
+http://googletagmanager.com  http://googletagmanager.com/  142.251.129.8
+TueJul1612:52:52UTC2024  http://googletagmanager.com/  -400
+TueJul1612:52:52UTC2024  http://googletagmanager.com/favicon.ico  -0
+*!-@x!x@-!*
+http://akadns.net  -  0
+TueJul1612:52:52UTC2024  http://akadns.net/  -0
+TueJul1612:52:52UTC2024  http://akadns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://doubleclick.net  https://marketingplatform.google.com/about/enterprise/  142.251.132.46
+TueJul1612:52:52UTC2024  http://doubleclick.net/  https://marketingplatform.google.com/about/enterprise/  301TueJul1612:52:53UTC2024  https://marketingplatform.google.com/about/enterprise/  -200
+TueJul1612:52:53UTC2024  https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en  -200
+TueJul1612:52:53UTC2024  https://marketingplatform.google.com/about/static/css/index.min.css  -200
+TueJul1612:52:53UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js  -200
+TueJul1612:52:53UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js  -200
+TueJul1612:52:53UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js  -200
+TueJul1612:52:53UTC2024  https://lh3.googleusercontent.com/M3BEUZgVVGIo4Y9o1YaEaurfGUy3aquf87fXzlo5UnZC-iLOAQ-N1ho9u9Ywx-4TmjbbAZWuNEPrGOjF3Q66y7SX3mmzwYpVaBSZvJg=s768  -200
+TueJul1612:52:53UTC2024  https://lh3.googleusercontent.com/g1VeY9p01k-fMeY0yTPigiPXx09HBHtcK6SfGLrX_GVk1UO9zik80izCL5yecuKJqKJF-EgpTBIcdpN8ekQGh-dEgLoeJmxlpuU=s1500  -200
+TueJul1612:52:53UTC2024  https://lh3.googleusercontent.com/wrHKPwn_RKCusdpmICnKeZoYVzfup5x3e6UFj58iVzEymAnru1XWjhrl2mFu5eLJ8XMp_6uNuffhhCr0HiIGUtQkhh4WKXH-COzmOA=s1500  -200
+*!-@x!x@-!*
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224
+TueJul1612:52:54UTC2024  http://wikipedia.org/  https://wikipedia.org/  301TueJul1612:52:54UTC2024  https://wikipedia.org/  https://www.wikipedia.org/  301TueJul1612:52:54UTC2024  https://www.wikipedia.org/  -200
+*!-@x!x@-!*
+http://bing.com  http://www.bing.com/  2.16.197.71
+TueJul1612:52:55UTC2024  http://bing.com/  http://www.bing.com/  301TueJul1612:52:55UTC2024  http://www.bing.com/  -200
+TueJul1612:52:56UTC2024  http://www.bing.com/th?id=OHR.AncientOrkney_PT-BR0835986378_1920x1080.webp&qlt=50  -200
+TueJul1612:52:56UTC2024  http://www.bing.com/rp/ytiieusXgM2K8bLkEDP-AS1ePds.png  -200
+TueJul1612:52:56UTC2024  https://r.bing.com/rp/Ao8XOvaaQxlXxHEA_r06zFgCMTc.gz.js  -200
+TueJul1612:52:56UTC2024  https://r.bing.com/rp/ICf9X-WMafiZOnS_3M9RpM8994E.gz.js  -200
+TueJul1612:52:56UTC2024  https://r.bing.com/rp/TSj0Olu98pyCJmMY_0MY_Uva-qk.gz.js  -200
+*!-@x!x@-!*
+http://apple-dns.net  -  0
+TueJul1612:52:56UTC2024  http://apple-dns.net/  -0
+TueJul1612:52:56UTC2024  http://apple-dns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://l-msedge.net  -  0
+TueJul1612:52:56UTC2024  http://l-msedge.net/  -0
+TueJul1612:52:56UTC2024  http://l-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://fastly.net  https://www.fastly.com/  151.101.65.57
+TueJul1612:52:56UTC2024  http://fastly.net/  https://www.fastly.com/  301TueJul1612:52:57UTC2024  https://www.fastly.com/  -200
+TueJul1612:52:57UTC2024  https://www.fastly.com/static/inter-latin-wght-normal-e62404dc3261fb537f3a211edf6a2682.woff2  -200
+TueJul1612:52:57UTC2024  https://js.driftt.com/include/1721134500000/x2ugb2nh7dxy.js  -200
+TueJul1612:52:57UTC2024  https://www.googletagmanager.com/gtm.js?id=GTM-W9FKFHD  -200
+TueJul1612:52:57UTC2024  https://images.ctfassets.net/ocb1q9kflo7k/6J2vdDxD3O3jVLsTqyQfEd/46ee8d6709c82de53a31b852324ab71f/ai-carousel-image-centered.svg  -200
+TueJul1612:52:58UTC2024  https://munchkin.marketo.net/munchkin.js  -200
+TueJul1612:52:58UTC2024  https://munchkin.marketo.net/163/munchkin.js  -200
+*!-@x!x@-!*
+http://googleusercontent.com  http://googleusercontent.com/  172.217.30.33
+TueJul1612:52:58UTC2024  http://googleusercontent.com/  -404
+TueJul1612:52:59UTC2024  http://googleusercontent.com/favicon.ico  -0
+*!-@x!x@-!*
+http://domaincontrol.com  http://domaincontrol.com/  127.0.0.1
+TueJul1612:52:59UTC2024  http://domaincontrol.com/  -0
+TueJul1612:52:59UTC2024  http://domaincontrol.com/favicon.ico  -0
+*!-@x!x@-!*
+http://icloud.com  https://www.icloud.com/  23.201.113.139
+TueJul1612:52:59UTC2024  http://icloud.com/  https://icloud.com/  301TueJul1612:52:59UTC2024  https://icloud.com/  https://www.icloud.com/  301TueJul1612:52:59UTC2024  https://www.icloud.com/  -200
+TueJul1612:53:00UTC2024  https://www.icloud.com/system/icloud.com/2419Project41/en-us/main.js  -200
+*!-@x!x@-!*
+http://googlesyndication.com  http://www.google.com/  172.217.29.36
+TueJul1612:53:00UTC2024  http://googlesyndication.com/  http://www.google.com/  302*!-@x!x@-!*

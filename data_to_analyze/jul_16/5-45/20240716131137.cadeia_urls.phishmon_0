@@ -1,0 +1,79 @@
+http://google.com  WebDriverException  0
+*!-@x!x@-!*
+http://youtube.com  https://www.youtube.com/  142.250.219.14
+TueJul1613:11:49UTC2024  http://youtube.com/  https://youtube.com/  301TueJul1613:11:49UTC2024  https://youtube.com/  https://www.youtube.com/  301TueJul1613:11:49UTC2024  https://www.youtube.com/  -200
+TueJul1613:11:50UTC2024  https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js  -200
+TueJul1613:11:50UTC2024  https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap  -200
+TueJul1613:11:50UTC2024  https://i.ytimg.com/generate_204  -204
+TueJul1613:11:51UTC2024  https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+TueJul1613:11:51UTC2024  https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I774eTUNE32KByDW5dafBDWplmxs0t7S68tvQyEx8F7QSD0EZ8slP95TZSLnxELPnGvAzZr7  302TueJul1613:11:51UTC2024  https://accounts.google.com/InteractiveLogin?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&passive=true&service=youtube&uilel=3&ifkv=AdF4I774eTUNE32KByDW5dafBDWplmxs0t7S68tvQyEx8F7QSD0EZ8slP95TZSLnxELPnGvAzZr7  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&ifkv=AdF4I77fgWLjP6zR12_uy07o0uhdv9UHT_hiHytrhAqBaIx8rueuvskWN-MIJcxwA3jb1vi10Tqtdg&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S453668601%3A1721135511339234&ddm=0  302TueJul1613:11:51UTC2024  https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fsignin_passive%26feature%3Dpassive&hl=en&ifkv=AdF4I77fgWLjP6zR12_uy07o0uhdv9UHT_hiHytrhAqBaIx8rueuvskWN-MIJcxwA3jb1vi10Tqtdg&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S453668601%3A1721135511339234&ddm=0  -403
+*!-@x!x@-!*
+http://linkedin.com  https://www.linkedin.com/  13.107.42.14
+TueJul1613:11:51UTC2024  http://linkedin.com/  https://www.linkedin.com/  301TueJul1613:11:52UTC2024  https://www.linkedin.com/  -200
+TueJul1613:11:53UTC2024  https://static.licdn.com/aero-v1/sc/h/3jjjk5syc0u3662ddyxn20nye  -200
+TueJul1613:11:53UTC2024  https://static.licdn.com/aero-v1/sc/h/79955ykfbf3xiauy72skgk73c  -200
+TueJul1613:11:53UTC2024  https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti  -200
+TueJul1613:11:53UTC2024  https://platform.linkedin.com/litms/utag/homepage-guest-frontend/utag.js?cb=1721135400000  -200
+*!-@x!x@-!*
+http://googletagmanager.com  http://googletagmanager.com/  172.217.30.72
+TueJul1613:11:54UTC2024  http://googletagmanager.com/  -400
+TueJul1613:11:54UTC2024  http://googletagmanager.com/favicon.ico  -0
+*!-@x!x@-!*
+http://akadns.net  -  0
+TueJul1613:11:54UTC2024  http://akadns.net/  -0
+TueJul1613:11:54UTC2024  http://akadns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://doubleclick.net  https://marketingplatform.google.com/about/enterprise/  172.217.29.238
+TueJul1613:11:54UTC2024  http://doubleclick.net/  https://marketingplatform.google.com/about/enterprise/  301TueJul1613:11:55UTC2024  https://marketingplatform.google.com/about/enterprise/  -200
+TueJul1613:11:55UTC2024  https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en  -200
+TueJul1613:11:55UTC2024  https://marketingplatform.google.com/about/static/css/index.min.css  -200
+TueJul1613:11:55UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js  -200
+TueJul1613:11:55UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js  -200
+TueJul1613:11:55UTC2024  https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-touch.min.js  -200
+TueJul1613:11:56UTC2024  https://lh3.googleusercontent.com/wrHKPwn_RKCusdpmICnKeZoYVzfup5x3e6UFj58iVzEymAnru1XWjhrl2mFu5eLJ8XMp_6uNuffhhCr0HiIGUtQkhh4WKXH-COzmOA=s768  -200
+TueJul1613:11:56UTC2024  https://lh3.googleusercontent.com/M3BEUZgVVGIo4Y9o1YaEaurfGUy3aquf87fXzlo5UnZC-iLOAQ-N1ho9u9Ywx-4TmjbbAZWuNEPrGOjF3Q66y7SX3mmzwYpVaBSZvJg=s768  -200
+TueJul1613:11:56UTC2024  https://lh3.googleusercontent.com/secXuOC5WcxmNqaaKKhyAEU1GiiW8kg5Eh1SB-8jrhyrVLb_VWA0NIgNlwKhtaW8y93c2RyM9LynGwrLeXhoaFbNoa0p_HRR-sX8Aw=w298-h170-p-nu-pa  -200
+*!-@x!x@-!*
+http://gtld-servers.net  -  0
+TueJul1613:11:56UTC2024  http://gtld-servers.net/  -0
+TueJul1613:11:56UTC2024  http://gtld-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://microsoftonline.com  -  0
+TueJul1613:11:56UTC2024  http://microsoftonline.com/  -0
+TueJul1613:11:56UTC2024  http://microsoftonline.com/favicon.ico  -0
+*!-@x!x@-!*
+http://trafficmanager.net  -  0
+TueJul1613:11:56UTC2024  http://trafficmanager.net/  -0
+TueJul1613:11:56UTC2024  http://trafficmanager.net/favicon.ico  -0
+*!-@x!x@-!*
+http://netflix.com  https://www.netflix.com/br-en/  3.211.157.115
+TueJul1613:11:56UTC2024  http://netflix.com/  https://netflix.com/  301TueJul1613:11:57UTC2024  https://netflix.com/  https://www.netflix.com/  301TueJul1613:11:58UTC2024  https://www.netflix.com/  https://www.netflix.com/br-en/  302TueJul1613:11:58UTC2024  https://www.netflix.com/br-en/  -200
+TueJul1613:11:59UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp.a1bcda71010575046231.css  -200
+TueJul1613:11:59UTC2024  https://assets.nflxext.com/web/ffe/wp/less/signup/nmhp/nmhp-reskin.6a003302aa4c93b29722.css  -200
+TueJul1613:11:59UTC2024  https://assets.nflxext.com/web/ffe/wp/@nf-web-ui/core/dist/ui/js/signup/nmhp/nmhpFrameworkClient.14f66b8d295d0506f22f.js  -200
+TueJul1613:11:59UTC2024  https://cdn.cookielaw.org/scripttemplates/otSDKStub.js  -200
+TueJul1613:11:59UTC2024  https://cdn.cookielaw.org/consent/87b6a5c0-0104-4e96-a291-092c11350111/87b6a5c0-0104-4e96-a291-092c11350111.json  -200
+TueJul1613:11:59UTC2024  https://occ-0-7270-1567.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55  -200
+TueJul1613:12:00UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteScreen&winw=1366&winh=768&screenw=1366&screenh=683&ratio=1  -200
+TueJul1613:12:00UTC2024  https://logs.netflix.com/log/wwwhead/cl/2?fetchType=js&eventType=WebsiteDetect&modalView=nmLanding  -200
+TueJul1613:12:00UTC2024  https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location  -200
+*!-@x!x@-!*
+http://github.com  https://github.com/  20.201.28.151
+TueJul1613:12:00UTC2024  http://github.com/  https://github.com/  301TueJul1613:12:00UTC2024  https://github.com/  -200
+TueJul1613:12:01UTC2024  https://github.githubassets.com/assets/light-efd2f2257c96.css  -200
+TueJul1613:12:01UTC2024  https://github.githubassets.com/assets/github-c62b650ef489.css  -200
+TueJul1613:12:01UTC2024  https://github.githubassets.com/assets/primer-primitives-8500c2c7ce5f.css  -200
+*!-@x!x@-!*
+http://digicert.com  https://www.digicert.com/  45.60.127.229
+TueJul1613:12:01UTC2024  http://digicert.com/  https://digicert.com/  301TueJul1613:12:02UTC2024  https://digicert.com/  https://www.digicert.com/  301TueJul1613:12:02UTC2024  https://www.digicert.com/  -200
+TueJul1613:12:03UTC2024  https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js  -200
+TueJul1613:12:03UTC2024  https://assets.adobedtm.com/extensions/EPef068a8d6dd34a43866d9a80cc98baab/AppMeasurement.min.js  -200
+TueJul1613:12:04UTC2024  https://seal.digicert.com/seals/cascade/seal.min.js  -200
+TueJul1613:12:04UTC2024  https://c.la3-c1-ia5.salesforceliveagent.com/content/g/js/51.0/deployment.js  -200
+TueJul1613:12:04UTC2024  https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=9A343704532966210A490D44%40AdobeOrg&d_nsid=0&ts=1721135523960  -200
+TueJul1613:12:04UTC2024  https://seal.digicert.com/seals/cascade/?tag=QpVPir5r&referer=www.digicert.com&format=svg&lang=en&cbr=1721135524928  -200
+TueJul1613:12:05UTC2024  https://digicert.demdex.net/dest5.html?d_nsid=0  -200
+TueJul1613:12:05UTC2024  https://d.la3-c1-ia5.salesforceliveagent.com/chat/rest/System/MultiNoun.jsonp?nouns=VisitorId,Settings&VisitorId.prefix=Visitor&Settings.prefix=Visitor&Settings.buttonIds=[5730z0000008OtS,5730z0000008Ouz,5730z0000008Orb]&Settings.updateBreadcrumb=1&Settings.urlPrefix=undefined&callback=liveagent._.handlePing&deployment_id=5720z0000008One&org_id=00D60000000KAGN&version=51  -200
+TueJul1613:12:05UTC2024  https://cm.everesttech.net/cm/dd?d_uuid=84446558841844075891781089889616243095  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZxpQAAANoY8ANx  302TueJul1613:12:05UTC2024  https://dpm.demdex.net/ibs:dpid=411&dpuuid=ZpZxpQAAANoY8ANx  -200
+TueJul1613:12:06UTC2024  https://d.la1-core1.sfdc-8tgtt5.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?sid=88fc6d2b-9e8e-4e35-bfa6-dd68872795a2&Settings.prefix=Visitor&Settings.buttonIds=[5730z0000008OtS,5730z0000008Ouz,5730z0000008Orb]&Settings.updateBreadcrumb=1&Settings.urlPrefix=undefined&callback=liveagent._.handlePing&deployment_id=5720z0000008One&org_id=00D60000000KAGN&version=51  -200
+*!-@x!x@-!*

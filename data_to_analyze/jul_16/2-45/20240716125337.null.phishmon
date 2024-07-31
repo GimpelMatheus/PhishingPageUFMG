@@ -1,0 +1,48 @@
+1721134421680	geckodriver	INFO	Listening on 127.0.0.1:24369
+1721134421689	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileGIlBNR"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1721134421972	Marionette	INFO	Marionette enabled
+1721134422044	Marionette	INFO	Listening on port 43689
+1721134422140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721134422172	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:38873","sslProxy":"127.0.1.1:38873"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1721134452205	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1721134473288	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.office.com/, line 2361: ReferenceError: $ is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 9: ReferenceError: jQuery is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 5: uncaught exception: factoryInput should has either component or c to tell the factory what component to create.Eg.ComponentFactory.create([{ c: Carousel] or ComponentFactory.create([component: Carousel]))
+console.error: ({})
+bra/vendor/require-marketo-munchkin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a0.awsstatic.com/libra/1.0.582/libra-head.js, line 17: Error: Script error for: libra/vendor/require-marketo-munchkin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js, line 2: Script terminated by timeout at:
+h@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:2:11260
+Ar/<@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:19:54976
+Ar/</<@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:19:56243
+
+JavaScript warning: https://www.apple.com/metrics/ac-target/latest/ac-target.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.apple.com/metrics/ac-target/latest/ac-target.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+JavaScript error: https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 7075: TypeError: d is undefined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 3225: Script terminated by timeout at:
+Cq@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:3225:143
+Kq@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:3268:110
+bk/<@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:1325:63
+Qq@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:3297:33
+@https://www.youtube.com/:15:496
+
+1721134452210	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

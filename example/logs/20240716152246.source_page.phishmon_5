@@ -1,0 +1,29 @@
+http://cloudflare.com  https://www.cloudflare.com/  104.16.124.96  EMPTYPAGE
+
+*!-@x!x@-!*
+http://domaincontrol.com  http://domaincontrol.com/  127.0.0.1  7ba26f33c55c990274cdd936c29e2592
+<html>
+ <head></head>
+ <body>
+  Bad Gateway: /
+ </body>
+</html>
+*!-@x!x@-!*
+http://googlesyndication.com  http://www.google.com/  172.217.162.196  6e8700eaf4ed60aba2c56a7c4f82070e
+<html>
+ <head>
+  <link rel="stylesheet" href="resource://content-accessible/plaintext.css">
+ </head>
+ <body>
+  <pre></pre>
+ </body>
+</html>
+*!-@x!x@-!*
+http://aaplimg.com  -  0  b68aef4990ee4a9ec8ec9b327eb76f1b
+<html>
+ <head></head>
+ <body>
+  Bad Gateway: http://aaplimg.com/
+ </body>
+</html>
+*!-@x!x@-!*

@@ -1,0 +1,34 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  142.251.128.228  6e8700eaf4ed60aba2c56a7c4f82070e
+<html>
+ <head>
+  <link rel="stylesheet" href="resource://content-accessible/plaintext.css">
+ </head>
+ <body>
+  <pre></pre>
+ </body>
+</html>
+*!-@x!x@-!*
+http://root-servers.net  -  0  cbb7985d330f3d559e15afef436b8fc9
+<html>
+ <head></head>
+ <body>
+  Bad Gateway: http://root-servers.net/
+ </body>
+</html>
+*!-@x!x@-!*
+http://akamai.net  -  0  c07b2921f473a500d83120d3c8475154
+<html>
+ <head></head>
+ <body>
+  Bad Gateway: http://akamai.net/
+ </body>
+</html>
+*!-@x!x@-!*
+http://azure.com  http://azure.com/  20.112.250.133  7ba26f33c55c990274cdd936c29e2592
+<html>
+ <head></head>
+ <body>
+  Bad Gateway: /
+ </body>
+</html>
+*!-@x!x@-!*

@@ -1,0 +1,82 @@
+1721136132038	geckodriver	INFO	Listening on 127.0.0.1:9006
+1721136132104	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3SrkLE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[[GFX1-]: glxtest: Unable to open a connection to the X server11721136132709	Marionette	INFO	Marionette enabled1721136132973	Marionette	INFO	Listening on port 43133
+1721136133240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721136133292	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:35325","sslProxy":"127.0.1.1:35325"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+11721136165352	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.console.error: ({})
+console.error: ({})
+JavaScript error: http://ntp.org/, line 36: TypeError: document.getElementById(...) is null
+04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 9: ReferenceError: jQuery is JavaScript error: https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeconsole.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+1721136163578	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: ({})
+console.error: ({})
+min.js:6:3985
+y@https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js:6:78366
+
+1721136163654	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://js.rbxcdn.com/260757df563ab52c2270fe06faebfcf67bc9996c718dd4ed04b61e7f4676306d.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.roblox.com/, line 596: ReferenceError: $ is not defined
+JavaScript error: https://js.rbxcdn.com/c379cf5d3d1d768411d61450b75635695058f905a96e00173122282620a96da3.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.roblox.com/, line 671: ReferenceError: $ is not defined
+JavaScript error: https://www.roblox.com/, line 783: ReferenceError: angular is not defined
+JavaScript error: https://www.roblox.com/, line 793: ReferenceError: angular is not defined
+JavaScript error: https://www.roblox.com/, line 850: ReferenceError: $ is not defined
+JavaScript error: https://www.roblox.com/, line 857: ReferenceError: $ is not defined
+1721136189096	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1721136189348	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+ine 2: TypeError: u[d] is undefined
+JavaScript error: https://static.cimcontent.net/data-layer/?appID=resi_shop_2, line 2: TypeError: u[d] is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://vimeo.com/, line 4: Script terminated by timeout at:
+p@https://vimeo.com/:4:7588
+k/<@https://vimeo.com/:4:26072
+
+1721136162713	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js, line 1: TypeError: t is undefined
+console.error: ({})
+JavaScript error: https://zoom.us/, line 5675: ReferenceError: $ is not defined
+JavaScript error: https://st3.zoom.us/static/6.3.23157/js/app/jquery.validate.message.min.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://zoom.us/, line 5859: ReferenceError: $ is not defined
+/c<@core-keeper.min.js:291:10160
+ue/coreKeeper@core-keeper.min.js:291:5460
+t@core-keeper.min.js:291:5330
+
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 7: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 8: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 9: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 10: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 15: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 16: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 17: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 18: ReferenceError: requireLazy is not defined
+JavaScript error: https://www.whatsapp.com/, line 19: ReferenceError: requireLazy is not defined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://staticfile.qq.com/qimei/qimeisdk-web/0.6.3/lite.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://staticfile.qq.com/qimei/qimeisdk-web/0.6.3/lite.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1721136182728	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1721136189090	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: ({})
+console.error: ({})

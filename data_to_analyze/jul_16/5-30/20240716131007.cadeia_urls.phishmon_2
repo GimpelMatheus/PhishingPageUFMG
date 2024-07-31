@@ -1,0 +1,38 @@
+http://google.com  WebDriverException  0
+*!-@x!x@-!*
+http://root-servers.net  -  0
+TueJul1613:10:19UTC2024  http://root-servers.net/  -0
+TueJul1613:10:19UTC2024  http://root-servers.net/favicon.ico  -0
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://adobe.com  https://www.adobe.com/  2.16.197.140
+TueJul1613:10:49UTC2024  http://adobe.com/  https://adobe.com/  301TueJul1613:10:50UTC2024  https://adobe.com/  https://www.adobe.com/  301TueJul1613:10:51UTC2024  https://www.adobe.com/  -200
+TueJul1613:10:51UTC2024  https://www.adobe.com/homepage/scripts/scripts.js  -200
+TueJul1613:10:51UTC2024  https://www.adobe.com  -0
+*!-@x!x@-!*
+http://gvt2.com  -  0
+TueJul1613:10:51UTC2024  http://gvt2.com/  -0
+TueJul1613:10:51UTC2024  http://gvt2.com/favicon.ico  -0
+*!-@x!x@-!*
+http://spotify.com  https://open.spotify.com/  151.101.251.42
+TueJul1613:10:51UTC2024  http://spotify.com/  https://www.spotify.com/  301TueJul1613:10:53UTC2024  https://www.spotify.com/  https://open.spotify.com/  301TueJul1613:10:53UTC2024  https://open.spotify.com/  -200
+TueJul1613:10:53UTC2024  https://www.googleoptimize.com/optimize.js?id=GTM-W53X654  -200
+TueJul1613:10:54UTC2024  https://open.spotifycdn.com/cdn/js/gtm.ea4c34bc.js  -200
+TueJul1613:10:54UTC2024  https://open.spotifycdn.com/cdn/build/web-player/web-player.47583388.js  -200
+TueJul1613:10:54UTC2024  https://open.spotifycdn.com/cdn/generated-locales/web-player/en.cc420d75.json  -200
+TueJul1613:10:55UTC2024  https://encore.scdn.co/fonts/CircularSpTitle-Black-4588c99025b967475c31695b0743dd1a.woff2  -200
+TueJul1613:10:55UTC2024  https://encore.scdn.co/fonts/CircularSp-Bold-602e7aefc706aa36c6ec1324b9bbc461.woff2  -200
+TueJul1613:10:55UTC2024  https://encore.scdn.co/fonts/CircularSp-Book-a00e99ef9996a3a157fb6b746856d04f.woff2  -200
+*!-@x!x@-!*
+http://s-msedge.net  -  0
+TueJul1613:10:55UTC2024  http://s-msedge.net/  -0
+TueJul1613:10:55UTC2024  http://s-msedge.net/favicon.ico  -0
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+TueJul1613:10:56UTC2024  http://msn.com/  https://msn.com/  301TueJul1613:10:56UTC2024  https://msn.com/  https://www.msn.com/  301TueJul1613:10:56UTC2024  https://www.msn.com/  /pt-br  302TueJul1613:10:56UTC2024  https://www.msn.com/pt-br  -200
+TueJul1613:10:56UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.417168f641aeca8ceb3d.js  -200
+TueJul1613:10:57UTC2024  https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js  -200
+TueJul1613:10:57UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.91c1da7df83e920af2b1.js  -200
+TueJul1613:10:57UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/common.e89adad635a7eeeee5c7.js  -200
+*!-@x!x@-!*

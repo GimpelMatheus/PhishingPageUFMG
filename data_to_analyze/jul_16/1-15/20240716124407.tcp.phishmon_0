@@ -1,0 +1,46 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.28.228  142.251.132.42,172.217.30.14,142.251.132.46,142.251.129.14,172.217.30.3,142.251.129.35,172.217.28.228
+*!-@x!x@-!*
+http://a-msedge.net  -  0  null
+*!-@x!x@-!*
+http://microsoft.com  TimeoutException  0
+*!-@x!x@-!*
+http://facebook.com  https://www.facebook.com/  31.13.85.36  31.13.85.4,31.13.85.36
+*!-@x!x@-!*
+http://amazonaws.com  https://aws.amazon.com/  13.227.97.118  108.158.118.122,99.84.31.3,44.209.40.8,18.161.205.9,13.227.126.52,108.139.185.57,72.21.210.29,108.158.122.121,13.227.97.118,108.158.186.37
+*!-@x!x@-!*
+http://googleapis.com  http://googleapis.com/  142.250.218.196  142.250.218.196
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  23.37.8.244  17.253.144.10,23.37.8.244
+*!-@x!x@-!*
+http://youtube.com  https://www.youtube.com/  142.251.128.142  142.251.128.142,172.217.29.202,64.233.186.84,172.217.30.3,172.217.29.206,142.251.129.118,34.149.100.209,34.160.144.191
+*!-@x!x@-!*
+http://root-servers.net  -  0  null,34.149.100.209
+*!-@x!x@-!*
+http://akamai.net  -  0  null,34.149.100.209
+*!-@x!x@-!*
+http://azure.com  TimeoutException  0
+*!-@x!x@-!*
+http://akamaiedge.net  -  0  null
+*!-@x!x@-!*
+http://twitter.com  https://twitter.com/x/migrate?tok=7b2265223a222f222c2274223a313732313133333839377d04fcbcb80986372c1891cb3bd0c229f9  104.244.42.193  104.244.42.193
+*!-@x!x@-!*
+http://instagram.com  https://www.instagram.com/  31.13.85.174  31.13.85.174,31.13.85.52
+*!-@x!x@-!*
+http://cloudflare.com  https://www.cloudflare.com/  104.16.123.96  104.16.79.73,104.16.123.96,104.16.133.229
+*!-@x!x@-!*
+http://gstatic.com  http://www.gstatic.com/  142.251.129.35  142.251.129.163
+*!-@x!x@-!*
+http://office.com  https://www.office.com/  13.107.6.156  13.107.6.156,95.101.25.149,23.37.9.217,13.107.246.34,2.16.197.85
+*!-@x!x@-!*
+http://linkedin.com  https://www.linkedin.com/  13.107.42.14  152.199.54.186,13.107.42.14
+*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.28.228  172.217.29.228,142.250.218.206
+*!-@x!x@-!*
+http://tiktokcdn.com  -  0  null
+*!-@x!x@-!*
+http://live.com  https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0  23.37.9.217  52.97.26.82,204.79.197.212
+*!-@x!x@-!*
+http://windowsupdate.com  -  0  null
+*!-@x!x@-!*
+http://fbcdn.net  https://www.facebook.com/  31.13.85.36  31.13.85.36
+*!-@x!x@-!*

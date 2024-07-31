@@ -1,0 +1,19 @@
+1722370493948	geckodriver	INFO	Listening on 127.0.0.1:30031
+1722370494014	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDtCEI0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1722370494865	Marionette	INFO	Marionette enabled
+1722370495140	Marionette	INFO	Listening on port 35935
+Read port: 35935
+1722370495813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1722370495896	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:38071","sslProxy":"127.0.1.1:38071"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1722370498197	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error

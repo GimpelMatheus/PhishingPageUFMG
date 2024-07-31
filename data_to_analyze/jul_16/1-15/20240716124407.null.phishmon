@@ -1,0 +1,89 @@
+1721133848647	geckodriver	INFO	Listening on 127.0.0.1:21822
+1721133848827	mozrunner::runner	INFO	Running command: "/home/gimpel/firefox/firefox-bin" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezrLC5F"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1721133849531	Marionette	INFO	Marionette enabled
+1721133849682	Marionette	INFO	Listening on port 40777
+1721133849788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1721133849810	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.1.1:43639","sslProxy":"127.0.1.1:43639"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://a0.awsstatic.com/libra/1.0.582/libra-head.js, line 17: Error: Script error for: libra/libra-bundle
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a0.awsstatic.com/libra/1.0.582/libra-head.js, line 17: Error: Script error for: libra/libra-bundle
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a0.awsstatic.com/libra/1.0.582/libra-head.js, line 17: Error: Script error for: libra/vendor/require-marketo-munchkin
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://a0.awsstatic.com/libra/1.0.582/libra-head.js, line 17: Error: Script error for: libra/vendor/require-marketo-munchkin
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js, line 2: Script terminated by timeout at:
+h@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:2:11260
+Ar/<@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:19:54976
+Ar/</<@https://a.b.cdn.console.awsstatic.com/a/v1/XJIY4LNOBACRTN5PPUJ4I6XKSN36P447D3AWVHQUR35Q2O2IU4CA/5d05edc909904de894fc75fe150f57918cd130a47b6c4e9988c9354fa7360e0a.js:19:56243
+
+JavaScript warning: https://www.apple.com/metrics/ac-target/latest/ac-target.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.apple.com/metrics/ac-target/latest/ac-target.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: ({})
+JavaScript error: https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 7075: TypeError: d is undefined
+console.error: ({})
+console.error: ({})
+1721133879567	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1325: Script terminated by timeout at:
+bk@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:1325:12
+Qq@https://www.youtube.com/s/desktop/a39b93b0/jsbin/desktop_polymer.vflset/desktop_polymer.js:3297:27
+@https://www.youtube.com/:15:496
+
+1721133897955	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.office.com/, line 2361: ReferenceError: $ is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 9: ReferenceError: jQuery is not defined
+JavaScript error: https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/d4-fb1f57/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/f9-a5b2ce/db-bc0148/dc-7e9864/6d-c07ea1/6f-dafe8c/f6-aa5278/73-a24d00/6d-1e7ed0/b7-cadaa7/c4-898cf2/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/d0-e64f3e/92-10345d/79-499886/7e-cda2d3/58-ab4971/ca-108466/e0-3c9860/de-884374/1f-100dea/33-abe4df/2b-8e0ae6?ver=2.0&_cf=02242021_3231&iife=1, line 5: uncaught exception: factoryInput should has either component or c to tell the factory what component to create.Eg.ComponentFactory.create([{ c: Carousel] or ComponentFactory.create([component: Carousel]))
+console.error: ({})
+JavaScript warning: https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js, line 6: Script terminated by timeout at:
+i@https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js:6:3985
+y@https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js:6:78366
+
+console.error: ({})
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/79955ykfbf3xiauy72skgk73c, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/79955ykfbf3xiauy72skgk73c, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/8m736dfzskmdn6bwwqz67iiki
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Error: POST request for /homepage-guest/api/ingraphs/gauge has failed with status code 405
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti, line 1: Script terminated by timeout at:
+vi@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:128810
+Zr/s/e<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:124104
+Zr/s/e<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:124071
+s@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:124142
+Zr@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:124904
+Yr@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:123398
+bi@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:133142
+value/o<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:215940
+value/i<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:216077
+value@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:217315
+e/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214736
+ma/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214416
+ma@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:214388
+ji/<@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:210201
+s@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:212889
+n@https://static.licdn.com/aero-v1/sc/h/eh08muqvrde4h3hc6koyij5ti:1:209827
+
+console.error: ({})

@@ -1,0 +1,18 @@
+http://microsoft.com  WebDriverException  0
+*!-@x!x@-!*
+http://cloudflare.com  WebDriverException  0
+*!-@x!x@-!*
+http://googlevideo.com  http://www.google.com/videohp  172.217.28.228
+TueJul1620:11:31UTC2024  http://googlevideo.com/  http://video.google.com/  301TueJul1620:11:31UTC2024  http://video.google.com/  http://www.google.com/videohp  301*!-@x!x@-!*
+http://doubleclick.net  WebDriverException  0
+*!-@x!x@-!*
+http://apple-dns.net  -  0
+TueJul1620:12:00UTC2024  http://apple-dns.net/  -0
+TueJul1620:12:00UTC2024  http://apple-dns.net/favicon.ico  -0
+*!-@x!x@-!*
+http://fastly.net  WebDriverException  0
+*!-@x!x@-!*
+http://googlesyndication.com  WebDriverException  0
+*!-@x!x@-!*
+http://github.com  WebDriverException  0
+*!-@x!x@-!*
