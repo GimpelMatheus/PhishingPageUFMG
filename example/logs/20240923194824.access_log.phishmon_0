@@ -1,0 +1,4 @@
+http://youtube.com  WebDriverException  0
+http://qq.com  WebDriverException  0
+http://taobao.com  UnreachableBrowserException  0
+http://sina.com.cn  UnreachableBrowserException  0

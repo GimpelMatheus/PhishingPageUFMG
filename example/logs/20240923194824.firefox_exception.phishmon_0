@@ -1,0 +1,25 @@
+http://youtube.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e6011732-4d59-4cb7-96fb-fcc8272208bb, get {url=http://youtube.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:19845, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3082194, moz:profile: /tmp/rust_mozprofileUCUZcM, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:19845/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: e6011732-4d59-4cb7-96fb-fcc8272208bbhttp://qq.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c1f776c-336b-44f9-b9a7-1361f0caf1d0, get {url=http://qq.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:30834, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3083110, moz:profile: /tmp/rust_mozprofiletcZx1K, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:30834/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 5c1f776c-336b-44f9-b9a7-1361f0caf1d0http://taobao.comorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a0eb6e26-7196-4829-83b4-0b45a8d7977e, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:15958, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3084051, moz:profile: /tmp/rust_mozprofileLcG7Re, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:15958/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: a0eb6e26-7196-4829-83b4-0b45a8d7977ehttp://sina.com.cnorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [94b7d515-6491-4642-b41c-4ca7005457fc, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:14330, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3084943, moz:profile: /tmp/rust_mozprofileowUxYA, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:14330/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 94b7d515-6491-4642-b41c-4ca7005457fc

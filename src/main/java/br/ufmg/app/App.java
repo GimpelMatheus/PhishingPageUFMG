@@ -44,7 +44,7 @@ public class App {
 		killProcesses = new AtomicBoolean(false);
 	}
 
-	public void run() throws FileNotFoundException, UnsupportedEncodingException, IOException {
+	public void run() throws FileNotFoundException, UnsupportedEncodingException, IOException, InterruptedException {
 		this.startLogFiles();
 		this.singletonSetup();
 		this.getFiles();
@@ -123,7 +123,7 @@ public class App {
 	}
 
 	/* Função principal. Administa o multithreading */
-	private void manageProcesses() {
+	private void manageProcesses() throws InterruptedException {
 		MemoryMonitor memoryMonitor = new MemoryMonitor(restartProcesses);
 		Thread monitor = new Thread(memoryMonitor);
 		monitor.start();
@@ -151,6 +151,8 @@ public class App {
 				try {
 					Runtime.getRuntime().exec("pkill -9 firefox");
 					Runtime.getRuntime().exec("pkill -9 geckodriver");
+                    //Thread.sleep(5000); // Give time for processes to fully terminate
+
 				} catch (IOException e) {
 					e.printStackTrace();
 				}

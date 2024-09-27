@@ -1,0 +1,10 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.30.36
+http://slashdot.org  UnreachableBrowserException  0
+http://hao123.com  UnreachableBrowserException  0
+http://pinterest.com  WebDriverException  0
+http://tumblr.com  UnreachableBrowserException  0
+http://imdb.com  WebDriverException  0
+http://go.com  WebDriverException  0
+http://google.ca  UnreachableBrowserException  0
+http://soso.com  UnreachableBrowserException  0
+http://cnn.com  UnreachableBrowserException  0

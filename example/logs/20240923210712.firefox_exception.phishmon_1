@@ -1,0 +1,55 @@
+http://t.coorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0ce1f50e-5a32-42f9-b43b-1679dbb75822, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:20525, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3159600, moz:profile: /tmp/rust_mozprofilejrKO7H, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:20525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 0ce1f50e-5a32-42f9-b43b-1679dbb75822http://amazon.deorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [df7d5f5c-3808-48de-a62b-c9b33c9de44e, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:15660, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3163102, moz:profile: /tmp/rust_mozprofileobxzRp, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:15660/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: df7d5f5c-3808-48de-a62b-c9b33c9de44ehttp://craigslist.orgorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [26a8213d-f884-4102-bebb-87a461f1d30b, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:15587, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3165648, moz:profile: /tmp/rust_mozprofilei89kn1, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:15587/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 26a8213d-f884-4102-bebb-87a461f1d30bhttp://outbrain.comorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [57e331d4-30b9-4833-b437-1b2d09b67a5d, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:22881, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3168042, moz:profile: /tmp/rust_mozprofilemmgmai, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:22881/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 57e331d4-30b9-4833-b437-1b2d09b67a5dhttp://bongacams.comorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c95187a6-b545-423b-9bcb-24d80d37d6ae, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:22807, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3170464, moz:profile: /tmp/rust_mozprofileRJkfjx, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:22807/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: c95187a6-b545-423b-9bcb-24d80d37d6aehttp://pixnet.netorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [468e7cda-61c8-482a-a222-1addbbe3623d, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:21876, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3172905, moz:profile: /tmp/rust_mozprofileMT8y6z, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:21876/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 468e7cda-61c8-482a-a222-1addbbe3623dhttp://booking.comorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7881d668-6c43-46e3-ac0c-8fb5df6fad05, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:18803, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3175103, moz:profile: /tmp/rust_mozprofileY36jAC, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:18803/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 7881d668-6c43-46e3-ac0c-8fb5df6fad05http://youku.comorg.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e05ae2fa-0f05-4542-9362-aed00492a312, get [url]]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:6314, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3177291, moz:profile: /tmp/rust_mozprofilefYjanm, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:6314/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: e05ae2fa-0f05-4542-9362-aed00492a312http://snapdeal.comorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f84b18ca-38f6-4d29-9e26-fbee885650fe, get {url=http://snapdeal.com}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:14807, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3179466, moz:profile: /tmp/rust_mozprofileMOgOJU, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:14807/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: f84b18ca-38f6-4d29-9e26-fbee885650fe

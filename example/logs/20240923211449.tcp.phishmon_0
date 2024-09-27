@@ -1,0 +1,30 @@
+http://amazon.com  https://www.amazon.com/  18.67.134.41  18.67.134.41,54.239.28.85,34.149.100.209,23.20.77.4,108.139.184.30
+*!-@x!x@-!*
+http://yahoo.co.jp  WebDriverException  0
+*!-@x!x@-!*
+http://t.co  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://netflix.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://google.com.hk  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://diply.com  https://diply.com/  104.26.2.12  34.149.100.209,104.26.2.12
+*!-@x!x@-!*
+http://soso.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://google.co.id  https://www.google.co.id/?gws_rd=ssl  142.251.132.227  142.251.132.227,172.217.29.3,34.149.100.209
+*!-@x!x@-!*
+http://bongacams.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://kat.cr  http://kat.cr/  64.190.63.222  204.93.142.142,34.149.100.209,64.190.63.222
+*!-@x!x@-!*
+http://google.pl  https://www.google.pl/?gws_rd=ssl  172.217.30.35  172.217.30.35,172.217.29.195
+*!-@x!x@-!*
+http://sogou.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://booking.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://china.com  -  0  null
+*!-@x!x@-!*
+http://chase.com  WebDriverException  0
+*!-@x!x@-!*

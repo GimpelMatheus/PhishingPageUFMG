@@ -1,0 +1,33 @@
+http://twitter.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://sohu.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://alibaba.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://naver.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://google.co.kr  https://www.google.co.kr/?gws_rd=ssl  172.217.30.67
+MonSep2321:08:23UTC2024  http://google.co.kr/  http://www.google.co.kr/  301MonSep2321:08:23UTC2024  http://www.google.co.kr/  https://www.google.co.kr/?gws_rd=ssl  302MonSep2321:08:23UTC2024  https://www.google.co.kr/?gws_rd=ssl  -200
+MonSep2321:08:24UTC2024  https://www.google.co.kr/xjs/_/ss/k=xjs.hd.1AI-lg4_HKs.L.F4.O/am=JCkAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAKgIAEADACANgAAAAAAAAACAAAAwAAAAAAQAIAAAgCwAAAAAAAAAQAQEQAAABFAAAAAACEAAEACKAAQoACJECgCEYhAAAAMAAAQAgAAwwDEFQAMAoQAAAAAABAgAgAAAAaAWAAAKCHQAAYAMIEAEAI6AEIAAAAAAEABIAAABAAMEAGIAAAAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAQABAAAAAAAAAAAAAAAAAAAAEA/d=1/ed=1/rs=ACT90oEAgj6ffTylTOkC1Ldqh2fEkBUtkQ/m=cdos,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl  -200
+*!-@x!x@-!*
+http://kat.cr  WebDriverException  0
+*!-@x!x@-!*
+http://tradeadexchange.com  http://tradeadexchange.com/  172.67.152.37
+MonSep2321:08:30UTC2024  http://tradeadexchange.com/  -403
+MonSep2321:08:31UTC2024  http://tradeadexchange.com/favicon.ico  -0
+*!-@x!x@-!*
+http://sogou.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://livedoor.jp  http://livedoor.jp/  147.92.240.79
+MonSep2321:08:38UTC2024  http://livedoor.jp/  -404
+MonSep2321:08:39UTC2024  http://livedoor.jp/favicon.ico  -0
+*!-@x!x@-!*
+http://bbc.com  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://google.com.sa  WebDriverException  0
+*!-@x!x@-!*
+http://terraclicks.com  http://terraclicks.com/  15.197.172.60
+MonSep2321:08:54UTC2024  http://terraclicks.com/  -200
+*!-@x!x@-!*
+http://microsoftonline.com  WebDriverException  0
+*!-@x!x@-!*

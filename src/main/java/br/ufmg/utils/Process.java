@@ -41,9 +41,21 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
 
 public class Process implements Runnable {
 
+    /* 
+        Vazamento de memória - biblioteca que faz o dump das classes estão gastando um certo percentual
+        de memória
+        
+        conseguimos mapear qual objeto está ocupando muita memória
+        quanto de memória gasta cada objeto
+
+        aumentar o tamanho da RAM
+
+
+    */
 	private int pid;
 	private int timeout;
 	private int requestsLimit;
@@ -83,65 +95,65 @@ public class Process implements Runnable {
 		this.geckoDriverBinaryPath = geckoDriverBinaryPath;
 	}
 
-	public void getProxyServer() {
-		proxy = new BrowserMobProxyServer();
+        public void getProxyServer() {
+            proxy = new BrowserMobProxyServer();
 
-		proxy.addRequestFilter((request, contents, messageInfo) -> {
+            proxy.addRequestFilter((request, contents, messageInfo) -> {
 
-			String urlReq = io.netty.handler.codec.http.HttpHeaders.getHost(request);
-			String dom = "";
-			dom = urlReq.split(":")[0];
+                String urlReq = io.netty.handler.codec.http.HttpHeaders.getHost(request);
+                String dom = "";
+                dom = urlReq.split(":")[0];
 
-			request.headers().set("X-Research-Project-Info", "http://138.197.3.28/");
+                request.headers().set("X-Research-Project-Info", "http://138.197.3.28/");
 
-			if (!dom.contains("firefox") && !dom.contains("mozilla") && !dom.contains("proxy")) {
-				long tempo = System.currentTimeMillis();
-				if (Singleton.getInstance().isInDict(dom)) {
-					int numRequisicoes = Singleton.getInstance().getNumeroReq(dom);
-					// System.out.println(dom + " " + numRequisicoes);
-					Singleton.getInstance().setRequestsNumber(dom, tempo);
-					if (numRequisicoes >= requestsLimit && !whitelist.has(dom)) {
-						final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
-								HttpResponseStatus.valueOf(405));
-						response.headers().add(HttpHeaders.CONNECTION, "Close");
-						return response;
-					}
-				} else {
-					Singleton.getInstance().setRequestsNumber(urlReq, tempo);
-				}
-			}
+                if (!dom.contains("firefox") && !dom.contains("mozilla") && !dom.contains("proxy")) {
+                    long tempo = System.currentTimeMillis();
+                    if (Singleton.getInstance().isInDict(dom)) {
+                        int numRequisicoes = Singleton.getInstance().getNumeroReq(dom);
+                        // System.out.println(dom + " " + numRequisicoes);
+                        Singleton.getInstance().setRequestsNumber(dom, tempo);
+                        if (numRequisicoes >= requestsLimit && !whitelist.has(dom)) {
+                            final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
+                                    HttpResponseStatus.valueOf(405));
+                            response.headers().add(HttpHeaders.CONNECTION, "Close");
+                            return response;
+                        }
+                    } else {
+                        Singleton.getInstance().setRequestsNumber(urlReq, tempo);
+                    }
+                }
 
-			if (request.getMethod().equals(HttpMethod.POST) || dom.contains(".gov") || blacklist.has(dom)) {
-				// System.out.println(request.headers());
-				final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
-						HttpResponseStatus.valueOf(405));
-				response.headers().add(HttpHeaders.CONNECTION, "Close");
-				return response;
-			} else {
-				return null;
-			}
-		});
+                if (request.getMethod().equals(HttpMethod.POST) || dom.contains(".gov") || blacklist.has(dom)) {
+                    // System.out.println(request.headers());
+                    final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
+                            HttpResponseStatus.valueOf(405));
+                    response.headers().add(HttpHeaders.CONNECTION, "Close");
+                    return response;
+                } else {
+                    return null;
+                }
+            });
 
-		// ---------------------------------------@---------------------------------
-		proxy.addLastHttpFilterFactory(new HttpFiltersSourceAdapter() {
-			@Override
-			public HttpFilters filterRequest(HttpRequest originalRequest) {
-				return new HttpFiltersAdapter(originalRequest) {
-					@Override
-					public HttpResponse proxyToServerRequest(HttpObject httpObject) {
-						if (httpObject instanceof HttpRequest) {
-							((HttpRequest) httpObject).headers().remove("VIA");
-							// System.out.println(((HttpRequest) httpObject).headers().get("VIA"));
-						}
-						return null;
-					}
-				};
-			}
-		});
+            // ---------------------------------------@---------------------------------
+            proxy.addLastHttpFilterFactory(new HttpFiltersSourceAdapter() {
+                @Override
+                public HttpFilters filterRequest(HttpRequest originalRequest) {
+                    return new HttpFiltersAdapter(originalRequest) {
+                        @Override
+                        public HttpResponse proxyToServerRequest(HttpObject httpObject) {
+                            if (httpObject instanceof HttpRequest) {
+                                ((HttpRequest) httpObject).headers().remove("VIA");
+                                // System.out.println(((HttpRequest) httpObject).headers().get("VIA"));
+                            }
+                            return null;
+                        }
+                    };
+                }
+            });
 
-		proxy.setTrustAllServers(true);
-		proxy.start();
-	}
+            proxy.setTrustAllServers(true);
+            proxy.start(0);
+        }
 
 	public void getSeleniumProxy() {
 		seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
@@ -157,11 +169,9 @@ public class Process implements Runnable {
 	public void getFirefoxDriver(DesiredCapabilities capabilities) {
 		FirefoxOptions options = new FirefoxOptions();
 		options.setProxy(seleniumProxy);
-		options.setHeadless(true);
+        options.addArguments("--headless");
+        options.setBinary("/usr/bin/firefox");
 		options.merge(capabilities);
-
-		Path nullFileLog = this.logsWriter.getLogDirPath().resolve(this.logsWriter.getStandardFileNameFromSuffix("null"));
-		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, nullFileLog.toString());
 		driver = new FirefoxDriver(options);
 	}
 
@@ -187,9 +197,9 @@ public class Process implements Runnable {
 		driver.manage().timeouts().pageLoadTimeout(this.timeout, TimeUnit.SECONDS);
 		String finalUrl = "about:blank";
 		try {
-			this.logsWriter.writeTimeURLs(this.pid, Long.toString(System.currentTimeMillis()) + " ");
+			this.logsWriter.writeTimeURLs(this.pid, "ACESSO A URL: " + url + Long.toString(System.currentTimeMillis()) + " ");
 			driver.get(url);
-			this.logsWriter.writeTimeURLs(this.pid, Long.toString(System.currentTimeMillis()) + " ");
+			this.logsWriter.writeTimeURLs(this.pid, " FINALIZANDO DRIVER.GET DA URL" + Long.toString(System.currentTimeMillis()) + " \n");
 			finalUrl = driver.getCurrentUrl();
 		} catch (Exception e) {
 			if (e instanceof WebDriverException) {
@@ -276,6 +286,7 @@ public class Process implements Runnable {
 
 	public void run() {
 		System.setProperty("webdriver.gecko.driver", this.geckoDriverBinaryPath);
+
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 		getProxyServer();
@@ -291,11 +302,14 @@ public class Process implements Runnable {
 					break;
 				}
 				long startTime = System.currentTimeMillis();
-				this.logsWriter.writeTimeURLs(this.pid, Long.toString(startTime) + " ");
 				String composedURL = listaUrls.take();
+                System.out.println("PID: " + this.pid + "\n");
+                this.logsWriter.writeTimeURLs(this.pid, "\nSTART TIME PEGAR COMPOSED URL: " + composedURL + Long.toString(startTime) + " ");
 
 				if (composedURL == "poison_pill") {
 					killProcesses.compareAndSet(false, true);
+                    this.logsWriter.writeTimeURLs(this.pid, "ComposedURL == Poison_Pill");
+
 					break;
 				}
 
@@ -339,7 +353,7 @@ public class Process implements Runnable {
 				this.logsWriter.writeTcp(this.pid, "\n*!-@x!x@-!*\n");
 				this.logsWriter.writeCadeiaURLs(this.pid, "*!-@x!x@-!*\n");
 				long finalTime = System.currentTimeMillis();
-				this.logsWriter.writeTimeURLs(this.pid, Long.toString(finalTime) + "\n");
+				this.logsWriter.writeTimeURLs(this.pid, " Finalizando acesso composed url " + Long.toString(finalTime) + "\n");
 
 			} catch (InterruptedException e) {
 				e.printStackTrace();
@@ -349,7 +363,7 @@ public class Process implements Runnable {
 		}
 
 		try {
-			driver.close();
+			driver.quit();
 			proxy.stop();
 		} catch (Exception e) {
 

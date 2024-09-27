@@ -1,0 +1,10 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.30.36  142.251.128.234,172.217.30.36,172.217.29.67,172.217.29.35,172.217.29.46,172.217.29.206,34.149.100.209,142.251.132.14
+*!-@x!x@-!*
+http://baidu.com  WebDriverException  0
+*!-@x!x@-!*
+http://amazon.com  https://www.amazon.com/  108.158.119.230  108.158.119.230,54.239.28.85,23.200.83.51,34.149.100.209,54.236.158.163
+*!-@x!x@-!*
+http://slashdot.org  UnreachableBrowserException  0
+*!-@x!x@-!*
+http://yahoo.co.jp  UnreachableBrowserException  0
+*!-@x!x@-!*

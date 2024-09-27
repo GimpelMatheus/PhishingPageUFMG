@@ -1,0 +1,6 @@
+http://amazon.com  https://www.amazon.com/  18.67.134.41
+http://sina.com.cn  UnreachableBrowserException  0
+http://yandex.ru  UnreachableBrowserException  0
+http://reddit.com  WebDriverException  0
+http://amazon.de  UnreachableBrowserException  0
+http://outbrain.com  UnreachableBrowserException  0

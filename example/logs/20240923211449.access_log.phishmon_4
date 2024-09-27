@@ -1,0 +1,17 @@
+http://yahoo.com  https://br.search.yahoo.com/?fr2=p:fprd,mkt:br  66.218.84.137
+http://weibo.com  https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=https%3A%2F%2Fweibo.com%2F&domain=weibo.com&ua=Mozilla%2F5.0%20%28X11%3B%20Linux%20x86_64%3B%20rv%3A128.0%29%20Gecko%2F20100101%20Firefox%2F128.0&_rand=1727126108459&sudaref=  36.51.224.27
+http://vk.com  UnreachableBrowserException  0
+http://google.de  https://www.google.de/?gws_rd=ssl  142.251.132.3
+http://ask.com  https://www.ask.com/  151.101.2.114
+http://paypal.com  UnreachableBrowserException  0
+http://google.it  https://www.google.it/?gws_rd=ssl  142.251.129.195
+http://amazon.de  UnreachableBrowserException  0
+http://google.com.mx  https://www.google.com.mx/?gws_rd=ssl  142.251.129.227
+http://craigslist.org  UnreachableBrowserException  0
+http://pornhub.com  WebDriverException  0
+http://google.co.kr  UnreachableBrowserException  0
+http://popads.net  UnreachableBrowserException  0
+http://bbc.com  UnreachableBrowserException  0
+http://dailymail.co.uk  WebDriverException  0
+http://uol.com.br  WebDriverException  0
+http://office.com  WebDriverException  0

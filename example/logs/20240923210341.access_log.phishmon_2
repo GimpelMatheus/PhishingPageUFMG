@@ -1,0 +1,14 @@
+http://wikipedia.org  https://www.wikipedia.org/  195.200.68.224
+http://google.co.in  https://www.google.co.in/?gws_rd=ssl  172.217.29.99
+http://yahoo.co.jp  UnreachableBrowserException  0
+http://ebay.com  UnreachableBrowserException  0
+http://google.co.uk  https://www.google.co.uk/?gws_rd=ssl  172.217.29.67
+http://mail.ru  WebDriverException  0
+http://blogspot.com  UnreachableBrowserException  0
+http://microsoft.com  WebDriverException  0
+http://gmw.cn  UnreachableBrowserException  0
+http://amazon.in  WebDriverException  0
+http://pornhub.com  UnreachableBrowserException  0
+http://google.com.tr  UnreachableBrowserException  0
+http://espn.go.com  UnreachableBrowserException  0
+http://google.co.id  UnreachableBrowserException  0

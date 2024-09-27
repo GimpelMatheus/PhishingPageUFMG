@@ -1,0 +1,15 @@
+http://amazon.com  https://www.amazon.com/  18.67.134.41
+http://yahoo.co.jp  WebDriverException  0
+http://t.co  UnreachableBrowserException  0
+http://netflix.com  UnreachableBrowserException  0
+http://google.com.hk  UnreachableBrowserException  0
+http://diply.com  https://diply.com/  104.26.2.12
+http://soso.com  UnreachableBrowserException  0
+http://google.co.id  https://www.google.co.id/?gws_rd=ssl  142.251.132.227
+http://bongacams.com  UnreachableBrowserException  0
+http://kat.cr  http://kat.cr/  64.190.63.222
+http://google.pl  https://www.google.pl/?gws_rd=ssl  172.217.30.35
+http://sogou.com  UnreachableBrowserException  0
+http://booking.com  UnreachableBrowserException  0
+http://china.com  -  0
+http://chase.com  WebDriverException  0

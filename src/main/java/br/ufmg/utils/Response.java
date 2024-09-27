@@ -6,25 +6,30 @@ import net.lightbody.bmp.core.har.HarEntry;
 
 public class Response {
 
-	private boolean blocked;
-	private boolean exception;
-	private String urlLog;
-	List<HarEntry> entries;
+    private boolean blocked;
+    private boolean exception;
+    private boolean processed;
+    private String urlLog;
+    private List<HarEntry> entries;
 
-	public Response(boolean b1, boolean b2, String l1) {
-		blocked = b1;
-		exception = b2;
-		urlLog = l1;
-	}
+    // Constructor for blocked or exception responses
+    public Response(boolean blocked, boolean exception, String urlLog) {
+        this.blocked = blocked;
+        this.exception = exception;
+        this.processed = false; // Not processed by default
+        this.urlLog = urlLog;
+    }
 
-	public Response(boolean b1, boolean b2, String l1, List<HarEntry> entradas) {
-		blocked = b1;
-		exception = b2;
-		urlLog = l1;
-		entries = entradas;
-	}
+    // Constructor for processed responses with HAR entries
+    public Response(boolean blocked, boolean exception, String urlLog, List<HarEntry> entries) {
+        this.blocked = blocked;
+        this.exception = exception;
+        this.processed = true; // Mark as processed
+        this.urlLog = urlLog;
+        this.entries = entries;
+    }
 
-	public Boolean getBlocked() {
+    public Boolean getBlocked() {
 		return blocked;
 	}
 
@@ -40,4 +45,15 @@ public class Response {
 		return entries;
 	}
 
+    // New methods
+
+    // Check if the response was processed
+    public boolean getProcessed() {
+        return processed;
+    }
+
+    // Get the HAR entries if the response was processed, otherwise return null
+    public List<HarEntry> getResult() {
+        return processed ? entries : null;
+    }
 }

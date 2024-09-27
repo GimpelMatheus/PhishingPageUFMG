@@ -60,6 +60,7 @@ public class MemoryMonitor implements Runnable {
 			if (memoryPercent > 70.0) {
 				numberOfRestarts++;
 				System.out.println("[INFO] Restarting process " + numberOfRestarts + "...");
+				System.out.println(memoryPercent);
 				processesRestart.set(true);
 				try {
 					p = Runtime.getRuntime().exec("pkill -9 firefox");

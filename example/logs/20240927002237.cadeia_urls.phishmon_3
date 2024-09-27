@@ -1,0 +1,66 @@
+http://amazon.com  https://www.amazon.com/  18.67.134.41
+FriSep2700:22:47UTC2024  http://amazon.com/  https://amazon.com/  301FriSep2700:22:48UTC2024  https://amazon.com/  https://www.amazon.com/  301FriSep2700:22:50UTC2024  https://www.amazon.com/  -200
+FriSep2700:22:51UTC2024  https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css  -200
+FriSep2700:22:52UTC2024  https://images-na.ssl-images-amazon.com/captcha/xjgkhgck/Captcha_deoanglkbp.jpg  -200
+FriSep2700:22:52UTC2024  https://images-na.ssl-images-amazon.com/images/G/01/csminstrumentation/csm-captcha-instrumentation.min.js  -200
+FriSep2700:22:52UTC2024  https://www.amazon.com/favicon.ico  -200
+FriSep2700:22:53UTC2024  https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=W9B37N5EHV8GHQP0X8Q6&js=1  -200
+*!-@x!x@-!*
+http://yahoo.co.jp  https://www.yahoo.co.jp/  183.79.219.252
+FriSep2700:22:53UTC2024  http://yahoo.co.jp/  https://www.yahoo.co.jp:443/  301FriSep2700:22:58UTC2024  https://www.yahoo.co.jp/  -200
+FriSep2700:23:01UTC2024  https://yads.c.yimg.jp/js/yads-async.js  -200
+FriSep2700:23:01UTC2024  https://s.yimg.jp/images/ds/managed/1/managed-ual.min.js?tk=4465a92c-f0fd-406f-b519-efd409cc9849&service=toppage  -200
+FriSep2700:23:01UTC2024  https://s.yimg.jp/images/ds/yas/ual-2.10.2.min.js  -200
+FriSep2700:23:01UTC2024  https://s.yimg.jp/images/yjtop-pc/orion/20240925-020202/bundle_20240925-020202.css  -200
+FriSep2700:23:01UTC2024  https://s.yimg.jp/images/ds/cl/ds-custom-logger-1.1.0.min.js  -200
+FriSep2700:23:01UTC2024  https://s.yimg.jp/images/yjtop-pc/orion/20240925-020202/bundle_20240925-020202.js  -200
+FriSep2700:23:02UTC2024  https://www.googletagmanager.com/gtm.js?id=GTM-TQJW5V3W  -200
+FriSep2700:23:03UTC2024  https://yads.yjtag.yahoo.co.jp/v2/tag?s=84653_277872&fr_id=yads_6333937-0&p_elem=REALTIME&u=https%3A%2F%2Fwww.yahoo.co.jp%2F&pv_ts=1727396582470&cu=https%3A%2F%2Fwww.yahoo.co.jp%2F&suid=e65b60fc-fdf0-484a-b186-44fe5e4f869f  -200
+FriSep2700:23:04UTC2024  https://yads.yjtag.yahoo.co.jp/yda?adprodset=84653_277872-308049-335924&cb=1727396583608&cu=https%3A%2F%2Fwww.yahoo.co.jp%2F&p_elem=REALTIME&pv_id=f6e532339a0143ea417dc9d0117395ef&suid=e65b60fc-fdf0-484a-b186-44fe5e4f869f&u=https%3A%2F%2Fwww.yahoo.co.jp%2F  -200
+FriSep2700:23:04UTC2024  https://ib.adnxs.com/seg?add=4511230&t=2&redir=https%3A%2F%2Fcksync.yahoo.co.jp%2Fdispatch%3Fptr%3D10901&gtmcb=1949194395  https://ib.adnxs.com/bounce?%2Fseg%3Fadd%3D4511230%26t%3D2%26redir%3Dhttps%253A%252F%252Fcksync.yahoo.co.jp%252Fdispatch%253Fptr%253D10901%26gtmcb%3D1949194395  307FriSep2700:23:04UTC2024  https://ib.adnxs.com/bounce?%2Fseg%3Fadd%3D4511230%26t%3D2%26redir%3Dhttps%253A%252F%252Fcksync.yahoo.co.jp%252Fdispatch%253Fptr%253D10901%26gtmcb%3D1949194395  https://cksync.yahoo.co.jp/dispatch?ptr=10901  302FriSep2700:23:04UTC2024  https://yads.yjtag.yahoo.co.jp/v2/tag?s=67374_634528&fr_id=yads_8056293-1&p_elem=TBPCB&u=https%3A%2F%2Fwww.yahoo.co.jp%2F&pv_ts=1727396582470&cu=https%3A%2F%2Fwww.yahoo.co.jp%2F&suid=e65b60fc-fdf0-484a-b186-44fe5e4f869f  -200
+FriSep2700:23:04UTC2024  https://cksync.yahoo.co.jp/sspsync?ptr=12703&gtmcb=903770729  -400
+FriSep2700:23:04UTC2024  https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2024/9/27/37d38986ddb181e527944e6f0f11ce6739622190400e876b45c7a9e101117438.jpg?h=200&w=200&pri=l&fmt=webp  -200
+FriSep2700:23:04UTC2024  https://yads.yjtag.yahoo.co.jp/v2/tag?s=94266_286340&fr_id=yads_707557-2&p_elem=GDN&u=https%3A%2F%2Fwww.yahoo.co.jp%2F&pv_ts=1727396582470&cu=https%3A%2F%2Fwww.yahoo.co.jp%2F&suid=e65b60fc-fdf0-484a-b186-44fe5e4f869f  -200
+FriSep2700:23:04UTC2024  https://cksync.yahoo.co.jp/dispatch?ptr=10901  -400
+FriSep2700:23:05UTC2024  https://quriosity.yahoo.co.jp/v2/recommend/list?results=50&start=1&crop=on&imgx=160&imgy=160&imgx2=400&imgy2=210&cat=all&score=on&output=jsonp&prop=pctop&contentsLoopInterval=5&maxUncontractedRatio=0&eappid=A6Xv9WYAAIJerHfrP_BuX9bVlaGqKLv1zA7n3qUNDUAXkhFt2PcKWPrjhxQcXz_-cMtyPlCuaBNjwsWSsYWnkAoZS79Kdj9PqEZr4vOj8lG1v3-LhmtRLsx8o7siyHBFLCMROGXLXaXUcZT5BmJMpwA9tjI-P3NJwmFP9o1RGeyQxwl8Cf3XPomGghp_0SqQyJCdP8B_foQB-3QrOvz7C3p_qAt6UYvgTiuQl8g%7E1&lvt=0&callback=__jsonp_callback.f1727396583256415961  -200
+FriSep2700:23:05UTC2024  https://pushlist-yjapp.yahoo.co.jp/v2/badge?client_type=pcweb&eappid=A6Xv9WYAAIJerHfrP_BuX9bVlaGqKLv1zA7n3qUNDUAXkhFt2PcKWPrjhxQcXz_-cMtyPlCuaBNjwsWSsYWnkAoZS79Kdj9PqEZr4vOj8lG1v3-LhmtRLsx8o7siyHBFLCMROGXLXaXUcZT5BmJMpwA9tjI-P3NJwmFP9o1RGeyQxwl8Cf3XPomGghp_0SqQyJCdP8B_foQB-3QrOvz7C3p_qAt6UYvgTiuQl8g%7E1&callback=__jsonp_callback.f1727396583231502713  -200
+FriSep2700:23:07UTC2024  https://quriosity-pctr.c.yimg.jp/G6mIQ2g9ovT9ordcB91SvHrdoVOW8Sb7s8bXP6mT1o1CptMDp92KyWl-CjOTSXY2hEvMJFFybLNtex2_YL62GAk5XOOamSfMyAg3eJ1fekgK2Hrg3ikMHqhkfJMkrFDpFvuCbaHUSSavbSb1rE4jXw==  -200
+FriSep2700:23:07UTC2024  https://quriosity-pctr.c.yimg.jp/906wY2whrCpStKVxGKZ8y247IBCft8Zcjv_i2Q8jEFVcrYAcMTZtYXneKo3o7UEQBNzYaXexvlgum9f8jLDQNfx57oz3npvEl9qZJTA7IvY-KSky2GpmP6htHmHqVRlBaIxRrmeU-e0HNvZ7WJIU7zOpBoOu5A-81dONGhr5l2UbvJtxxnbXmJyCO520cPKD  -200
+FriSep2700:23:07UTC2024  https://quriosity-pctr.c.yimg.jp/G6mIQ2g9ovT9ordcB91SvHrdoVOW8Sb7s8bXP6mT1o1oWlOH3w-wFaQx39ARno00l6f1aSBRe_VCmDZkuJIBMbNyl91DmDmPb6I0CMUK9Qw4j-kbrpj30NkkjYX_j8m_pR0xkV71U0JyGsBSBbDZCQ==  -200
+FriSep2700:23:07UTC2024  https://quriosity-pctr.c.yimg.jp/G6mIQ2g9ovT9ordcB91SvA7ET1sqrCcTSaBMR17R-mzVlxfxTPreZ0qsfMxN_S4O-WN8bYjfER7hA9FW2JfcM3n8WSTl60UfpftGS7FB7A8Tp6puMU3NR5aFSCW1SQnCT23ly3-bCZELpCDfhZk16DfqJ5Eq6Sce6UBiKM5j1UE=  -200
+FriSep2700:23:07UTC2024  https://quriosity-pctr.c.yimg.jp/G6mIQ2g9ovT9ordcB91SvHrdoVOW8Sb7s8bXP6mT1o1e6EtjV11TmN2RwmdAEM92aQpdf5HToScH0yHpqDT7QK6riuojXiAAecJ4g6ISPLQBvCdEvEZTkqGLsqXoFjeoSReHSOJfHiQwLCXMaqGkIA==  -200
+*!-@x!x@-!*
+http://msn.com  https://www.msn.com/pt-br  204.79.197.203
+FriSep2700:23:07UTC2024  http://msn.com/  https://msn.com/  301FriSep2700:23:07UTC2024  https://msn.com/  https://www.msn.com/  301FriSep2700:23:08UTC2024  https://www.msn.com/  /pt-br  302FriSep2700:23:08UTC2024  https://www.msn.com/pt-br  -200
+FriSep2700:23:08UTC2024  https://www.msn.com/bundles/v1/homePage/latest/SSR-extension.bf5b1bfbf71548a8bff0.js  -200
+FriSep2700:23:10UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/vendors.05cb74ded1777d573a72.js  -200
+FriSep2700:23:10UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/common.105ef0ae38001888dcbf.js  -200
+FriSep2700:23:10UTC2024  https://assets.msn.com/staticsb/statics/latest/oneTrust/1.9/scripttemplates/otSDKStub.js  -200
+FriSep2700:23:10UTC2024  https://assets.msn.com/bundles/v1/homePage/latest/experience.a93e7a699ea20456d8c4.js  -200
+FriSep2700:23:10UTC2024  https://www.msn.com/bundles/v1/homePage/latest/web-worker.c48f47ec50476daf8838.js  -200
+FriSep2700:23:10UTC2024  https://www.msn.com/favicon.ico  -200
+*!-@x!x@-!*
+http://google.co.uk  https://www.google.co.uk/?gws_rd=ssl  172.217.29.195
+FriSep2700:23:10UTC2024  http://google.co.uk/  http://www.google.co.uk/  301FriSep2700:23:12UTC2024  http://www.google.co.uk/  https://www.google.co.uk/?gws_rd=ssl  302FriSep2700:23:13UTC2024  https://www.google.co.uk/?gws_rd=ssl  -200
+FriSep2700:23:13UTC2024  https://www.google.co.uk/xjs/_/ss/k=xjs.hd.zV8p3JMKEMg.L.F4.O/am=JCkAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAoAAISAACMAAA2AAAAAAAAAAQAAAMAAAAAAEACAAAQBMAAAAAAAAAEACASAABAEQAAIACBECAAAAEUQAgQgAQIFMEoBAAAAAYAAAgBYIBhAIIKAEYBAgAAAAAAIEAEAAAARwAYAADoIRAABgJpAgAgBPQABAAAAIAAAAJAAAAIAANkAAIAAAAAAADIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAUAAQAAAAAAAAAAAAAAAAAAAAAAE/d=1/ed=1/rs=ACT90oGDgFH-bDHmu13gGRG1AJD8VmdYLQ/m=cdos,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl  -200
+*!-@x!x@-!*
+http://ask.com  https://www.ask.com/  151.101.250.114
+FriSep2700:23:15UTC2024  http://ask.com/  https://www.ask.com/  301FriSep2700:23:16UTC2024  https://www.ask.com/  -200
+FriSep2700:23:17UTC2024  https://www.ask.com/wp-includes/css/dist/block-library/style.min.css?m=1725982252g  -200
+FriSep2700:23:17UTC2024  https://ak.staticimgfarm.com/images/gdpr/onetrust-reporting.js?ver=6.6.2  -200
+FriSep2700:23:17UTC2024  https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?ver=6.6.2  -200
+FriSep2700:23:18UTC2024  https://cdn.cookielaw.org/consent/32d8f092-d3f2-4b0c-b537-9452f3bd04ad/OtAutoBlock.js?ver=6.6.2  -200
+FriSep2700:23:18UTC2024  https://stats.wp.com/e-202439.js  -200
+FriSep2700:23:18UTC2024  https://cdn.cookielaw.org/consent/32d8f092-d3f2-4b0c-b537-9452f3bd04ad/32d8f092-d3f2-4b0c-b537-9452f3bd04ad.json  -200
+FriSep2700:23:18UTC2024  https://cadmus.script.ac/ds8tuylnjknkd/script.js?ver=6.3  -200
+FriSep2700:23:19UTC2024  https://pixel.wp.com/g.gif?v=ext&blog=197401897&post=150197&tz=-7&srv=www.ask.com&hp=vip&j=1%3A13.8.1&host=www.ask.com&ref=&fcp=0&rand=0.6229291444662836  -200
+FriSep2700:23:19UTC2024  https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location  -200
+FriSep2700:23:19UTC2024  https://cdn.cookielaw.org/scripttemplates/202404.1.0/otBannerSdk.js  -200
+*!-@x!x@-!*
+http://google.fr  https://www.google.fr/?gws_rd=ssl  142.251.128.163
+FriSep2700:23:19UTC2024  http://google.fr/  http://www.google.fr/  301FriSep2700:23:20UTC2024  http://www.google.fr/  https://www.google.fr/?gws_rd=ssl  302FriSep2700:23:21UTC2024  https://www.google.fr/?gws_rd=ssl  -200
+*!-@x!x@-!*
+http://apple.com  https://www.apple.com/  95.101.124.249
+FriSep2700:23:22UTC2024  http://apple.com/  https://www.apple.com/  301FriSep2700:23:24UTC2024  https://www.apple.com/  -200
+FriSep2700:23:24UTC2024  https://www.apple.com/metrics/ac-target/latest/ac-target.js  -200
+*!-@x!x@-!*
