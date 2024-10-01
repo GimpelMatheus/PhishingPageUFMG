@@ -1,0 +1,7 @@
+http://t.coorg.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-25-amd64', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a3178f0e-23b7-4cd7-88c3-f51dac1d7392, get {url=http://t.co}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:23769, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-25-amd64, moz:processID: 18872, moz:profile: /tmp/rust_mozprofilerncFBY, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:23769/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: a3178f0e-23b7-4cd7-88c3-f51dac1d7392

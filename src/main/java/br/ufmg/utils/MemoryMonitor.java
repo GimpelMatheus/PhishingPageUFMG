@@ -6,9 +6,13 @@ import java.io.InputStreamReader;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class MemoryMonitor implements Runnable {
 
 	private AtomicBoolean processesRestart;
+  	private static final Logger LOGGER = LogManager.getLogger();
 
 	public MemoryMonitor(AtomicBoolean rp) {
 		processesRestart = rp;
@@ -59,8 +63,8 @@ public class MemoryMonitor implements Runnable {
 					/ Double.parseDouble(outputList[1])) * 100;
 			if (memoryPercent > 70.0) {
 				numberOfRestarts++;
-				System.out.println("[INFO] Restarting process " + numberOfRestarts + "...");
-				System.out.println(memoryPercent);
+				LOGGER.warn("Restarting process " + numberOfRestarts + "...");
+				LOGGER.info(memoryPercent);
 				processesRestart.set(true);
 				try {
 					p = Runtime.getRuntime().exec("pkill -9 firefox");

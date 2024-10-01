@@ -16,6 +16,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.littleshoot.proxy.HttpFilters;
@@ -45,6 +47,7 @@ import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
 
 public class Process implements Runnable {
 
+
     /* 
         Vazamento de memória - biblioteca que faz o dump das classes estão gastando um certo percentual
         de memória
@@ -69,7 +72,8 @@ public class Process implements Runnable {
 	private LogsWriter logsWriter;
 	private URLList whitelist;
 	private URLList blacklist;
-	private String geckoDriverBinaryPath;
+	private final String geckoDriverBinaryPath;
+  	private static final Logger LOGGER = LogManager.getLogger();
 
 	public Process(BlockingQueue<String> urlsList,
 			AtomicBoolean killProcesses,
@@ -110,7 +114,7 @@ public class Process implements Runnable {
                     long tempo = System.currentTimeMillis();
                     if (Singleton.getInstance().isInDict(dom)) {
                         int numRequisicoes = Singleton.getInstance().getNumeroReq(dom);
-                        // System.out.println(dom + " " + numRequisicoes);
+                        LOGGER.info(dom + " " + numRequisicoes);
                         Singleton.getInstance().setRequestsNumber(dom, tempo);
                         if (numRequisicoes >= requestsLimit && !whitelist.has(dom)) {
                             final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
@@ -124,7 +128,7 @@ public class Process implements Runnable {
                 }
 
                 if (request.getMethod().equals(HttpMethod.POST) || dom.contains(".gov") || blacklist.has(dom)) {
-                    // System.out.println(request.headers());
+                    LOGGER.info("Headers: " + request.headers() + "\n");
                     final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
                             HttpResponseStatus.valueOf(405));
                     response.headers().add(HttpHeaders.CONNECTION, "Close");
@@ -143,7 +147,7 @@ public class Process implements Runnable {
                         public HttpResponse proxyToServerRequest(HttpObject httpObject) {
                             if (httpObject instanceof HttpRequest) {
                                 ((HttpRequest) httpObject).headers().remove("VIA");
-                                // System.out.println(((HttpRequest) httpObject).headers().get("VIA"));
+                                LOGGER.info(((HttpRequest) httpObject).headers().get("VIA"));
                             }
                             return null;
                         }
@@ -178,7 +182,7 @@ public class Process implements Runnable {
 	public Response accessURL(String composedURL) {
 		String[] temp = composedURL.split("  ");
 		String url = temp[0];
-		// System.out.println(url);
+		LOGGER.info(url);
 
 		String dom = "";
 		if (url.contains("http") == true) {
@@ -277,7 +281,7 @@ public class Process implements Runnable {
 				e.printStackTrace();
 			}
 
-			// System.out.println("finished");
+			LOGGER.info("finished");
 			return new Response(false, false, out, proxy.getHar().getLog().getEntries());
 
 		}
@@ -303,7 +307,7 @@ public class Process implements Runnable {
 				}
 				long startTime = System.currentTimeMillis();
 				String composedURL = listaUrls.take();
-                System.out.println("PID: " + this.pid + "\n");
+                LOGGER.info("PID: " + this.pid + "\n");
                 this.logsWriter.writeTimeURLs(this.pid, "\nSTART TIME PEGAR COMPOSED URL: " + composedURL + Long.toString(startTime) + " ");
 
 				if (composedURL == "poison_pill") {
@@ -325,7 +329,7 @@ public class Process implements Runnable {
 					for (HarEntry entry : entries) {
 						String ip = entry.getServerIPAddress();
 						int statusCode = entry.getResponse().getStatus();
-						// System.out.println(statusCode);
+						LOGGER.info(statusCode);
 						ipsSet.add(ip);
 						String initialURLString = entry.getRequest().getUrl();
 						String finalURLString = entry.getResponse().getRedirectURL();

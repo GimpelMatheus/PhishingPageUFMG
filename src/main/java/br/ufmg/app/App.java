@@ -1,22 +1,31 @@
 package br.ufmg.app;
 
-import java.nio.charset.Charset;
-import java.nio.file.*;
-import java.text.SimpleDateFormat;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.util.*;
-
-import java.util.concurrent.*;
-import java.util.function.Predicate;
-
-import br.ufmg.utils.*;
-
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import br.ufmg.utils.FileWriter;
+import br.ufmg.utils.LogsWriter;
+import br.ufmg.utils.MemoryMonitor;
+import br.ufmg.utils.Singleton;
+import br.ufmg.utils.URLList;
 
 public class App {
 
@@ -28,6 +37,7 @@ public class App {
 	private BlockingQueue<String> urlsList;
 	private AtomicBoolean restartProcesses;
 	private AtomicBoolean killProcesses;
+  	private static final Logger LOGGER = LogManager.getLogger();
 
 	/* Inicialização de variáveis. */
 	public App(Configuration config) { // int instancias, int timeout, int limite_requisicoes, Path repository, Path
@@ -70,12 +80,12 @@ public class App {
 		} else if(repo.isFile()){
 			urlFiles = new File[]{repo};
 		} else {
-			System.err.println("[ERROR] Inexistent URLs repository " + this.config.getRepositoryPath().toString());
+			LOGGER.error("Inexistent URLs repository " + this.config.getRepositoryPath().toString());
 			System.exit(-1);
 		}
 
 		if (urlFiles.length == 0) {
-			System.err.println("[ERROR] Empty URLs repository" + this.config.getRepositoryPath().toString());
+			LOGGER.error("Empty URLs repository" + this.config.getRepositoryPath().toString());
 			System.exit(-1);
 		}
 	}
@@ -104,7 +114,7 @@ public class App {
 	public boolean isAppRunning() {
 		File runtimeFile = config.getRuntimeControllersPath().resolve("running").toFile();
 		if (!runtimeFile.exists()) {
-			System.err.println("[ERROR] The runtime file " + runtimeFile.toString() + " does not exists.");
+			LOGGER.error("The runtime file " + runtimeFile.toString() + " does not exists.");
 			System.exit(-1);
 		}
 		try {
@@ -116,7 +126,7 @@ public class App {
 			e.printStackTrace();
 			System.exit(-1);
 		} catch (IOException e) {
-			System.err.println("[WARNING] Something has gone wrong with" + runtimeFile.toString()
+			LOGGER.warn("Something has gone wrong with" + runtimeFile.toString()
 					+ ". So, the app keeps running.");
 		}
 		return true;
@@ -171,7 +181,7 @@ public class App {
 						Thread t = new Thread(r);
 						t.start();
 						threadsList.set(i, t);
-						System.out.println("[INFO] Restarting thread " + Integer.toString(i));
+						LOGGER.info("Restarting thread " + Integer.toString(i));
 					}
 				}
 				try {
@@ -189,7 +199,7 @@ public class App {
 				Thread t = new Thread(r);
 				threadsList.add(t);
 				t.start();
-				System.out.println("[INFO] Starting thread " + Integer.toString(index));
+				LOGGER.info("Starting thread " + Integer.toString(index));
 				index += 1;
 			}
 		}

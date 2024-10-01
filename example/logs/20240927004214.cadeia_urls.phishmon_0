@@ -1,0 +1,15 @@
+http://google.com  https://www.google.com/?gws_rd=ssl  172.217.29.100
+FriSep2700:42:22UTC2024  http://google.com/  http://www.google.com/  301FriSep2700:42:22UTC2024  http://www.google.com/  https://www.google.com/?gws_rd=ssl  302FriSep2700:42:23UTC2024  https://www.google.com/?gws_rd=ssl  -200
+FriSep2700:42:24UTC2024  https://www.google.com/xjs/_/ss/k=xjs.hd.zV8p3JMKEMg.L.F4.O/am=JCkAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAoAAISAACMAAA2AAAAAAAAAAQAAAMAAAAAAEACAAAQBMAAAAAAAAAEACASAABAEQAAAACBECAAAAEUQAgQgAQIFMEoBAAAAAYAAAgBYIBhAIIKAEYBAgAAAAAAIEAEAAAARQAYAADoIRAABgJhAgAgBPQABAAAAIAAAAJAAAAIAANkAAIAAAAAAADIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAUAAQAAAAAAAAAAAAAAAAAAAAAAE/d=1/ed=1/rs=ACT90oEySP1DZ77LGSTMp6Zfy1890myb0w/m=cdos,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl  -200
+FriSep2700:42:24UTC2024  https://www.gstatic.com/og/_/js/k=og.qtm.en_US.RRlsmNlDmQQ.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,qads,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTv3Qzh6Ja6eSLzWU_FOQIMZM5uKUQ  -200
+FriSep2700:42:24UTC2024  https://www.gstatic.com/og/_/ss/k=og.qtm.MpbwyMSjEyI.L.F4.O/m=qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/ct=zgms/rs=AA2YrTtjUJuItnVWsR30T660_92Zh6c-Rg  -200
+FriSep2700:42:24UTC2024  https://www.gstatic.com/inputtools/images/tia.png  -200
+FriSep2700:42:26UTC2024  https://ogs.google.com/widget/callout?prid=19037050&pgid=19037049&puid=8c316fc3aaadf30&eom=1&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=pt-BR  -200
+FriSep2700:42:26UTC2024  https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.pt_BR.mY5el2gRERM.es5.O/am=IEAwYGw/d=1/excm=_b,_tp,calloutview/ed=1/dg=0/wt=2/ujg=1/rs=AM-SdHvBGyj324KGABvUO6W8_lYa1BMbrg/m=_b,_tp  -200
+FriSep2700:42:26UTC2024  https://ogads-pa.googleapis.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData  -200
+FriSep2700:42:26UTC2024  https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.SpvAvsXfWWo.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/am=AACA/rs=AHpOoo-MoqWi0fF1M09Ccs-6QfulXvxfdg/cb=gapi.loaded_0  -200
+FriSep2700:42:26UTC2024  https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2  -200
+FriSep2700:42:26UTC2024  https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2  -200
+*!-@x!x@-!*
+http://twitter.com  TimeoutException  0
+*!-@x!x@-!*
