@@ -1,9 +1,0 @@
-http://youtube.com  https://www.youtube.com/  142.250.218.206
-http://live.com  UnreachableBrowserException  0
-http://weibo.com  UnreachableBrowserException  0
-http://msn.com  https://www.msn.com/pt-br  204.79.197.203
-http://google.fr  WebDriverException  0
-http://apple.com  https://www.apple.com/  2.17.128.253
-http://sohu.com  UnreachableBrowserException  0
-http://google.es  WebDriverException  0
-http://360.cn  WebDriverException  0

@@ -44,101 +44,77 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
+import org.openqa.selenium.NoSuchSessionException;
 
 public class Process implements Runnable {
 
+    private int pid;
+    private int timeout;
+    private int requestsLimit;
+    private BrowserMobProxy proxy;
+    private Proxy seleniumProxy;
+    private FirefoxDriver driver;
+    private final BlockingQueue<String> listaUrls;
+    private AtomicBoolean killProcesses;
+    private AtomicBoolean restartProcesses;
+    private Map<String, Integer> blockedDomains;
+    private LogsWriter logsWriter;
+    private URLList whitelist;
+    private URLList blacklist;
+    private final String geckoDriverBinaryPath;
+    private static final Logger LOGGER = LogManager.getLogger("File");
 
-    /* 
-        Vazamento de memória - biblioteca que faz o dump das classes estão gastando um certo percentual
-        de memória
-        
-        conseguimos mapear qual objeto está ocupando muita memória
-        quanto de memória gasta cada objeto
+    public Process(BlockingQueue<String> urlsList,
+            AtomicBoolean killProcesses,
+            AtomicBoolean restartProcesses,
+            int id,
+            LogsWriter logsWriter,
+            URLList whitelist,
+            URLList blacklist,
+            int timeout,
+            int requestsLimit,
+            String geckoDriverBinaryPath) {
 
-        aumentar o tamanho da RAM
+        this.timeout = timeout;
+        this.whitelist = whitelist;
+        this.blacklist = blacklist;
+        this.listaUrls = urlsList;
+        pid = id;
+        this.logsWriter = logsWriter;
+        blockedDomains = new HashMap<String, Integer>();
+        this.killProcesses = killProcesses;
+        this.restartProcesses = restartProcesses;
+        this.requestsLimit = requestsLimit;
+        this.geckoDriverBinaryPath = geckoDriverBinaryPath;
+    }
 
-
-    */
-	private int pid;
-	private int timeout;
-	private int requestsLimit;
-	private BrowserMobProxy proxy;
-	private Proxy seleniumProxy;
-	private FirefoxDriver driver;
-	private final BlockingQueue<String> listaUrls;
-	private AtomicBoolean killProcesses;
-	private AtomicBoolean restartProcesses;
-	private Map<String, Integer> blockedDomains;
-	private LogsWriter logsWriter;
-	private URLList whitelist;
-	private URLList blacklist;
-	private final String geckoDriverBinaryPath;
-  	private static final Logger LOGGER = LogManager.getLogger();
-
-	public Process(BlockingQueue<String> urlsList,
-			AtomicBoolean killProcesses,
-			AtomicBoolean restartProcesses,
-			int id,
-			LogsWriter logsWriter,
-			URLList whitelist,
-			URLList blacklist,
-			int timeout,
-			int requestsLimit,
-			String geckoDriverBinaryPath) {
-
-		this.timeout = timeout;
-		this.whitelist = whitelist;
-		this.blacklist = blacklist;
-		this.listaUrls = urlsList;
-		pid = id;
-		this.logsWriter = logsWriter;
-		blockedDomains = new HashMap<String, Integer>();
-		this.killProcesses = killProcesses;
-		this.restartProcesses = restartProcesses;
-		this.requestsLimit = requestsLimit;
-		this.geckoDriverBinaryPath = geckoDriverBinaryPath;
-	}
-
-        public void getProxyServer() {
+    public void getProxyServer() {
+        LOGGER.info("Inicializando o servidor de proxy...");  // INFO
+        try {
             proxy = new BrowserMobProxyServer();
-
             proxy.addRequestFilter((request, contents, messageInfo) -> {
-
                 String urlReq = io.netty.handler.codec.http.HttpHeaders.getHost(request);
-                String dom = "";
-                dom = urlReq.split(":")[0];
-
-                request.headers().set("X-Research-Project-Info", "http://138.197.3.28/");
+                String dom = urlReq.split(":")[0];
+                LOGGER.info("Processando requisição para domínio: {}", dom);  // INFO
 
                 if (!dom.contains("firefox") && !dom.contains("mozilla") && !dom.contains("proxy")) {
                     long tempo = System.currentTimeMillis();
                     if (Singleton.getInstance().isInDict(dom)) {
                         int numRequisicoes = Singleton.getInstance().getNumeroReq(dom);
-                        LOGGER.info(dom + " " + numRequisicoes);
-                        Singleton.getInstance().setRequestsNumber(dom, tempo);
-                        if (numRequisicoes >= requestsLimit && !whitelist.has(dom)) {
-                            final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
-                                    HttpResponseStatus.valueOf(405));
-                            response.headers().add(HttpHeaders.CONNECTION, "Close");
-                            return response;
-                        }
+                        LOGGER.info("Número de requisições para {}: {}", dom, numRequisicoes);  // INFO
                     } else {
-                        Singleton.getInstance().setRequestsNumber(urlReq, tempo);
+                        LOGGER.warn("Domínio {} não encontrado no Singleton, adicionando agora.", dom);  // WARN
                     }
                 }
 
+                // Caso de bloqueio
                 if (request.getMethod().equals(HttpMethod.POST) || dom.contains(".gov") || blacklist.has(dom)) {
-                    LOGGER.info("Headers: " + request.headers() + "\n");
-                    final HttpResponse response = new DefaultHttpResponse(request.getProtocolVersion(),
-                            HttpResponseStatus.valueOf(405));
-                    response.headers().add(HttpHeaders.CONNECTION, "Close");
-                    return response;
-                } else {
-                    return null;
+                    LOGGER.warn("Bloqueando requisição POST ou para domínio restrito: {}", dom);  // WARN
+                    return new DefaultHttpResponse(request.getProtocolVersion(), HttpResponseStatus.valueOf(405));
                 }
+                return null;
             });
 
-            // ---------------------------------------@---------------------------------
             proxy.addLastHttpFilterFactory(new HttpFiltersSourceAdapter() {
                 @Override
                 public HttpFilters filterRequest(HttpRequest originalRequest) {
@@ -147,7 +123,6 @@ public class Process implements Runnable {
                         public HttpResponse proxyToServerRequest(HttpObject httpObject) {
                             if (httpObject instanceof HttpRequest) {
                                 ((HttpRequest) httpObject).headers().remove("VIA");
-                                LOGGER.info(((HttpRequest) httpObject).headers().get("VIA"));
                             }
                             return null;
                         }
@@ -157,221 +132,284 @@ public class Process implements Runnable {
 
             proxy.setTrustAllServers(true);
             proxy.start(0);
+        } catch (Exception e) {
+            LOGGER.error("Erro ao iniciar o servidor de proxy: {}", e.getMessage(), e);  // ERROR
+        }
+    }
+
+    public void getSeleniumProxy() {
+        LOGGER.info("Configurando Selenium Proxy...");  // INFO
+        seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+        try {
+            String hostIp = Inet4Address.getLocalHost().getHostAddress();
+            LOGGER.info("Obtendo endereço de IP local: {}", hostIp);  // INFO
+            seleniumProxy.setHttpProxy(hostIp + ":" + proxy.getPort());
+            seleniumProxy.setSslProxy(hostIp + ":" + proxy.getPort());
+        } catch (UnknownHostException e) {
+            LOGGER.error("Erro ao obter IP local: {}", e.getMessage(), e);  // ERROR
+        } catch (Exception e) {
+            LOGGER.error("Erro inesperado ao configurar o Selenium Proxy: {}", e.getMessage(), e);  // ERROR
+        }
+    }
+
+    public void getFirefoxDriver(DesiredCapabilities capabilities) {
+        LOGGER.info("Inicializando o Firefox Driver...");  // INFO
+        try {
+            FirefoxOptions options = new FirefoxOptions();
+            options.setProxy(seleniumProxy);
+            options.addArguments("--headless");
+            options.setBinary("/usr/bin/firefox");
+            options.merge(capabilities);
+            driver = new FirefoxDriver(options);
+        } catch (WebDriverException e) {
+            LOGGER.error("Erro ao inicializar o Firefox Driver: {}", e.getMessage(), e);  // ERROR
+        } catch (Exception e) {
+            LOGGER.error("Erro inesperado ao inicializar o Firefox Driver: {}", e.getMessage(), e);  // ERROR
+        }
+    }
+
+    public Response accessURL(String composedURL) {
+        if (composedURL == null || composedURL.trim().isEmpty()) {
+            LOGGER.warn("URL composta é nula ou vazia.");  // WARN
+            return new Response(true, false, "URL inválida");
         }
 
-	public void getSeleniumProxy() {
-		seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
-		try {
-			String hostIp = Inet4Address.getLocalHost().getHostAddress();
-			seleniumProxy.setHttpProxy(hostIp + ":" + proxy.getPort());
-			seleniumProxy.setSslProxy(hostIp + ":" + proxy.getPort());
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
-		}
-	}
+        LOGGER.info("Acessando a URL: {}", composedURL);  // INFO
+        String[] temp = composedURL.split("  ");
+        String url = temp[0];
+        String dom = "";
 
-	public void getFirefoxDriver(DesiredCapabilities capabilities) {
-		FirefoxOptions options = new FirefoxOptions();
-		options.setProxy(seleniumProxy);
-        options.addArguments("--headless");
-        options.setBinary("/usr/bin/firefox");
-		options.merge(capabilities);
-		driver = new FirefoxDriver(options);
-	}
+        if (url.contains("http")) {
+            dom = url.split("/")[2];
+        } else {
+            dom = url.split("/")[0];
+        }
 
-	public Response accessURL(String composedURL) {
-		String[] temp = composedURL.split("  ");
-		String url = temp[0];
-		LOGGER.info(url);
+        if (blockedDomains.get(dom) != null && blockedDomains.get(dom) >= 10) {
+            LOGGER.warn("Domínio bloqueado: {}. Limite de tentativas excedido.", dom);  // WARN
+            String out = composedURL.replace("\n", "") + "  BLOCKED  0\n";
+            return new Response(true, false, out);
+        }
 
-		String dom = "";
-		if (url.contains("http") == true) {
-			dom = url.split("/")[2];
-		} else {
-			dom = url.split("/")[0];
-		}
+        proxy.newHar("url_" + pid);
+        driver.manage().timeouts().pageLoadTimeout(timeout, TimeUnit.SECONDS);
+        String finalUrl = "about:blank";
+        try {
+            logsWriter.writeTimeURLs(pid, "URL: " + url + " ");
+            logsWriter.writeTimeURLs(pid, Long.toString(System.currentTimeMillis()) + " ");
+            driver.get(url);
+            logsWriter.writeTimeURLs(pid, Long.toString(System.currentTimeMillis()) + " ");
+            finalUrl = driver.getCurrentUrl();
+            LOGGER.info("URL acessada com sucesso: {}", finalUrl);  // INFOLong.toString(System.currentTim
+        } catch (WebDriverException e) {
+            if (e instanceof NoSuchSessionException) {
+                LOGGER.error("Sessão do WebDriver não existe ou não está ativa ao acessar {}: {}", composedURL, e.getMessage(), e);
+                getFirefoxDriver(new DesiredCapabilities()); // Reinicializa o driver
+                return createResponseWithException(composedURL, e);
+            } else {
+                LOGGER.error("Erro no WebDriver ao acessar {}: {}", composedURL, e.getMessage(), e);  // ERROR
+                handleBlockedDomain(dom);
+                logFirefoxException(composedURL, e);
+                return createResponseWithException(composedURL, e);
+            }
+        } catch (Exception e) {
+            LOGGER.error("Erro inesperado ao acessar a URL: {}", e.getMessage(), e);  // ERROR
+            return new Response(true, false, "Erro inesperado");
+        }
 
-		if (blockedDomains.get(dom) != null && blockedDomains.get(dom) >= 10) {
-			String out = composedURL.replace("\n", "") + "  BLOCKED  0\n";
-			Response response = new Response(true, false, out);
-			return response;
-		}
+        if (!finalUrl.equals("about:blank")) {
+            return handleSuccessfulUrlAccess(finalUrl, composedURL, dom);
+        }
 
-		proxy.newHar("url_" + Integer.toString(pid));
-		driver.manage().timeouts().pageLoadTimeout(this.timeout, TimeUnit.SECONDS);
-		String finalUrl = "about:blank";
-		try {
-			this.logsWriter.writeTimeURLs(this.pid, "ACESSO A URL: " + url + Long.toString(System.currentTimeMillis()) + " ");
-			driver.get(url);
-			this.logsWriter.writeTimeURLs(this.pid, " FINALIZANDO DRIVER.GET DA URL" + Long.toString(System.currentTimeMillis()) + " \n");
-			finalUrl = driver.getCurrentUrl();
-		} catch (Exception e) {
-			if (e instanceof WebDriverException) {
-				if (blockedDomains.get(dom) == null) {
-					blockedDomains.put(dom, 1);
-				} else {
-					int valor = blockedDomains.get(dom);
-					valor += 1;
-					blockedDomains.replace(dom, valor);
-				}
-			}
-			String urlBroken = composedURL;
+        LOGGER.warn("URL final inválida: about:blank");  // WARN
+        return new Response(true, false, "wtf");
+    }
 
-			try {
-				logsWriter.writeFirefoxException(this.pid, urlBroken + e.toString());
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
+    private void handleBlockedDomain(String dom) {
+        if (blockedDomains.get(dom) == null) {
+            blockedDomains.put(dom, 1);
+        } else {
+            int valor = blockedDomains.get(dom);
+            valor += 1;
+            blockedDomains.replace(dom, valor);
+        }
+    }
 
-			String executionName = e.getClass().getSimpleName();
-			String out = composedURL.replace("\n", "") + "  " + executionName + "  0\n";
-			Response response = new Response(true, false, out);
-			return response;
-		}
+    private void logFirefoxException(String composedURL, Exception e) {
+        try {
+            logsWriter.writeFirefoxException(pid, composedURL + e.toString());
+        } catch (IOException e1) {
+            LOGGER.error("Erro ao registrar exceção do Firefox: {}", e1.getMessage(), e1);  // ERROR
+        }
+    }
 
-		if (finalUrl != "about:blank") {
+    private Response createResponseWithException(String composedURL, Exception e) {
+        String executionName = e.getClass().getSimpleName();
+        String out = composedURL.replace("\n", "") + "  " + executionName + "  0\n";
+        return new Response(true, false, out);
+    }
 
-			InetAddress ip = null;
-			String ipString = null;
-			try {
-				String hostname = new URL(finalUrl).getHost();
-				ip = InetAddress.getByName(hostname);
-				ipString = ip.getHostAddress();
-			} catch (MalformedURLException e) {
-				// e.printStackTrace();
-				finalUrl = "-";
-				ipString = "0";
-			} catch (UnknownHostException e) {
-				// e.printStackTrace();
-				if (blockedDomains.get(dom) == null) {
-					blockedDomains.put(dom, 1);
-				} else {
-					int valor = blockedDomains.get(dom);
-					valor += 1;
-					blockedDomains.replace(dom, valor);
-				}
-				finalUrl = "-";
-				ipString = "0";
-			}
+    private Response handleSuccessfulUrlAccess(String finalUrl, String composedURL, String dom) {
+        InetAddress ip = null;
+        String ipString = null;
+        try {
+            String hostname = new URL(finalUrl).getHost();
+            ip = InetAddress.getByName(hostname);
+            ipString = ip.getHostAddress();
+            LOGGER.info("Endereço IP do host {}: {}", hostname, ipString);  // INFO
+        } catch (MalformedURLException e) {
+            LOGGER.error("Erro ao processar URL malformada: {}", e.getMessage(), e);  // ERROR
+            finalUrl = "-";
+            ipString = "0";
+        } catch (UnknownHostException e) {
+            LOGGER.warn("Erro ao resolver o domínio {}: {}", dom, e.getMessage(), e);  // WARN
+            handleBlockedDomain(dom);
+            finalUrl = "-";
+            ipString = "0";
+        } catch (Exception e) {
+            LOGGER.error("Erro inesperado ao obter IP: {}", e.getMessage(), e);  // ERROR
+            finalUrl = "-";
+            ipString = "0";
+        }
 
-			String out = composedURL.replace("\n", "") + "  " + finalUrl + "  " + ipString + "\n";
-			// TODO: tem uma exceção sendo lançada abaixo: (consertada , talvez)
-			String hash;
-			String page;
-			try {
-				String html = driver.getPageSource();
-				Document document = Jsoup.parse(html);
-				page = document.toString();
+        String out = composedURL.replace("\n", "") + "  " + finalUrl + "  " + ipString + "\n";
+        String hash;
+        String page;
+        String tag;  // Para marcar o tipo da página
 
-				hash = DigestUtils.md5Hex(page);
-			} catch (Exception e) {
-				page = "";
-				hash = "EMPTYPAGE";
-			}
+        try {
+            String html = driver.getPageSource();
+            Document document = Jsoup.parse(html);
+            page = document.toString();
+            hash = DigestUtils.md5Hex(page);
 
-			String url8 = out.replace("\n", "") + "  " + hash.toString() + "\n";
+            // Obtém o status code do primeiro HarEntry
+            int statusCode = proxy.getHar().getLog().getEntries().get(0).getResponse().getStatus();
+            
+            // Verifica o tipo de página para tageamento
+            if (page.isEmpty()) {
+                tag = "EMPTY PAGE";  // Página vazia
+            } else if (statusCode >= 400 && statusCode < 600) {
+                tag = "ERROR PAGE";  // Página padrão de erro (404, 403, 5XX)
+            } else if (page.length() < 500) {
+                tag = "PARTIAL PAGE";  // Página parcialmente baixada, supõe-se que conteúdo completo seja mais longo
+            } else {
+                tag = "COMPLETE PAGE";  // Página completa
+            }
 
-			try {
-				this.logsWriter.writeSourcePage(this.pid, url8);
-				this.logsWriter.writeSourcePage(this.pid, page);
-				this.logsWriter.writeSourcePage(this.pid, "\n*!-@x!x@-!*\n");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+            LOGGER.info("Página acessada com sucesso. Tag: {}, Hash gerado: {}", tag, hash);  // INFO
 
-			LOGGER.info("finished");
-			return new Response(false, false, out, proxy.getHar().getLog().getEntries());
+        } catch (Exception e) {
+            LOGGER.error("Erro ao obter fonte da página: {}", e.getMessage(), e);  // ERROR
+            page = "";
+            hash = "EMPTYPAGE";
+            tag = "Empty Page";  // Assume-se vazia em caso de erro
+        }
 
-		}
-		return new Response(true, false, "wtf");
-	}
+        // Adiciona o tag ao log
+        String url8 = out.replace("\n", "") + "  " + hash + "  " + tag + "\n";
+        try {
+            logsWriter.writeSourcePage(pid, url8);
+            logsWriter.writeSourcePage(pid, page);
+            logsWriter.writeSourcePage(pid, "\n*!-@x!x@-!*\n");
+        } catch (IOException e) {
+            LOGGER.error("Erro ao gravar a página fonte: {}", e.getMessage(), e);  // ERROR
+        }
 
-	public void run() {
-		System.setProperty("webdriver.gecko.driver", this.geckoDriverBinaryPath);
+        return new Response(false, false, out, proxy.getHar().getLog().getEntries());
+    }
 
-		DesiredCapabilities capabilities = new DesiredCapabilities();
 
-		getProxyServer();
-		getSeleniumProxy();
-		capabilities.setCapability("marionette", true);
-		getFirefoxDriver(capabilities);
+    public void run() {
+        LOGGER.info("Iniciando o processo com PID: {}", pid);  // INFO
+        System.setProperty("webdriver.gecko.driver", this.geckoDriverBinaryPath);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
 
-		// abrirArquivos();
+        getProxyServer();
+        getSeleniumProxy();
+        capabilities.setCapability("marionette", true);
+        getFirefoxDriver(capabilities);
 
-		while (killProcesses.get() == false) {
-			try {
-				if (restartProcesses.get()) {
-					break;
-				}
-				long startTime = System.currentTimeMillis();
-				String composedURL = listaUrls.take();
-                LOGGER.info("PID: " + this.pid + "\n");
-                this.logsWriter.writeTimeURLs(this.pid, "\nSTART TIME PEGAR COMPOSED URL: " + composedURL + Long.toString(startTime) + " ");
+        while (!killProcesses.get()) {
+            try {
+                if (restartProcesses.get()) {
+                    LOGGER.warn("Reiniciando o processo com PID: {}", pid);  // WARN
+                    break;
+                }
+                long startTime = System.currentTimeMillis();
+                logsWriter.writeTimeURLs(pid, Long.toString(startTime) + " ");
+                String composedURL = listaUrls.take();
 
-				if (composedURL == "poison_pill") {
-					killProcesses.compareAndSet(false, true);
-                    this.logsWriter.writeTimeURLs(this.pid, "ComposedURL == Poison_Pill");
+                if (composedURL.equals("http://poison_pill.com")) {
+                    LOGGER.info("Processo PID {} finalizando. Poison Pill recebido.", pid);  // INFO
+                    killProcesses.compareAndSet(false, true);
+                    break;
+                }
 
-					break;
-				}
+                LOGGER.info("Acessando a próxima URL na lista para o PID {}: {}", pid, composedURL);  // INFO
+                Response response = accessURL(composedURL);
+                String urlLog = response.getUrlLog();
+                logsWriter.writeAccessLog(pid, urlLog);
+                logsWriter.writeTcp(pid, urlLog.replace("\n", ""));
+                logsWriter.writeCadeiaURLs(pid, urlLog);
 
-				Response response = accessURL(composedURL);
-				String urlLog = response.getUrlLog();
-				this.logsWriter.writeAccessLog(this.pid, urlLog);
-				this.logsWriter.writeTcp(this.pid, urlLog.replace("\n", ""));
-				this.logsWriter.writeCadeiaURLs(this.pid, urlLog);
+                Set<String> ipsSet = new HashSet<>();
+                if (!response.getException() && !response.getBlocked()) {
+                    List<HarEntry> entries = response.getHar();
+                    for (HarEntry entry : entries) {
+                        String ip = entry.getServerIPAddress();
+                        int statusCode = entry.getResponse().getStatus();
+                        ipsSet.add(ip);
 
-				Set<String> ipsSet = new HashSet<String>();
-				if (response.getException() == false && response.getBlocked() != true) {
-					List<HarEntry> entries = response.getHar();
-					for (HarEntry entry : entries) {
-						String ip = entry.getServerIPAddress();
-						int statusCode = entry.getResponse().getStatus();
-						LOGGER.info(statusCode);
-						ipsSet.add(ip);
-						String initialURLString = entry.getRequest().getUrl();
-						String finalURLString = entry.getResponse().getRedirectURL();
+                        String initialURLString = entry.getRequest().getUrl();
+                        String finalURLString = entry.getResponse().getRedirectURL();
 
-						if (!finalURLString.contains("mozilla") && !initialURLString.contains("mozilla")
-								&& !finalURLString.contains("firefox") && !initialURLString.contains("firefox")) {
-							if (finalURLString != "") {
-								String timeStamp = entry.getStartedDateTime().toString();
-								this.logsWriter.writeCadeiaURLs(this.pid, timeStamp.replace(" ", "") + "  "
-										+ initialURLString + "  " + finalURLString + "  " + statusCode);
-							} else {
-								if (initialURLString != "") {
-									String timeStamp = entry.getStartedDateTime().toString();
-									this.logsWriter.writeCadeiaURLs(this.pid, timeStamp.replace(" ", "") + "  "
-											+ initialURLString + "  -" + statusCode + "\n");
-								}
-							}
-						}
-					}
-					String ipsChain = String.join(",", ipsSet);
+                        if (!finalURLString.contains("mozilla") && !initialURLString.contains("mozilla")
+                                && !finalURLString.contains("firefox") && !initialURLString.contains("firefox")) {
+                            if (!finalURLString.isEmpty()) {
+                                String timeStamp = entry.getStartedDateTime().toString();
+                                logsWriter.writeCadeiaURLs(pid, timeStamp.replace(" ", "") + "  "
+                                        + initialURLString + "  " + finalURLString + "  " + statusCode);
+                            } else {
+                                if (!initialURLString.isEmpty()) {
+                                    String timeStamp = entry.getStartedDateTime().toString();
+                                    logsWriter.writeCadeiaURLs(pid, timeStamp.replace(" ", "") + "  "
+                                            + initialURLString + "  -" + statusCode + "\n");
+                                }
+                            }
+                        }
+                    }
+                    String ipsChain = String.join(",", ipsSet);
+                    LOGGER.info("Cadeia de IPs processados: {}", ipsChain);  // INFO
+                    logsWriter.writeTcp(pid, "  " + ipsChain);
+                }
 
-					this.logsWriter.writeTcp(this.pid, "  " + ipsChain);
-				}
+                logsWriter.writeTcp(pid, "\n*!-@x!x@-!*\n");
+                logsWriter.writeCadeiaURLs(pid, "*!-@x!x@-!*\n");
+                long finalTime = System.currentTimeMillis();
+                logsWriter.writeTimeURLs(pid, Long.toString(finalTime) + "\n");
 
-				this.logsWriter.writeTcp(this.pid, "\n*!-@x!x@-!*\n");
-				this.logsWriter.writeCadeiaURLs(this.pid, "*!-@x!x@-!*\n");
-				long finalTime = System.currentTimeMillis();
-				this.logsWriter.writeTimeURLs(this.pid, " Finalizando acesso composed url " + Long.toString(finalTime) + "\n");
+            } catch (NoSuchSessionException e) {
+                LOGGER.error("Sessão do WebDriver não existe ou não está ativa: {}", e.getMessage(), e);
+                getFirefoxDriver(new DesiredCapabilities());
+            } catch (WebDriverException e) {
+                LOGGER.error("Erro no WebDriver: {}", e.getMessage(), e);
+            } catch (InterruptedException e) {
+                LOGGER.error("Processo interrompido com erro: {}", e.getMessage(), e);
+            } catch (IOException e) {
+                LOGGER.error("Erro de I/O no processo PID {}: {}", pid, e.getMessage(), e);
+            }
+        }
 
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
-
-		try {
-			driver.quit();
-			proxy.stop();
-		} catch (Exception e) {
-
-		}
-
-	}
+        try {
+            if (driver != null) {
+                driver.close();
+                LOGGER.info("Firefox Driver fechado com sucesso.");  // INFO
+            }
+            proxy.stop();
+            LOGGER.info("Proxy finalizado com sucesso para o PID: {}", pid);  // INFO
+        } catch (Exception e) {
+            LOGGER.error("Erro ao finalizar o processo PID {}: {}", pid, e.getMessage(), e);  // ERROR
+        }
+    }
 }

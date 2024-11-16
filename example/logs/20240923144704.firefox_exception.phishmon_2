@@ -1,7 +1,0 @@
-http://baidu.comorg.openqa.selenium.TimeoutException: Navigation timed out after 100000 ms
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.0-22-amd64', java.version: '17.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8d0b0031-03af-44c8-ad9c-9fd4f5bbcc39, get {url=http://baidu.com}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.2.0, moz:accessibilityChecks: false, moz:buildID: 20240826114743, moz:debuggerAddress: 127.0.0.1:19707, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 6.1.0-22-amd64, moz:processID: 3065364, moz:profile: /tmp/rust_mozprofilejYF64H, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(manual, http=127.0.1...., se:cdp: ws://127.0.0.1:19707/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
-Session ID: 8d0b0031-03af-44c8-ad9c-9fd4f5bbcc39

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <!-- Define appenders para diferentes destinos e formatos -->
+    <Appenders>
+        <!-- Console Appender com layout colorido para facilitar a leitura -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%style{%d{yyyy-MM-dd HH:mm:ss}}{blue} [%style{%t}{yellow}] %highlight{%-5level} %style{%logger{36}}{cyan} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender com rotação diária e compactação de arquivos antigos -->
+        <RollingFile name="RollingFile" fileName="logs/app.log" filePattern="logs/app-%d{yyyy-MM-dd}.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <!-- Roda o arquivo de log diariamente -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- Tamanho máximo do arquivo (5 MB antes de rotação) -->
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <!-- Mantém apenas os últimos 7 arquivos de log compactados -->
+            <DefaultRolloverStrategy max="7"/>
+        </RollingFile>
+
+        <!-- Appender para erros críticos enviados por e-mail -->
+        <SMTP name="Email" subject="CRITICAL ERROR in Application"
+              to="admin@example.com" from="noreply@example.com"
+              smtpHost="smtp.example.com" smtpPort="587"
+              smtpUsername="username" smtpPassword="password"
+              bufferSize="512">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </SMTP>
+    </Appenders>
+
+    <Loggers>
+        <!-- Logger raiz, usando INFO como nível mínimo de log -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+
+        <!-- Logger para uma classe ou pacote específico com nível DEBUG -->
+        <Logger name="br.ufmg.utils" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Email" level="error"/>
+        </Logger>
+    </Loggers>
+</Configuration>

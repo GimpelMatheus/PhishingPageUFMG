@@ -161,7 +161,6 @@ public class App {
 				try {
 					Runtime.getRuntime().exec("pkill -9 firefox");
 					Runtime.getRuntime().exec("pkill -9 geckodriver");
-                    //Thread.sleep(5000); // Give time for processes to fully terminate
 
 				} catch (IOException e) {
 					e.printStackTrace();

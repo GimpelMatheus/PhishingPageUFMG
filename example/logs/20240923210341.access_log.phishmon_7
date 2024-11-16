@@ -1,9 +1,0 @@
-http://yahoo.com  UnreachableBrowserException  0
-http://google.co.jp  https://www.google.co.jp/?gws_rd=ssl  142.251.129.99
-http://instagram.com  UnreachableBrowserException  0
-http://amazon.co.jp  WebDriverException  0
-http://paypal.com  UnreachableBrowserException  0
-http://imgur.com  WebDriverException  0
-http://fc2.com  UnreachableBrowserException  0
-http://craigslist.org  UnreachableBrowserException  0
-http://flipkart.com  UnreachableBrowserException  0

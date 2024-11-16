@@ -1,8 +1,8 @@
 {
-    "concurrentBrowsers": 8,
-    "pageTimeout": 100,
-    "windowTimeout": 100,
-    "maxRequests":5,
+    "concurrentBrowsers": 3,
+    "pageTimeout": 15,
+    "windowTimeout": 15,
+    "maxRequests":3,
     "repositoryPath": "./repo",
     "geckodriverBinPath": "/usr/local/bin/geckodriver",
     "runtimeControllersPath": "runtime_params",
